@@ -1,0 +1,6 @@
+[submodule "vendor/tcaff"]
+	path = vendor/tcaff
+	url = https://github.com/mit-acl/tcaff.git
+[submodule "vendor/clipper"]
+	path = vendor/clipper
+	url = https://github.com/mit-acl/clipper.git

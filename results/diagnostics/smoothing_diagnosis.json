@@ -1,0 +1,113 @@
+{
+  "totals": {
+    "unique_history_snapshots": 696,
+    "map_last_size_rejected": 92,
+    "map_last_difference_quantiles_m": {
+      "50": [
+        0.009095538974038586,
+        0.004198339044615057
+      ],
+      "90": [
+        0.05605092315478599,
+        0.052126430543177685
+      ],
+      "95": [
+        0.08377126772337037,
+        0.08054870970123584
+      ],
+      "100": [
+        0.40624603446088225,
+        0.33976953576031055
+      ]
+    },
+    "last_source_width_exceeds_2_5m_pairs": 2
+  },
+  "all_confidence_pair_groups": {
+    "same_object": {
+      "pairs": 314,
+      "map_admitted_last_admitted": 41,
+      "map_admitted_last_rejected": 13,
+      "map_rejected_last_admitted": 6,
+      "map_rejected_last_rejected": 254
+    },
+    "different_objects": {
+      "pairs": 341,
+      "map_admitted_last_admitted": 27,
+      "map_admitted_last_rejected": 10,
+      "map_rejected_last_admitted": 11,
+      "map_rejected_last_rejected": 293
+    },
+    "part_whole_or_ambiguous": {
+      "pairs": 67,
+      "map_admitted_last_admitted": 6,
+      "map_admitted_last_rejected": 0,
+      "map_rejected_last_admitted": 1,
+      "map_rejected_last_rejected": 60
+    },
+    "cannot_tell": {
+      "pairs": 76,
+      "map_admitted_last_admitted": 13,
+      "map_admitted_last_rejected": 0,
+      "map_rejected_last_admitted": 0,
+      "map_rejected_last_rejected": 63
+    }
+  },
+  "high_confidence_pair_groups": {
+    "same_object": {
+      "pairs": 220,
+      "map_admitted_last_admitted": 35,
+      "map_admitted_last_rejected": 7,
+      "map_rejected_last_admitted": 5,
+      "map_rejected_last_rejected": 173
+    },
+    "different_objects": {
+      "pairs": 288,
+      "map_admitted_last_admitted": 23,
+      "map_admitted_last_rejected": 8,
+      "map_rejected_last_admitted": 10,
+      "map_rejected_last_rejected": 247
+    },
+    "part_whole_or_ambiguous": {
+      "pairs": 47,
+      "map_admitted_last_admitted": 4,
+      "map_admitted_last_rejected": 0,
+      "map_rejected_last_admitted": 0,
+      "map_rejected_last_rejected": 43
+    },
+    "cannot_tell": {
+      "pairs": 61,
+      "map_admitted_last_admitted": 13,
+      "map_admitted_last_rejected": 0,
+      "map_rejected_last_admitted": 0,
+      "map_rejected_last_rejected": 48
+    }
+  },
+  "failed_check_counts": {
+    "map_gate": {
+      "width_ratio": 524,
+      "height_ratio": 460,
+      "width_difference": 458,
+      "height_difference": 426
+    },
+    "last_source_gate": {
+      "width_ratio": 537,
+      "height_ratio": 498,
+      "width_difference": 468,
+      "height_difference": 451
+    }
+  },
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "manifest_sha256": "2e213c3406b7b6ceaf20a2409106cc46f18cb37d6cc2f4aec45889ce7fda2c25",
+  "script_sha256": "51f26ff3714d505973c7929d8d9f949e52b8aa1948f026d887619ebd6c4ac8c3",
+  "command": [
+    "scripts/size_gate_smoothing_diagnosis.py"
+  ],
+  "scope": "Passive pairwise ratio/difference checks on map state versus last source observation; no alternative solver/filter evaluation",
+  "caveats": [
+    "Last observations are asynchronous and can be stale.",
+    "Same track ID and a last-source observation do not certify earlier physical identity.",
+    "Map-versus-source differences cannot isolate harmful lag from beneficial denoising.",
+    "Pair checks exclude the separate max-object-width criterion; raw width violations are recorded separately.",
+    "Selected gate-loss episodes and correlated histories are not population samples."
+  ]
+}

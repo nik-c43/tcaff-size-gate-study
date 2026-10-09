@@ -1,0 +1,304 @@
+{
+  "alpha": 2.0,
+  "summaries": {
+    "1.0": {
+      "episodes": [
+        {
+          "episode_id": "E04",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 2.0,
+            "wrong_retained": 2.0
+          }
+        },
+        {
+          "episode_id": "E06",
+          "metrics": {
+            "good_pre_quality": 1.0,
+            "good_post_quality": 1.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.8,
+            "raw_successful": 3.8,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E08",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E09",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 2.0,
+            "wrong_retained": 2.0
+          }
+        },
+        {
+          "episode_id": "E11",
+          "metrics": {
+            "good_pre_quality": 1.0,
+            "good_post_quality": 1.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 1.0,
+            "raw_successful": 2.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E14",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E17",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 3.0,
+            "wrong_retained": 1.0
+          }
+        },
+        {
+          "episode_id": "E18",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E19",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E21",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E22",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E23",
+          "metrics": {
+            "good_pre_quality": 0.2,
+            "good_post_quality": 0.2,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.2,
+            "wrong_retained": 0.0
+          }
+        }
+      ],
+      "metrics": {
+        "good_pre_quality": 0.18333333333333335,
+        "good_post_quality": 0.18333333333333335,
+        "good_lost_entirely_at_quality": 0.0,
+        "good_candidates_pruned_at_quality": 0.15,
+        "raw_successful": 1.0833333333333333,
+        "wrong_retained": 0.4166666666666667
+      }
+    },
+    "2.0": {
+      "episodes": [
+        {
+          "episode_id": "E04",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 1.0
+          }
+        },
+        {
+          "episode_id": "E06",
+          "metrics": {
+            "good_pre_quality": 1.0,
+            "good_post_quality": 1.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 1.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E08",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 0.8,
+            "wrong_retained": 0.8
+          }
+        },
+        {
+          "episode_id": "E09",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 4.0
+          }
+        },
+        {
+          "episode_id": "E11",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 3.0
+          }
+        },
+        {
+          "episode_id": "E14",
+          "metrics": {
+            "good_pre_quality": 1.0,
+            "good_post_quality": 1.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 2.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 1.0
+          }
+        },
+        {
+          "episode_id": "E17",
+          "metrics": {
+            "good_pre_quality": 1.0,
+            "good_post_quality": 1.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 0.0
+          }
+        },
+        {
+          "episode_id": "E18",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 3.0,
+            "wrong_retained": 3.0
+          }
+        },
+        {
+          "episode_id": "E19",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 4.0
+          }
+        },
+        {
+          "episode_id": "E21",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 4.0
+          }
+        },
+        {
+          "episode_id": "E22",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 3.0,
+            "wrong_retained": 3.0
+          }
+        },
+        {
+          "episode_id": "E23",
+          "metrics": {
+            "good_pre_quality": 0.0,
+            "good_post_quality": 0.0,
+            "good_lost_entirely_at_quality": 0.0,
+            "good_candidates_pruned_at_quality": 0.0,
+            "raw_successful": 4.0,
+            "wrong_retained": 4.0
+          }
+        }
+      ],
+      "metrics": {
+        "good_pre_quality": 0.25,
+        "good_post_quality": 0.25,
+        "good_lost_entirely_at_quality": 0.0,
+        "good_candidates_pruned_at_quality": 0.25,
+        "raw_successful": 3.5666666666666664,
+        "wrong_retained": 2.316666666666667
+      }
+    }
+  },
+  "run_count": 120,
+  "primary_summary_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "script_sha256": "d8b654ee00a76716277d034df81cc7cb16e16f9add3c094ca338e30323c80509",
+  "command": [
+    "scripts/size_gate_candidate_stage_audit.py"
+  ],
+  "upstream_unchanged": true,
+  "scope": "New exploratory stochastic anchor solves, before and after existing manager quality filter; no temporal TCAFF or parameter tuning",
+  "attribution": "Within each call recorded raw solutions and actually retained object identities; manager return values unchanged",
+  "limitation": "New random solutions are not the selected associations of the earlier 420 runs; manual anchor pool is incomplete for all solver associations"
+}

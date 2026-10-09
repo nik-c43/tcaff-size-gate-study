@@ -1,0 +1,13 @@
+{
+  "command": [
+    "scripts/size_gate_occlusion_plot.py"
+  ],
+  "script_sha256": "4925fe5ddb3f791b9fce7f690bdc415a833e5319df63f4b632ffa95ce7cd3780",
+  "summary_sha256": "eeda4c3983558091b4cc6663adc7130c4fec9ad6d91235cefab925d60fb7cd56",
+  "cases_sha256": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+  "masks_sha256": "4633d4495a9d3213fee23e809d3be5a45e252aba56f2faa5685735a8861b5595",
+  "figure_sha256": "20a73b3ea38f4ae1f8a4390c11731f4b291da5eca7eb71009a2d403d5386ff0b",
+  "original_report_sha256": "125de77af76b0a4f51d61d9c84a76739dae50495f206efc9c6b7f08beaad6044",
+  "current_report_sha256": "7d20eb40c844d2da942d8fee47ae2a18211531d6a5c8465d11f73a00e35abb53",
+  "scope": "Figure layout only; original numerical outputs and original figure retained"
+}

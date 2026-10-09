@@ -1,0 +1,39 @@
+{
+  "summaries": {
+    "1.0": {
+      "4": {
+        "good_pre_quality": 0.16666666666666666,
+        "good_post_quality": 0.16666666666666666,
+        "wrong_retained": 0.08333333333333333
+      },
+      "8": {
+        "good_pre_quality": 0.16666666666666666,
+        "good_post_quality": 0.16666666666666666,
+        "wrong_retained": 0.08333333333333333
+      }
+    },
+    "2.0": {
+      "4": {
+        "good_pre_quality": 0.3333333333333333,
+        "good_post_quality": 0.3333333333333333,
+        "wrong_retained": 1.0666666666666667
+      },
+      "8": {
+        "good_pre_quality": 0.3333333333333333,
+        "good_post_quality": 0.3333333333333333,
+        "wrong_retained": 1.4000000000000001
+      }
+    }
+  },
+  "anchors": 12,
+  "calls": 120,
+  "split": "development",
+  "primary_summary_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+  "script_sha256": "c20be536b7ce16fbe229a83263ec4e56b353a2d151ac10cf08cbfb3507d79d34",
+  "helper_sha256": "e2b69b60424c34214a510e718859bc3c8764b0e6b410e3f1c60052f75cf44102",
+  "command": [
+    "scripts/size_gate_mno_budget_probe.py"
+  ],
+  "scope": "Exploratory prefix comparison of eight new MNO attempts on development anchors only; no temporal-filter or held-out effectiveness evaluation",
+  "limits": "The eight-attempt call changes only the diagnostic search budget. First-four prefix shares actual candidate solves with the full-eight result; it is not the hidden random first-four output of earlier runs."
+}

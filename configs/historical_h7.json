@@ -1,0 +1,27 @@
+{
+  "version": "h7-v1",
+  "budgets": [4, 8, 16],
+  "mode_history_frames": 3,
+  "mode_minimum_distinct_frames": 2,
+  "mode_translation_m": 1.0,
+  "mode_yaw_deg": 5.0,
+  "triggers": ["missing_recent_mode", "tentative_first_decision", "no_accepted_proposal"],
+  "filter_controls": ["B0", "B3_single_delta1"],
+  "development_seeds": [100, 101],
+  "evaluation_seeds": [200, 201, 202, 203, 204, 205, 206, 207, 208, 209],
+  "solver_repeats": [0, 1],
+  "evaluation_horizon_frames": 30,
+  "real_horizon_frames": 60,
+  "correct_first_pose": {"translation_m": 1.0, "yaw_deg": 5.0},
+  "resolved_landmarks_visible_from_zero_based_step": 12,
+  "synthetic_sigma_m": {"unique": 0.01, "ambiguous": 0.01, "resolved": 0.01, "noisy_resolved": 0.08},
+  "timing_note": "Offline costs reconstruct common-prefix frontend plus measured policy/filter time; separate live validation measures actual wall time.",
+  "statistical_unit": "scene seed; two solver repeats are correlated, real pairs belong to one previously inspected record",
+  "scope": "Initial exploratory validation, no parameter tuning on evaluation seeds for the original adaptive policy, no claim of paper replication or rare-error reliability.",
+  "posthoc_controls": {
+    "startup16": "16 while no main tree exists, then 4; first decisions identical to fixed16 by construction",
+    "warmup16": "16 for initial K+1 updates, then original adaptive policy; introduced after inspecting initial adaptive failures",
+    "warmup_live_seeds": [400, 401],
+    "old_evaluation_reuse": "exploratory development for these refinements, not held-out confirmation"
+  }
+}

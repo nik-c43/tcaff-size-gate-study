@@ -1,0 +1,49 @@
+{
+  "task_id": "P0735",
+  "candidate_index": 1,
+  "recorded_label": "different_objects",
+  "recorded_confidence": "high",
+  "original_error": [
+    0.4471660241436204,
+    3.854741066014401
+  ],
+  "pair_removed_error": [
+    0.3730344500105693,
+    3.1430646847575265
+  ],
+  "original_objects": 7,
+  "remaining_objects": 6,
+  "original_transform_reproduced": true,
+  "target_normalized_age_weight": 0.9489400426472455,
+  "source_observation_ages_s": [
+    0.004628419876098633,
+    11.530026912689209
+  ],
+  "selected_pair": {
+    "left_map_index": 8,
+    "right_map_index": 0,
+    "GT_xyz_distance_m": 0.3470262827025115,
+    "GT_xy_distance_m": 0.0723940387739618,
+    "task_id": "P0735",
+    "recorded_label": "different_objects",
+    "recorded_confidence": "high",
+    "left_track_id": [
+      "RR06",
+      757
+    ],
+    "right_track_id": [
+      "RR08",
+      196
+    ]
+  },
+  "source_hashes": {
+    "results/size_gate_candidate_stage_audit_20261009/runs/E14_a2.0_r1.json": "e9939eeae791057704944f63aa32d4b8c9ff06ed72169097072fbdfb0c676e00",
+    "data/tcaff_baseline_release/RR06_RR08.json": "781d6ec4d9ec2556d77bcc6a2bb2533d0d1968b422027ee75e89e66538bf2741"
+  },
+  "script_sha256": "536ad8149fdaaf67bde20c095fca0d19ccaddae1b8310732d1258227f40e2384",
+  "command": [
+    "scripts/size_gate_semantic_case.py"
+  ],
+  "scope": "Exploratory local fit with fixed other associations; not rerunning CLIPPER or the full pipeline",
+  "identity_caveat": "No mask and a blurred source image; saved map GT distances and pose correctness are not independent physical identity proof"
+}

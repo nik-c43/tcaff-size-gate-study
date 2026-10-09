@@ -1,0 +1,411 @@
+{
+  "alpha": 2.0,
+  "grid": [
+    {
+      "translation_limit_m": 0.25,
+      "yaw_limit_deg": 2.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.12988505747126436,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.25,
+          "capped_time_to_correct_s": 24.74997639656067
+        },
+        "2.0": {
+          "correct_update_availability": 0.10747126436781608,
+          "wrong_first_rate": 0.48333333333333334,
+          "correct_by_horizon_rate": 0.13333333333333333,
+          "capped_time_to_correct_s": 27.08330750465393
+        }
+      }
+    },
+    {
+      "translation_limit_m": 0.25,
+      "yaw_limit_deg": 5.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.1982758620689655,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.25,
+          "capped_time_to_correct_s": 24.74997639656067
+        },
+        "2.0": {
+          "correct_update_availability": 0.1850574712643678,
+          "wrong_first_rate": 0.35000000000000003,
+          "correct_by_horizon_rate": 0.25,
+          "capped_time_to_correct_s": 25.016642808914185
+        }
+      }
+    },
+    {
+      "translation_limit_m": 0.25,
+      "yaw_limit_deg": 10.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.23218390804597702,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.25,
+          "capped_time_to_correct_s": 24.74997639656067
+        },
+        "2.0": {
+          "correct_update_availability": 0.20344827586206896,
+          "wrong_first_rate": 0.35000000000000003,
+          "correct_by_horizon_rate": 0.25,
+          "capped_time_to_correct_s": 25.016642808914185
+        }
+      }
+    },
+    {
+      "translation_limit_m": 0.5,
+      "yaw_limit_deg": 2.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.35517241379310344,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.566643238067627
+        },
+        "2.0": {
+          "correct_update_availability": 0.3218390804597701,
+          "wrong_first_rate": 0.4666666666666666,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.983309507369995
+        }
+      }
+    },
+    {
+      "translation_limit_m": 0.5,
+      "yaw_limit_deg": 5.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.5557471264367816,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.566643238067627
+        },
+        "2.0": {
+          "correct_update_availability": 0.5482758620689655,
+          "wrong_first_rate": 0.25,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.816645860671997
+        }
+      }
+    },
+    {
+      "translation_limit_m": 0.5,
+      "yaw_limit_deg": 10.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.6298850574712644,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.566643238067627
+        },
+        "2.0": {
+          "correct_update_availability": 0.6022988505747127,
+          "wrong_first_rate": 0.16666666666666666,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.64997935295105
+        }
+      }
+    },
+    {
+      "translation_limit_m": 1.0,
+      "yaw_limit_deg": 2.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.4327586206896552,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.483309984207153
+        },
+        "2.0": {
+          "correct_update_availability": 0.4045977011494253,
+          "wrong_first_rate": 0.3833333333333333,
+          "correct_by_horizon_rate": 0.4166666666666667,
+          "capped_time_to_correct_s": 24.733309745788574
+        }
+      }
+    },
+    {
+      "translation_limit_m": 1.0,
+      "yaw_limit_deg": 5.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.696551724137931,
+          "wrong_first_rate": 0.06666666666666667,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.166643619537354
+        },
+        "2.0": {
+          "correct_update_availability": 0.717816091954023,
+          "wrong_first_rate": 0.16666666666666666,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.566646099090576
+        }
+      }
+    },
+    {
+      "translation_limit_m": 1.0,
+      "yaw_limit_deg": 10.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.8614942528735633,
+          "wrong_first_rate": 0.0,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.033310413360596
+        },
+        "2.0": {
+          "correct_update_availability": 0.8419540229885056,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.39997959136963
+        }
+      }
+    },
+    {
+      "translation_limit_m": 2.0,
+      "yaw_limit_deg": 2.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.4327586206896552,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.483309984207153
+        },
+        "2.0": {
+          "correct_update_availability": 0.4045977011494253,
+          "wrong_first_rate": 0.3833333333333333,
+          "correct_by_horizon_rate": 0.4166666666666667,
+          "capped_time_to_correct_s": 24.733309745788574
+        }
+      }
+    },
+    {
+      "translation_limit_m": 2.0,
+      "yaw_limit_deg": 5.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 0.7689655172413793,
+          "wrong_first_rate": 0.06666666666666667,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.166643619537354
+        },
+        "2.0": {
+          "correct_update_availability": 0.7718390804597702,
+          "wrong_first_rate": 0.16666666666666666,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.566646099090576
+        }
+      }
+    },
+    {
+      "translation_limit_m": 2.0,
+      "yaw_limit_deg": 10.0,
+      "variants": {
+        "1.0": {
+          "correct_update_availability": 1.0,
+          "wrong_first_rate": 0.0,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.033310413360596
+        },
+        "2.0": {
+          "correct_update_availability": 1.0,
+          "wrong_first_rate": 0.08333333333333333,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.39997959136963
+        }
+      }
+    }
+  ],
+  "source_hashes": {
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a1.0_r1.json": "efe3eb364622122ab9372000590b4e5ac209f98cc20e36cec69d5d306e58539e",
+    "data/size_gate_runs_20261009/holdout/E04_a1.0_r1.json": "de653c5bda4b4127631160ccbb2e8dfcfaebd5a1ba77e355d6ac06099ed5292a",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a1.0_r2.json": "31ea89965da1f5e4d036e7271f1e7ea0e36bc65da2e51c80a1b45e54a163169b",
+    "data/size_gate_runs_20261009/holdout/E04_a1.0_r2.json": "dbae4b03d2b3869aa3cd920d84e8ab7a4fae4283b6f27a725dcc8c7c90e0465a",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a1.0_r3.json": "402d26f9dbac860b9686da13c72b60df063bcb4cdd89e14eb23f0b446708539b",
+    "data/size_gate_runs_20261009/holdout/E04_a1.0_r3.json": "9c9ce6a0fc9809513c6a306ade268ad3b38513baa324de13215961f8d25da50f",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a1.0_r4.json": "b5a62d739c53b79454ddaab8cc519cd87eca95f0fdd10b4792236c8c1c5c4c85",
+    "data/size_gate_runs_20261009/holdout/E04_a1.0_r4.json": "c23a4da23d72bd9fe7a8e8e883bcfd095710c4aab33ff3f2214f9537b311df0b",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a1.0_r5.json": "1dad4c5a909acb41c63d13d47876227f0c256c9306e9f6fd20ea69a45fef79ef",
+    "data/size_gate_runs_20261009/holdout/E04_a1.0_r5.json": "447ecf3a1a564c4e7f35d2f18df3618670e8d593c9701d6561cb477070d26ba8",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a2.0_r1.json": "88c4edb540e8037b24dad70f8db6853c1b8e7d8a6100e4eda680fadb9e6b128d",
+    "data/size_gate_runs_20261009/holdout/E04_a2.0_r1.json": "529cf612c8902a08d78a799c42d56c226cfdc5d696bae826994493d2be9dca74",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a2.0_r2.json": "0cf20b07b1b7c95a4369ee12e41566c5704a90022475160832097d1d3428f2e0",
+    "data/size_gate_runs_20261009/holdout/E04_a2.0_r2.json": "fd63013e28bdd627266a17009ea33abeba913a4ae96d1604e6466d224cfe311e",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a2.0_r3.json": "89cad565a9fcc2ae816dd6d3c5c635fe5fe5c083608e6bea206b92301051c279",
+    "data/size_gate_runs_20261009/holdout/E04_a2.0_r3.json": "2d4379f7c6cd6693227907eebfd0256e8f14c43665e1e2e5df2bdee63fb1bfd8",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a2.0_r4.json": "604ecda1d6fdfb236d26e4130071258ea4121cf9f1255499ec548907ffde8020",
+    "data/size_gate_runs_20261009/holdout/E04_a2.0_r4.json": "84e3b8199905afc5f3501c40aa37e670d49fbf2306f8fc9b2ab92d2983e73c02",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR08_a2.0_r5.json": "e608c0123bc1d7d6f8807a03eb6757ecec8b1b2d94f76e8c6308d24e12026475",
+    "data/size_gate_runs_20261009/holdout/E04_a2.0_r5.json": "7a9732433522d056557123ed5a940dff7ffc4b93d280e77accd6ac8cd6be9c92",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a1.0_r1.json": "356b949ed3180953d434e672a15e46933cbbd12d6e7b530ec2321ead19139253",
+    "data/size_gate_runs_20261009/holdout/E06_a1.0_r1.json": "85079509d185f3b45f298b7f2918c788b8e0c8bcd55142d4ffb72acb51fb6fc9",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a1.0_r2.json": "503227e3fe91a49216d54109531c49a66a82b2cc8db219e947075a186b624937",
+    "data/size_gate_runs_20261009/holdout/E06_a1.0_r2.json": "16e66216c747b0aa4fa694bbeea23f903b3c4258f99774e7dfaaf89877987e2a",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a1.0_r3.json": "33a58d604e576ce2e286938aa6d3241ab4c97e069d5ead55808b47d4cb65a8fd",
+    "data/size_gate_runs_20261009/holdout/E06_a1.0_r3.json": "178dcb658a5944f0ba69dd6d659a0296446b820acc58a54d2d73ca90a5c11178",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a1.0_r4.json": "6b2b5a098a9cd253883f896fc0bd8b7f60f4882be8ac4e44816a6261ca334dae",
+    "data/size_gate_runs_20261009/holdout/E06_a1.0_r4.json": "9250f053cdc155b899643880e0e3226b6646e5352110736d69909930f909b847",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a1.0_r5.json": "0b08f0c36ed99c240bafe885ac546867fff3ffc9ed859c7c3144dbc2274b315f",
+    "data/size_gate_runs_20261009/holdout/E06_a1.0_r5.json": "0b64fec78484311e6c09e48011ff35124c29c1926922f14b9c35968e1a36c52d",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a2.0_r1.json": "d6ca0186610e18d3d5aa9de928f7c869d14d66eddcd0f867b3dd726276f2a2eb",
+    "data/size_gate_runs_20261009/holdout/E06_a2.0_r1.json": "73b75b86ae55093ea68d8998adfbd7a0b058be7b6ce4e3161402c3aa05fc9e7d",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a2.0_r2.json": "e234182b77d5ecad54607527ff0c6ad361e301a1788ce8b340e8d5cd8426f4fe",
+    "data/size_gate_runs_20261009/holdout/E06_a2.0_r2.json": "64088beecc096a5d0d68a41665d2e16449126ddd51a3a737416bbe0ae2d1cab3",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a2.0_r3.json": "e906edff060097f2d53a3b6b3be371fb03fe991ad8142d8095eef6d91f3267fb",
+    "data/size_gate_runs_20261009/holdout/E06_a2.0_r3.json": "2ec2d616220f9f8708721aa8cb94b4c55a6626748b3da31d26c8a9411b86b945",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a2.0_r4.json": "d1e95eff23463cf62e454d8dda6afcaeadee6561d873aba32689dc846f82617f",
+    "data/size_gate_runs_20261009/holdout/E06_a2.0_r4.json": "848fc0f3504b31fa2e5807c35763beb44057ef8307a7d7c69d0ae2935191b2d3",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR06_a2.0_r5.json": "ec438410b49a0dbf1bd47fbcca65025e8159a3bd54b7a8fe3ba85dccd79fb406",
+    "data/size_gate_runs_20261009/holdout/E06_a2.0_r5.json": "6b9cefe4c81119288d951fb1571f97e923f578498066ce5c200ec344fd5b5e20",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a1.0_r1.json": "89256adb2de527eeeca101a48637b8743f811a8b3e08354ec44dd7f7a620dd05",
+    "data/size_gate_runs_20261009/holdout/E08_a1.0_r1.json": "d9680a3e9b7ad0cb2c97bdec1f997dceb35b8c8f10bee179225107e92cd278f6",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a1.0_r2.json": "d703612218ba2b0f221c505b8c55881ba6c038f94d0fe02b03ea080fc55b2fd6",
+    "data/size_gate_runs_20261009/holdout/E08_a1.0_r2.json": "698648adcf075499c6deae9292745a0842ff9c09e72a383251ce9520999aaf68",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a1.0_r3.json": "1eba45ce673dedcc61d2eff898f791d860afc06793e77abae7b2a85d33b483a9",
+    "data/size_gate_runs_20261009/holdout/E08_a1.0_r3.json": "b88a1e4f0512a9e3bb058f829abb130287becdd611946529a06a001cb25e74eb",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a1.0_r4.json": "e7d16917d4775ae3c0fc52257e9e8e40e00fe746e426439cf26bb3e05a8d17c9",
+    "data/size_gate_runs_20261009/holdout/E08_a1.0_r4.json": "15c1c00af11675aeef39747e2a175d5b53b062e3c7d52ecbe86ae702853587b5",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a1.0_r5.json": "28b4212da5c3f9f38d7dfd9f9d1abf953627f5eba4df04f401a22c30ca4a1c8b",
+    "data/size_gate_runs_20261009/holdout/E08_a1.0_r5.json": "7c7bb647af59df9526bfda4bb8e76b9cbc73983f39c9adc0d268fa51ca8eae9b",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a2.0_r1.json": "c9e0a3b0005a9ace9778acd8776a530749b9f343305f5dda7158c4fd438ce99f",
+    "data/size_gate_runs_20261009/holdout/E08_a2.0_r1.json": "c6135dbdf91bf2542d890661a198362661aff574b233572dfde112123f39f30e",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a2.0_r2.json": "ce5297d1a122e807f66761ac4d7a80c821d6b0c5bcf37893f17027d9031967d6",
+    "data/size_gate_runs_20261009/holdout/E08_a2.0_r2.json": "21e5b496caff59092012e71966e9525a561ee2f024c6d6f04decfa48571aae4a",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a2.0_r3.json": "915a484b5f7cf871b921f94423023175bc016d414f4280bbd730c1a4cee3c9f8",
+    "data/size_gate_runs_20261009/holdout/E08_a2.0_r3.json": "9c1f0cf485ac5d772f2cbea8c879068bb43c78c3d58f0d1d9cdbf04591d23ecc",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a2.0_r4.json": "5e7ae4825eeed3452f5ee7f87284949818b59af7c2b6040532371fb48f680d22",
+    "data/size_gate_runs_20261009/holdout/E08_a2.0_r4.json": "e4f0b61941ab96b2ec6908cea468c4dcc02e5ddf3925ffb0eac360c8a6fbbb33",
+    "data/size_gate_runs_20261009/holdout/full_RR04_RR08_a2.0_r5.json": "ab9a883c600b1f5ffd69c4381b78dad05e94a08ad3b79b07943cf2bdac2e2c0c",
+    "data/size_gate_runs_20261009/holdout/E08_a2.0_r5.json": "7ee9f6d2b8ebb3dc114ece4d2d8be9547701fcfc076a6e83ef774aeacb26a350",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a1.0_r1.json": "a7e74a9aac2598d6626fee10718df260c54a22a4f751f310984aeba01850e0d0",
+    "data/size_gate_runs_20261009/holdout/E09_a1.0_r1.json": "7026f9c992a844ab7be65fd7292304b05efc86832a9bee95c37f14e37a67a4bc",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a1.0_r2.json": "0328fe3867b297836dd1d19c821aa091c95d67fbea233ab5f06baf5abcfa47b1",
+    "data/size_gate_runs_20261009/holdout/E09_a1.0_r2.json": "86d41ccc1c63d5aa689abb6ecaf388ea66c11900d3d755a9e46679e2fc1281d1",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a1.0_r3.json": "0b8a297b0aa2a8b135bcf2d3ea8089afafce6a7c8a6f2f63e5f2c07b81f059a1",
+    "data/size_gate_runs_20261009/holdout/E09_a1.0_r3.json": "abd4c928b5248560fca5ea176c2d7b8aa031f565df4359621e33d836702cfff4",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a1.0_r4.json": "87fc551971151dd34125e2251e5771fb22cda4db316369b2f7ec196948e69b48",
+    "data/size_gate_runs_20261009/holdout/E09_a1.0_r4.json": "79b24136734eecb3e2e76f145d6fe5bb1e069d8fd3944d50531067eef9f73929",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a1.0_r5.json": "44a43dffde0aef78e0aa5128df2b46d5a67bcf7c96cebeaed47552274a3a5e6d",
+    "data/size_gate_runs_20261009/holdout/E09_a1.0_r5.json": "18b54fd77dca880a5c8bba4d9329ae1f62404823c3f709bb25d2afe02726cc2e",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a2.0_r1.json": "f33f0e80e7d91b8b128f5d91e180e70c1f52ce0f9c766128984b64932ff92a10",
+    "data/size_gate_runs_20261009/holdout/E09_a2.0_r1.json": "07fb7a89d824711b4ea489b22a4361ca47d5060df0c7e7ce5c011c8225d9cafa",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a2.0_r2.json": "40f7db99e0f6f5499afd46e338e6bbcccf476ead197872239576d54f30d62c5a",
+    "data/size_gate_runs_20261009/holdout/E09_a2.0_r2.json": "9897fe5267893e3c7cef71df6ffe1c37ad15aeeb31159805626b26c23c3fcc81",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a2.0_r3.json": "b6a2acad8605506c26d7d491720d2b1b3bc16485f685403f2821c3171817847c",
+    "data/size_gate_runs_20261009/holdout/E09_a2.0_r3.json": "d577266ac5a56429f42c1b6acd7b8855f8b2a3081dee5bf714c9d4e2c558be90",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a2.0_r4.json": "d4d3c72c7c430b46009b8314b2702eccc103ab76bb37af84a601f50d9d1ca201",
+    "data/size_gate_runs_20261009/holdout/E09_a2.0_r4.json": "6cf4b569766ce63361d8b5de98158a99182c14c30175dac922d199465092099d",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR04_a2.0_r5.json": "ced38e05d793548a1f2cb7390eee2dece216e02ae0e2c667af6286e1ce166e77",
+    "data/size_gate_runs_20261009/holdout/E09_a2.0_r5.json": "c7c3a69a7accf20a6a3fe9464000f22b327c593f227810ab0142e27d20bf8a46",
+    "data/size_gate_runs_20261009/holdout/E11_a1.0_r1.json": "f6e403fa9a6e64b23ed8b4c04e92bf0ae76a57677c721bfcdd8b8c931595fd3f",
+    "data/size_gate_runs_20261009/holdout/E11_a1.0_r2.json": "c82062f076a9998c204f3dbd11189822eac0c81f2818cb27c6d7621c35e50399",
+    "data/size_gate_runs_20261009/holdout/E11_a1.0_r3.json": "c38c9b9b8a14bb8866030e5886507cf8efd9610997f3b9c8aaa389d99b26fa7a",
+    "data/size_gate_runs_20261009/holdout/E11_a1.0_r4.json": "2e0e4226ed332dbd91fa7b5e5e2d69f25ef4611559ac221b3746225a3d84410e",
+    "data/size_gate_runs_20261009/holdout/E11_a1.0_r5.json": "d1e5f4f6e887074a4582c392ded36ef233b160ca06907fb39789f44838747202",
+    "data/size_gate_runs_20261009/holdout/E11_a2.0_r1.json": "fbd957c452a7f804a17aefc25e330d21f499f18074c8989af88c28d0c41e07e0",
+    "data/size_gate_runs_20261009/holdout/E11_a2.0_r2.json": "547e47aac7807ca754206b9704ec127293638a81eb720138579bbe2c2fdf73cf",
+    "data/size_gate_runs_20261009/holdout/E11_a2.0_r3.json": "7d4909bf2bb7bdaa0ec6490a353f9767258f8fd512e30020f2755478d3e098ca",
+    "data/size_gate_runs_20261009/holdout/E11_a2.0_r4.json": "27d54520c640eda84f2eaa8853f2e98cfad860a1274e178e83400792f8e671c4",
+    "data/size_gate_runs_20261009/holdout/E11_a2.0_r5.json": "c4d60f7406d974f24521fbbe5b7319aee25b33b86bf6ca2b8a11a8c3cebae1c8",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a1.0_r1.json": "be92ec12e38e44b309ed7d2316ee4a939dee85b4488444066896b947b7e0d9e1",
+    "data/size_gate_runs_20261009/holdout/E14_a1.0_r1.json": "e2634b63f83d07a858a54a4d2ecc352bff4222eec9985d81b16ea17280e312f7",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a1.0_r2.json": "f5672526a34aedc3c91795ba5366a0acc90741bfcaf95bef97733383bea66ccd",
+    "data/size_gate_runs_20261009/holdout/E14_a1.0_r2.json": "6c6e5aa174fa07dcc1301cc39db8d34c2063e67973fd1c333ac310d0615fe106",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a1.0_r3.json": "d870b4bdc33c4c15d3de28111d776b5e83f43b72ec62d5ca2153dafe313feb56",
+    "data/size_gate_runs_20261009/holdout/E14_a1.0_r3.json": "6e17d7e9261089b5097feeb41cf98ef623f23d32da0341343e205415cb7de736",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a1.0_r4.json": "4cf9a4a0144ce7ece164fc5ed1dc83d6fc70b0b4cf03b87aaa59b6879c2d74e1",
+    "data/size_gate_runs_20261009/holdout/E14_a1.0_r4.json": "1caf2f104a28ed2ae14f5dbc4a977b4760a05bf1bd1c45ebdcce28d2182aa25b",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a1.0_r5.json": "7de23e7b8732e70929fa21f803de85f6e5ecaba356f6c6de424d3bf46eb21d16",
+    "data/size_gate_runs_20261009/holdout/E14_a1.0_r5.json": "b634ffda236a8900fcae4381e81442cc4a08d95e457eceebae4c26f13c198db3",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a2.0_r1.json": "f53c73314bd91e86511541feb1e5ae3d503c18a88cf32ea436f56cc68cfd4f5b",
+    "data/size_gate_runs_20261009/holdout/E14_a2.0_r1.json": "30fdea7b3910810ef455206767bed2c69d619b1a69a798f27fe2d92814718af3",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a2.0_r2.json": "156043cc6e8d4d0ef07b5fbc5f1a9380da78a2204d4ff3cf0abba4ffab566db5",
+    "data/size_gate_runs_20261009/holdout/E14_a2.0_r2.json": "008ea406e0d608cac8cee7aafdf6775a3ca37eb2eb9691279d34448eff8a363a",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a2.0_r3.json": "9c6024e2e05d32124207bceeaf5cc7b5925807edcf2ff016bc3ce9dfcf4af39a",
+    "data/size_gate_runs_20261009/holdout/E14_a2.0_r3.json": "f3ad39a008f2794560b323a28e2bba099fd54e644fce708952ee5695474664df",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a2.0_r4.json": "1478f646615c55001a92307e4e61d1a7c4b63a587b3cd543dd5775dd985dd86d",
+    "data/size_gate_runs_20261009/holdout/E14_a2.0_r4.json": "f7dc118aaec3d32d0a54d9f90f64b262e417a553036cdaea6cadc9d337de9204",
+    "data/size_gate_runs_20261009/holdout/full_RR06_RR08_a2.0_r5.json": "a56074cb9352f369765e6e7d2c2caf4a26f526ef6a58594cb9610f4f040f39c6",
+    "data/size_gate_runs_20261009/holdout/E14_a2.0_r5.json": "aa840fa42cad4ff488571f17442c8f5b51e67bf45c6391084b61b60e2fddbf89",
+    "data/size_gate_runs_20261009/holdout/E17_a1.0_r1.json": "6a5063e5d15e0dcec7a695179d202e46471e13a2c330013f90250d06531dbba3",
+    "data/size_gate_runs_20261009/holdout/E17_a1.0_r2.json": "c32f72baed9c8fbd6e2aac2c692cc9e2830811b2b4b0a4ddf784c930500a1603",
+    "data/size_gate_runs_20261009/holdout/E17_a1.0_r3.json": "252432892b355d5b21acb39bead78298944204abe4025deb5b033308351c3423",
+    "data/size_gate_runs_20261009/holdout/E17_a1.0_r4.json": "c6f2bdaec3d25e865561f5dea463ee12c5f0443081cf8bca94e422d53bab9193",
+    "data/size_gate_runs_20261009/holdout/E17_a1.0_r5.json": "d351bf290a2ff99237169b07f74b9d96e9edaceb17a68d26f678f83c4d8ae1a5",
+    "data/size_gate_runs_20261009/holdout/E17_a2.0_r1.json": "f117e35d2b06375422dfc4442ca5b2a30fa99fad8a4eaa509cf14fbd9258186a",
+    "data/size_gate_runs_20261009/holdout/E17_a2.0_r2.json": "36f8c9527980ae7b042607cc6905b9ff89149c46b720b53ee444a7ee443d45ed",
+    "data/size_gate_runs_20261009/holdout/E17_a2.0_r3.json": "dc8338a4e82f54b65b4d8731312edef22fe6f013c4e4dcbc1601d6d9039f4f6a",
+    "data/size_gate_runs_20261009/holdout/E17_a2.0_r4.json": "688f95e57045874d5d22ed9e4be4cf7a0efcb1adea66ea9e0c13b2596167db93",
+    "data/size_gate_runs_20261009/holdout/E17_a2.0_r5.json": "029f26c5bbca071de5ce7b4be28dafe80ab9887112922a97fe80b9d77fa3291a",
+    "data/size_gate_runs_20261009/holdout/E18_a1.0_r1.json": "bc458827e794fd5089f153fcb77dfac9a1c005deb42b68a938fad838bc26862e",
+    "data/size_gate_runs_20261009/holdout/E18_a1.0_r2.json": "6a3b93f181b8c8ef39051e6488dadae92eaeb43a0f2f00c7f42bb5187b14a6d3",
+    "data/size_gate_runs_20261009/holdout/E18_a1.0_r3.json": "a029e746469f977c1d3cda20051e8b0f3825ab849010182f06e4188fd01ea01c",
+    "data/size_gate_runs_20261009/holdout/E18_a1.0_r4.json": "8e0f9ff37d56243bc40eebe6805702c9e4fe0f03df913e530b8dfd25925e1f90",
+    "data/size_gate_runs_20261009/holdout/E18_a1.0_r5.json": "0d19585a43a90496acf9c1d28651f7af4620ad5e0d990afa5c2dd518ee119229",
+    "data/size_gate_runs_20261009/holdout/E18_a2.0_r1.json": "19b47c4e29fe87722b2fa09524d8504a5459def615362c2a2c14c560dc8b12c6",
+    "data/size_gate_runs_20261009/holdout/E18_a2.0_r2.json": "f318fd6a31c6d18d6f8f9aff7af2d11868c484013f90a5d77c9ebff607b5319d",
+    "data/size_gate_runs_20261009/holdout/E18_a2.0_r3.json": "f55a9d523f49269fa5e780de2569dd959328aa5c04e8de781b50f5686e28ee0f",
+    "data/size_gate_runs_20261009/holdout/E18_a2.0_r4.json": "cd23f68fd14b4486be1e908b0022b6555869461a55d2c899a44f46bbf1336466",
+    "data/size_gate_runs_20261009/holdout/E18_a2.0_r5.json": "030fd624cb7c32f2996cfa6562e218bf2cabe5eb3a7e6b6fc19c61b75032d962",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a1.0_r1.json": "2816c00015d164ad85610740a047722b6f2c217e72db0f14bfb73b7d0bb76999",
+    "data/size_gate_runs_20261009/holdout/E19_a1.0_r1.json": "274f94f20b474ca60338d12eea0407c60028489407a1e26b81d8fbba78d30652",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a1.0_r2.json": "47e675b2ef3e0d3e04d96e14ebaa2c76189b947d97c8787024c61e4fc3891ffa",
+    "data/size_gate_runs_20261009/holdout/E19_a1.0_r2.json": "ebc5c022239b6d33f653a465818da5ebfeceb8133671403c5f80c66374a1d14e",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a1.0_r3.json": "6c97595a0b9cc7dfbf4ab52ea8447a28b7bc8a079770e823dc1da1444dff67f6",
+    "data/size_gate_runs_20261009/holdout/E19_a1.0_r3.json": "37f201bd0e823df506c57a5e89dc2cb01a4c01ffcab7cd9e8d7f262792caddbc",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a1.0_r4.json": "5a8b0a680a539b40ba2504836f2f065b51e894caa325aaa85a94ddb898e96a97",
+    "data/size_gate_runs_20261009/holdout/E19_a1.0_r4.json": "d10c0c694b77b6657ccdeaebbc1b08f9fae2a6dab6d9e76bec3d0b53d103a29f",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a1.0_r5.json": "bfc30eb898d475cc432aa7e839210fe58ed807666067dc751c163e53ca859537",
+    "data/size_gate_runs_20261009/holdout/E19_a1.0_r5.json": "de092e21876f540ff2bc7940993802cf124dd3996703c3948a9f4a53e98916e5",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a2.0_r1.json": "8922ec7b6691d041d2e5c62fc1ca7a3de0a7f7ffbf4fb50bac9fd90a82ce8a39",
+    "data/size_gate_runs_20261009/holdout/E19_a2.0_r1.json": "4e6322bd2e8e668ed3c159cc7dab06729e5b13ee309f576c3873d09b14d919f5",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a2.0_r2.json": "f30c630d2b22da634aa1a4bede667582081f253df2e044863534a2c347093a63",
+    "data/size_gate_runs_20261009/holdout/E19_a2.0_r2.json": "ad5ba400b9b94d012c84b846db3ac5814dce9d057fb82206bf9a7d7e95988fcd",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a2.0_r3.json": "84db5b89a936930204558e67cc9c65505ff2027a9873e7cd42221b48a215cdab",
+    "data/size_gate_runs_20261009/holdout/E19_a2.0_r3.json": "2806948ccb2c7bee72c88257d1ae7e20109cffc81165903cc6b2049d19d7552b",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a2.0_r4.json": "59d0a675008b75078fd97ca4ca9f9c8907989784e93c62e1aca1395261e543bb",
+    "data/size_gate_runs_20261009/holdout/E19_a2.0_r4.json": "3220b81b700321caf8e0292d761500a2c7cb379134084827b9e3cfbdec82b519",
+    "data/size_gate_runs_20261009/holdout/full_RR01_RR06_a2.0_r5.json": "9dd504a9fc78bcb67391dd5508c7ed3393d7e13ed91e1a79f07c24b8a9ebf5c7",
+    "data/size_gate_runs_20261009/holdout/E19_a2.0_r5.json": "16cd768f2e1ada6765b11d616cfb5f9865a4f05d5218e695d998daeaea0df91e",
+    "data/size_gate_runs_20261009/holdout/E21_a1.0_r1.json": "8a77b580e80e17eebfc3ab0fd9547fa60402afa9628f530c244e8ada2162bed8",
+    "data/size_gate_runs_20261009/holdout/E21_a1.0_r2.json": "d57507b98826f54943df0b4e4586439e666633d0ea66f0918f034d844385113a",
+    "data/size_gate_runs_20261009/holdout/E21_a1.0_r3.json": "5a395a3676b4447200bf3680db005b822bc0b58ec7d172c0f4c77f7ef4659f29",
+    "data/size_gate_runs_20261009/holdout/E21_a1.0_r4.json": "78c3a1499da4a254fe79663d8a38312894cb6633584de24aa9d6a0fc11a63be2",
+    "data/size_gate_runs_20261009/holdout/E21_a1.0_r5.json": "44762d85ea704ba744f4e00cfed7fa869130a7d4bbd86ab1ffbd8c6c1c30d678",
+    "data/size_gate_runs_20261009/holdout/E21_a2.0_r1.json": "f3341f50fc295f41f4c958ca703b75481b44586c39cd2c283583acbec8d1ac41",
+    "data/size_gate_runs_20261009/holdout/E21_a2.0_r2.json": "926923f96200a9a67eddbdf25dafd7add6931ab53945e85047cb83f3bed81e75",
+    "data/size_gate_runs_20261009/holdout/E21_a2.0_r3.json": "7659362347bbb32fad2c753178964da7b350256ab8648b459a092e243d11390a",
+    "data/size_gate_runs_20261009/holdout/E21_a2.0_r4.json": "8d3591d2a724f89e088fe69776bae1c94baf6f04d7470f3d34eec2c114a4d7d9",
+    "data/size_gate_runs_20261009/holdout/E21_a2.0_r5.json": "e75e9fdad456a8c5c2a5dccab1fb0fb20a8d244e22f31516761599b242371d4b",
+    "data/size_gate_runs_20261009/holdout/E22_a1.0_r1.json": "7f294cb24b541eac4df60452b9031300ce9f781ed10d46a3ffab67a063813e9e",
+    "data/size_gate_runs_20261009/holdout/E22_a1.0_r2.json": "440dfeef270a39bf611ca7b35072d1425d310b4b86a00760a82cd5e253645e26",
+    "data/size_gate_runs_20261009/holdout/E22_a1.0_r3.json": "59a531453c341aba9a40aaeaea4df1b4b850bbfefaee90143fe608afce7cdd58",
+    "data/size_gate_runs_20261009/holdout/E22_a1.0_r4.json": "7bcb3ba20032f3079e43ea72c51fb8160e15f410c7969cf3de953cc4bf9a594c",
+    "data/size_gate_runs_20261009/holdout/E22_a1.0_r5.json": "04961861c396b6f2fe273d198d3fa341fd4a77685333b51fe41e76d8866cbb43",
+    "data/size_gate_runs_20261009/holdout/E22_a2.0_r1.json": "7621fb5daa84ac1dfc794c922bd604472617f554ba01ff49cebcdb145e126486",
+    "data/size_gate_runs_20261009/holdout/E22_a2.0_r2.json": "12c0ca9b417c395fccfe0f854fc12183652a40b621c627551b8b8907d94f66dc",
+    "data/size_gate_runs_20261009/holdout/E22_a2.0_r3.json": "da503537fc362fb6f9cb0b86aec2a5a60c3fb1e9b947cc820cb5e70be34a973f",
+    "data/size_gate_runs_20261009/holdout/E22_a2.0_r4.json": "6a8462722d6389c7fff09aa74a69e592bf409bf4476351ddd75d158a8c6cbf55",
+    "data/size_gate_runs_20261009/holdout/E22_a2.0_r5.json": "9fbf6867814f495a473939ab717d02c10646c21c321fefdecfb1d07db25b84b0",
+    "data/size_gate_runs_20261009/holdout/E23_a1.0_r1.json": "c257b4a89cf1a8a61ac8bbee934d62d29499b3880f1c80fca2be1dc97fbb091a",
+    "data/size_gate_runs_20261009/holdout/E23_a1.0_r2.json": "a5d191755730d7114e711314be04b954dea981043f9834b2a9e0e40270742914",
+    "data/size_gate_runs_20261009/holdout/E23_a1.0_r3.json": "245f716c1c330c6ea67c01f2940f774f0711ef3c2cab447fbb5495adaba447fd",
+    "data/size_gate_runs_20261009/holdout/E23_a1.0_r4.json": "70d9ad8ec60186d9b0c4430d06ceebe72dae851d8d1dc803929ee3ad39728e8c",
+    "data/size_gate_runs_20261009/holdout/E23_a1.0_r5.json": "1bb6fb3a06bfb006f3bfd7d324866e74e89b3531a2823379443ceb2d9b9be499",
+    "data/size_gate_runs_20261009/holdout/E23_a2.0_r1.json": "207dd44b7763e341e76055d63e56b2854a6db71794778516c50d63cd79ddbc93",
+    "data/size_gate_runs_20261009/holdout/E23_a2.0_r2.json": "243c30e529d9105f7c71432e826518138fdb6f8660a84b2da418ed8d838b115a",
+    "data/size_gate_runs_20261009/holdout/E23_a2.0_r3.json": "eb3408ae13e990d6fb0dc7a840559623428abbf4dc3ff836c438fa27b0a3ed03",
+    "data/size_gate_runs_20261009/holdout/E23_a2.0_r4.json": "e89b83a195b38375965d046e2cdd48b2373f419952a32154bb962744b07ffc36",
+    "data/size_gate_runs_20261009/holdout/E23_a2.0_r5.json": "fda1b712b18ffafa6b7cc0d1fc02377cb48e2761fa5e1b0c2f450ea046a135c8"
+  },
+  "primary_summary_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+  "script_sha256": "c8899a4ff5f566334ee92144941ddf7bd017fc93c255a3b69d57acbf2238005a",
+  "scope": "Descriptive post-hoc threshold sensitivity, all 12 combinations reported; no retuning",
+  "command": [
+    "scripts/size_gate_threshold_diagnosis.py"
+  ],
+  "correctness_unchanged_for_primary": "Translation <=1m, yaw <=5deg",
+  "inference": "One recording; averaging repeats within each dependent episode; no significance claim"
+}

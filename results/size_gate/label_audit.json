@@ -1,0 +1,124 @@
+{
+  "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "script_sha256": "6e97c20b5f4eda36ea53a68968e92a24c3f044cc6a57b1416b9c167f232803d3",
+  "command": [
+    "scripts/size_gate_label_audit.py"
+  ],
+  "scope": "Passive diagnostic of annotated near-edge pool; no alignment runs or parameter selection",
+  "support": {
+    "same_object_all_confidences": {
+      "episodes": 24,
+      "before_one_to_one_at_least_5": 16,
+      "after_one_to_one_at_least_5": 0,
+      "before_clique_at_least_5": 11,
+      "after_clique_at_least_5": 0,
+      "clique_drop_5_to_below_5": 11
+    },
+    "same_object_high_or_medium": {
+      "episodes": 24,
+      "before_one_to_one_at_least_5": 14,
+      "after_one_to_one_at_least_5": 0,
+      "before_clique_at_least_5": 9,
+      "after_clique_at_least_5": 0,
+      "clique_drop_5_to_below_5": 9
+    },
+    "same_object_high_only": {
+      "episodes": 24,
+      "before_one_to_one_at_least_5": 11,
+      "after_one_to_one_at_least_5": 0,
+      "before_clique_at_least_5": 9,
+      "after_clique_at_least_5": 0,
+      "clique_drop_5_to_below_5": 9
+    }
+  },
+  "anchor_map_GT_distances_by_label": {
+    "different_objects": {
+      "xy": {
+        "n": 341,
+        "median_m": 0.3672389183707335,
+        "p90_m": 0.5262915635675772,
+        "min_m": 0.01152114902484153,
+        "max_m": 0.5996359331719423,
+        "descriptive_count_below_0_1m": 10,
+        "descriptive_count_below_0_25m": 72
+      },
+      "xyz": {
+        "n": 341,
+        "median_m": 0.4660755682652398,
+        "p90_m": 0.576217558610177,
+        "min_m": 0.05689681439548793,
+        "max_m": 0.5998859141848275,
+        "descriptive_count_below_0_1m": 1,
+        "descriptive_count_below_0_25m": 29
+      }
+    },
+    "cannot_tell": {
+      "xy": {
+        "n": 76,
+        "median_m": 0.380634704687832,
+        "p90_m": 0.5158517932038624,
+        "min_m": 0.0275557784855949,
+        "max_m": 0.5682534634525017,
+        "descriptive_count_below_0_1m": 5,
+        "descriptive_count_below_0_25m": 23
+      },
+      "xyz": {
+        "n": 76,
+        "median_m": 0.4289239816601743,
+        "p90_m": 0.5711747307551854,
+        "min_m": 0.06125422321153154,
+        "max_m": 0.5993260751321334,
+        "descriptive_count_below_0_1m": 1,
+        "descriptive_count_below_0_25m": 10
+      }
+    },
+    "same_object": {
+      "xy": {
+        "n": 314,
+        "median_m": 0.32024615607567886,
+        "p90_m": 0.4791116117257058,
+        "min_m": 0.0029378715485404634,
+        "max_m": 0.5895005149939541,
+        "descriptive_count_below_0_1m": 40,
+        "descriptive_count_below_0_25m": 114
+      },
+      "xyz": {
+        "n": 314,
+        "median_m": 0.4144052971011021,
+        "p90_m": 0.557410480740589,
+        "min_m": 0.06434889292236788,
+        "max_m": 0.5995292860099499,
+        "descriptive_count_below_0_1m": 7,
+        "descriptive_count_below_0_25m": 52
+      }
+    },
+    "part_whole_or_ambiguous": {
+      "xy": {
+        "n": 67,
+        "median_m": 0.3317324670971076,
+        "p90_m": 0.5355261896115662,
+        "min_m": 0.04454460267841256,
+        "max_m": 0.563995191685968,
+        "descriptive_count_below_0_1m": 6,
+        "descriptive_count_below_0_25m": 20
+      },
+      "xyz": {
+        "n": 67,
+        "median_m": 0.42380105029634213,
+        "p90_m": 0.5596870112195654,
+        "min_m": 0.051779311959106934,
+        "max_m": 0.5869954403154803,
+        "descriptive_count_below_0_1m": 1,
+        "descriptive_count_below_0_25m": 11
+      }
+    }
+  },
+  "graph_semantics": "Distinct associations; absolute difference of intra-map XY distances < original epsilon=0.25m; sigma=0.15m and original affinityeps; checked against pinned CLIPPER",
+  "coordinate_scope": "Saved map centroids at anchor transformed by GT; not per-observation physical-object positions; 3D-near selection radius=0.6m",
+  "class_caveat": "same_object is the recorded human category; mixed box/group units and staticness require review. No automatic relabeling.",
+  "inferential_caveat": "One recording with correlated episodes. Witness existence is not selected solver output or evidence of correct final pose.",
+  "distance_threshold_caveat": "0.1m and 0.25m point-residual bins are descriptive, not the CLIPPER pairwise-discrepancy test or identity truth.",
+  "relaxation_run": false,
+  "baseline_or_labels_modified": false
+}

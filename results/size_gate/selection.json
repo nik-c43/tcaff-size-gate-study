@@ -1,0 +1,11 @@
+{
+  "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+  "alpha": 2.0,
+  "wrong_first_constraint_satisfied": true,
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "protocol_sha256": "eef42f31a2830ffdb0c9a850d824b0fd0b9a8a4a33d069587f8e7814cab65bc4",
+  "evaluator_sha256": "9369c1e8fb7b69e901aee4d09e40551c5b7d55c9e1c7cf000900ce97833b6c72",
+  "development_summary_sha256": "4cba306e6d5d015b8c26104e0442bd68e2c5eded68cf4214b9867ff9f6ef9ba4",
+  "selection_rule": "Among development candidates whose mean wrong-first-start count <= B0, maximize correctly initialized starts by horizon; then minimize wrong-first count; then maximize correct-update availability; then choose smallest alpha. If none satisfies constraint, choose the smallest-alpha candidate and report constraint violation, without a success claim. Freeze one alpha and selection evidence before reading holdout results.",
+  "holdout_evaluated": false
+}

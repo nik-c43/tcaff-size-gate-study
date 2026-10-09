@@ -1,0 +1,124 @@
+{
+  "annotations": {
+    "records": 798,
+    "labels": {
+      "cannot_tell": 76,
+      "same_object": 314,
+      "different_objects": 341,
+      "part_whole_or_ambiguous": 67
+    },
+    "B0": {
+      "cannot_tell_rejected": 63,
+      "same_object_rejected": 260,
+      "different_objects_rejected": 304,
+      "same_object_admitted": 54,
+      "part_whole_or_ambiguous_rejected": 61,
+      "different_objects_admitted": 37,
+      "part_whole_or_ambiguous_admitted": 6,
+      "cannot_tell_admitted": 13
+    },
+    "high_confidence_B0": {
+      "same_object_rejected": 178,
+      "different_objects_rejected": 257,
+      "cannot_tell_rejected": 48,
+      "part_whole_or_ambiguous_rejected": 43,
+      "different_objects_admitted": 31,
+      "part_whole_or_ambiguous_admitted": 4,
+      "same_object_admitted": 42,
+      "cannot_tell_admitted": 13
+    },
+    "alpha2": {
+      "cannot_tell_rejected": 46,
+      "same_object_rejected": 190,
+      "different_objects_rejected": 240,
+      "different_objects_admitted": 101,
+      "same_object_admitted": 124,
+      "part_whole_or_ambiguous_rejected": 55,
+      "part_whole_or_ambiguous_admitted": 12,
+      "cannot_tell_admitted": 30
+    },
+    "original_files": 5
+  },
+  "results": {
+    "baseline": {
+      "release_tau9": {
+        "translation_m": 0.4379036842543077,
+        "yaw_deg": 2.4461272323504706,
+        "accepted": 3598,
+        "updates": 4044,
+        "availability": 0.8897131552917903
+      },
+      "paper_tau8_control": {
+        "translation_m": 0.4379036842543077,
+        "yaw_deg": 2.4461272323504706,
+        "accepted": 3598,
+        "updates": 4044,
+        "availability": 0.8897131552917903
+      }
+    },
+    "size_gate": {
+      "1.0": {
+        "full_history": {
+          "availability": 1.0,
+          "correct_update_availability": 0.696551724137931,
+          "mean_translation_m": 0.5103002362691246,
+          "mean_yaw_deg": 3.0217415347465857,
+          "runtime_s": 0.829081865651339,
+          "wrong_first_rate": 0.08333333333333333,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 0.95,
+          "capped_time_to_correct_s": 2.2999978065490723
+        },
+        "correct_updates": 1212,
+        "total_updates": 1740,
+        "cold_start": {
+          "availability": 0.1482758620689655,
+          "correct_update_availability": 0.1413793103448276,
+          "mean_translation_m": 0.3291775408083586,
+          "mean_yaw_deg": 1.950457605832254,
+          "runtime_s": 0.7771146124097867,
+          "wrong_first_rate": 0.06666666666666667,
+          "no_first_rate": 0.6666666666666666,
+          "correct_by_horizon_rate": 0.3333333333333333,
+          "capped_time_to_correct_s": 24.166643619537354
+        },
+        "cold_wrong_first": 4,
+        "cold_runs": 60
+      },
+      "2.0": {
+        "full_history": {
+          "availability": 1.0,
+          "correct_update_availability": 0.717816091954023,
+          "mean_translation_m": 0.5305175093281104,
+          "mean_yaw_deg": 3.131909806705199,
+          "runtime_s": 3.9249544702324783,
+          "wrong_first_rate": 0.08333333333333333,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 0.9166666666666666,
+          "capped_time_to_correct_s": 2.3333311080932617
+        },
+        "correct_updates": 1249,
+        "total_updates": 1740,
+        "cold_start": {
+          "availability": 0.253448275862069,
+          "correct_update_availability": 0.17298850574712643,
+          "mean_translation_m": 1.0183094970803526,
+          "mean_yaw_deg": 14.742608192078022,
+          "runtime_s": 4.410110135745102,
+          "wrong_first_rate": 0.16666666666666666,
+          "no_first_rate": 0.4166666666666667,
+          "correct_by_horizon_rate": 0.5,
+          "capped_time_to_correct_s": 21.566646099090576
+        },
+        "cold_wrong_first": 10,
+        "cold_runs": 60
+      }
+    },
+    "runs": 420,
+    "occlusion_cases": 80,
+    "runtime_ratio": 4.7340975998178125
+  },
+  "transferred_files_checked": 53,
+  "scope": "Saved own labels/metrics integrity and reaggregation; no new experiment; saved replay/GT checks are not rerun here",
+  "all_checks_passed": true
+}

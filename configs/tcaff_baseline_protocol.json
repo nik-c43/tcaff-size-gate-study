@@ -1,0 +1,16 @@
+{
+  "paper": "TCAFF: Temporal Consistency for Robot Frame Alignment, ICRA 2025, arXiv v3",
+  "paper_url": "https://arxiv.org/html/2405.05210v3",
+  "primary_scope": "Released map-and-frame-alignment pipeline on the author's saved FastSAM detections for the four-robot record",
+  "primary_config": "vendor/tcaff/demo/params/tcaff_mot_dataset.yaml",
+  "tcaff_commit": "ff4ceab04b03fecabc4de9c9cbe7dbba4ab50df9",
+  "clipper_commit": "e514dc29c273837ffdfeebbefbdcb2a93d970969",
+  "primary_metric": "Mean of per-directed-pair mean SE(2) translation and yaw errors, as in the released demo",
+  "metric_conditioning": "Only updates with an accepted estimate and available GT; always also report estimate availability",
+  "supplemental_metrics": ["Pooled errors over all valid pair-updates", "Initial acceptance time per pair"],
+  "paper_release_difference": "Article section IV lists tau=8; the release YAML uses main_tree_obj_req=9. Release tau=9 is primary; tau=8 is a labeled filter-only control on the same saved proposals.",
+  "randomness": "Unchanged upstream CLIPPER random_device; save all proposals and verify deterministic replay through the original manager factory",
+  "verification": ["Pinned upstream remains clean", "Mapping and DetectionData match upstream", "Parameters match the release YAML", "Independent GT transform composition", "All 4044 stored pair-updates reproduce the captured filter output"],
+  "exclusions": ["RGB-D FastSAM inference", "MOT/MOTA", "ROMAN algorithm components", "Hypothesis-1 merge modifications"],
+  "next_hypothesis": "Audit view-dependent object representation in TCAFF using synchronized RGB/depth and manually verified physical object correspondence; ROMAN supplies related-work examples only"
+}

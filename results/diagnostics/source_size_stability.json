@@ -1,0 +1,35 @@
+{
+  "totals": {
+    "unique_track_history_snapshots": 696,
+    "unique_track_ids": 605,
+    "histories_at_least_5_observations": 632,
+    "first_last_rejected": 384,
+    "robust_p10_p90_rejected": 420,
+    "histories_with_multiple_detections_in_source_frame": 0
+  },
+  "high_confidence_same_object_pair_groups": {
+    "B0_admitted": {
+      "pairs": 42,
+      "both_sides_observed_at_least_5": 39,
+      "either_side_robust_unstable": 33
+    },
+    "B0_rejected": {
+      "pairs": 178,
+      "both_sides_observed_at_least_5": 156,
+      "either_side_robust_unstable": 153
+    }
+  },
+  "source_hashes": {
+    "data/tcaff_mot_data/fastsam_data/RR01.json": "2c200a2a16a16e51379c09df0173138bab0f1a9ae981dc0aedeebbb67e3389f7",
+    "data/tcaff_mot_data/fastsam_data/RR04.json": "6c771a23cd91d2023b80d4e066bd06663ceec927b7e21a2cc1ed0d6e5218a0af",
+    "data/tcaff_mot_data/fastsam_data/RR06.json": "fbaa8cce48302837370855ca851df9e4fb1ad67dd14e6c143236b499c2f816c3",
+    "data/tcaff_mot_data/fastsam_data/RR08.json": "e0f619326316526d023feb4a3e338c3b8d2536dad458440c052f97b11e3de892"
+  },
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "script_sha256": "bbc4efa8743dfa82f5dd4c03a5d8190b63aa1cdaf82f9086f6a584c84dd8d54f",
+  "command": [
+    "scripts/size_gate_source_size_stability.py"
+  ],
+  "scope": "Source descriptor histories through original anchors; no physical identity or causal attribution",
+  "robust_criterion": "Marginal p10-p90 widths/heights cross original ratio 1.35 or absolute difference 0.1m; percentiles need not co-occur"
+}

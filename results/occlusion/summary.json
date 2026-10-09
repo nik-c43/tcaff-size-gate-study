@@ -1,0 +1,80 @@
+{
+  "cases": 80,
+  "dimensions_m": {
+    "cube": [
+      0.4,
+      0.4,
+      0.4
+    ],
+    "wide_box": [
+      1.2,
+      0.4,
+      0.8
+    ]
+  },
+  "angles_deg": [
+    0,
+    45
+  ],
+  "screen_directions": [
+    "left",
+    "top"
+  ],
+  "bbox_occlusion_fractions": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "camera_K": [
+    [
+      600.0,
+      0.0,
+      320.0
+    ],
+    [
+      0.0,
+      600.0,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "image_shape": [
+    480,
+    640
+  ],
+  "object_center_depth_m": 3.0,
+  "selected_alpha": 2.0,
+  "primary_summary_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+  "model_script_sha256": "5b8a6a62e25f88b2c2fd707c496671f04f4ab5b23a5f57ad7b4d28eb8dd0d798",
+  "script_sha256": "c8109261aeee013c75e8feb2ef1e570c24030e5f340a964e0fbcbcdf32a0195e",
+  "command": [
+    "scripts/size_gate_occlusion_diagnosis.py"
+  ],
+  "scope": "Synthetic visible-mask mechanism; no segmentation network, map smoothing, MNO solving or temporal TCAFF",
+  "centroid_reference": "Shift relative to the original full visible-surface measurement, not error relative to physical object center.",
+  "occlusion_definition": "Left/top foreground screen removes a fraction of the full silhouette bounding-box pixel extent; mask area fraction recorded separately.",
+  "assumptions": "Exact remaining silhouette and noiseless front-surface depth; fixed object and camera; masked-out occluder excluded exactly.",
+  "counts": {
+    "1.0": {
+      "nonzero_cases": 72,
+      "rejected": 63,
+      "admitted_shift_over_0_1m": 0
+    },
+    "2.0": {
+      "nonzero_cases": 72,
+      "rejected": 51,
+      "admitted_shift_over_0_1m": 0
+    }
+  }
+}

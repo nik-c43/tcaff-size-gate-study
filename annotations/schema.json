@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Original TCAFF size-gate annotation export (all versions)",
+  "type": "object",
+  "required": ["fingerprint", "annotator", "labels"],
+  "properties": {
+    "fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "annotator": {"type": "string"},
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["task_id", "label", "confidence", "notes"],
+        "properties": {
+          "task_id": {"type": "string", "pattern": "^P[0-9]{4}$"},
+          "label": {"enum": ["same_object", "different_objects", "part_whole_or_ambiguous", "cannot_tell", null]},
+          "confidence": {"enum": ["low", "medium", "high", null]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$comment": "Final canonical export has exactly 798 unique IDs, non-null labels/confidence and nonempty annotator. Nulls are retained only in template/intermediate original files; inspect_saved.py verifies the final export."
+}

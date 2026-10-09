@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "os_system": "Linux",
+  "os_release": "7.0.0-38-generic",
+  "architecture": "x86_64",
+  "cpu_model": "AMD Ryzen 7 7840HS w/ Radeon 780M Graphics",
+  "logical_cpus": 16,
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "hardware_scope": "Same machine for baseline reruns and relaxed variants; engine runtimes recorded per update"
+}

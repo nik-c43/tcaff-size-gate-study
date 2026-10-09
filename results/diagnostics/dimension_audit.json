@@ -1,0 +1,1804 @@
+{
+  "counts": {
+    "all": {
+      "XYZ": {
+        "before": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 24,
+          "clique_at_least_5": 20
+        },
+        "B0": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 0,
+          "clique_at_least_5": 0
+        },
+        "selected": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 18,
+          "clique_at_least_5": 6
+        }
+      },
+      "XY_SE2": {
+        "before": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 24,
+          "clique_at_least_5": 24
+        },
+        "B0": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 14,
+          "clique_at_least_5": 6
+        },
+        "selected": {
+          "episodes": 24,
+          "one_to_one_at_least_5": 23,
+          "clique_at_least_5": 16
+        }
+      }
+    },
+    "development": {
+      "XYZ": {
+        "before": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 12,
+          "clique_at_least_5": 9
+        },
+        "B0": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 0,
+          "clique_at_least_5": 0
+        },
+        "selected": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 10,
+          "clique_at_least_5": 4
+        }
+      },
+      "XY_SE2": {
+        "before": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 12,
+          "clique_at_least_5": 12
+        },
+        "B0": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 7,
+          "clique_at_least_5": 1
+        },
+        "selected": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 11,
+          "clique_at_least_5": 8
+        }
+      }
+    },
+    "holdout": {
+      "XYZ": {
+        "before": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 12,
+          "clique_at_least_5": 11
+        },
+        "B0": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 0,
+          "clique_at_least_5": 0
+        },
+        "selected": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 8,
+          "clique_at_least_5": 2
+        }
+      },
+      "XY_SE2": {
+        "before": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 12,
+          "clique_at_least_5": 12
+        },
+        "B0": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 7,
+          "clique_at_least_5": 5
+        },
+        "selected": {
+          "episodes": 12,
+          "one_to_one_at_least_5": 12,
+          "clique_at_least_5": 8
+        }
+      }
+    }
+  },
+  "per_episode": [
+    {
+      "episode_id": "E01",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 16,
+            "one_to_one_support": 5,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "22:0",
+              "30:32",
+              "37:33",
+              "40:34",
+              "42:1"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 18,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "22:0",
+              "30:32",
+              "37:33",
+              "40:34",
+              "42:1"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 7,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E02",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 27,
+            "one_to_one_support": 12,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:89",
+              "6:70",
+              "42:76",
+              "43:11",
+              "45:84"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 13,
+            "one_to_one_support": 8,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 68,
+            "one_to_one_support": 25,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:86",
+              "2:55",
+              "3:54",
+              "4:65",
+              "6:70"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 24,
+            "one_to_one_support": 12,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "2:55",
+              "3:54",
+              "4:65",
+              "6:71",
+              "7:69"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 37,
+            "one_to_one_support": 18,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "2:54",
+              "4:55",
+              "6:71",
+              "8:60",
+              "10:70"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E03",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 16,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 6,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 20,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:10",
+              "1:7",
+              "9:11",
+              "22:28",
+              "26:27"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 8,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E04",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 20,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "16:6",
+              "21:27",
+              "101:18",
+              "102:22",
+              "106:19"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 4,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 48,
+            "one_to_one_support": 12,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "16:6",
+              "19:27",
+              "21:26",
+              "22:28",
+              "101:18"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 13,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "16:6",
+              "20:5",
+              "21:27",
+              "22:28",
+              "101:22"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 22,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "16:6",
+              "19:28",
+              "21:27",
+              "102:22",
+              "106:18"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E05",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 30,
+            "one_to_one_support": 12,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:0",
+              "2:1",
+              "8:33",
+              "11:22",
+              "17:9"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 12,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:0",
+              "2:2",
+              "15:22",
+              "17:9",
+              "26:4"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 49,
+            "one_to_one_support": 15,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:0",
+              "2:1",
+              "3:18",
+              "4:15",
+              "17:9"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 9,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 15,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:0",
+              "2:2",
+              "15:22",
+              "17:9",
+              "26:4"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E06",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 25,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "23:68",
+              "44:15",
+              "45:101",
+              "49:85",
+              "57:65"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 11,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "24:68",
+              "47:6",
+              "49:98",
+              "51:89",
+              "54:88"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 70,
+            "one_to_one_support": 17,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "3:60",
+              "5:61",
+              "12:63",
+              "43:15",
+              "48:82"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 17,
+            "one_to_one_support": 12,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "3:62",
+              "9:69",
+              "11:63",
+              "12:61",
+              "24:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 33,
+            "one_to_one_support": 16,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "3:60",
+              "12:61",
+              "24:68",
+              "37:62",
+              "47:15"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E07",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 49,
+            "one_to_one_support": 18,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:2",
+              "2:33",
+              "9:67",
+              "10:66",
+              "23:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 7,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 18,
+            "one_to_one_support": 7,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 74,
+            "one_to_one_support": 22,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:2",
+              "2:33",
+              "9:67",
+              "10:66",
+              "23:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 9,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 21,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "8:67",
+              "10:66",
+              "15:68",
+              "23:73",
+              "33:24"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E08",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 20,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 12,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 29,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "22:0",
+              "23:12",
+              "24:29",
+              "65:7",
+              "73:31"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 5,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "22:12",
+              "24:30",
+              "28:29",
+              "35:31",
+              "41:0"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E09",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 66,
+            "one_to_one_support": 22,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "1:27",
+              "4:26",
+              "14:63",
+              "32:57"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 7,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 76,
+            "one_to_one_support": 23,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "1:27",
+              "4:26",
+              "14:63",
+              "32:54"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 7,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E10",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 27,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:5",
+              "1:9",
+              "9:8",
+              "10:0",
+              "16:6"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 11,
+            "one_to_one_support": 5,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:9",
+              "4:8",
+              "8:5",
+              "10:7",
+              "16:6"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 28,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:5",
+              "1:9",
+              "9:8",
+              "10:0",
+              "16:6"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 11,
+            "one_to_one_support": 5,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:9",
+              "4:8",
+              "8:5",
+              "10:7",
+              "16:6"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E11",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 12,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "10:62",
+              "28:68",
+              "37:96",
+              "42:100",
+              "52:66"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 8,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 46,
+            "one_to_one_support": 18,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:61",
+              "1:63",
+              "2:64",
+              "11:71",
+              "13:72"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 18,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:61",
+              "1:72",
+              "2:64",
+              "3:63",
+              "4:62"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 28,
+            "one_to_one_support": 14,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:61",
+              "1:63",
+              "2:64",
+              "11:71",
+              "45:15"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E12",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 19,
+            "one_to_one_support": 8,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 8,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 35,
+            "one_to_one_support": 10,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:21",
+              "6:39",
+              "7:24",
+              "50:22",
+              "85:32"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 8,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 17,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:21",
+              "85:31",
+              "86:35",
+              "87:32",
+              "88:39"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E13",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 27,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "26:39",
+              "28:32",
+              "32:35",
+              "34:38",
+              "39:43"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 8,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 59,
+            "one_to_one_support": 17,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "26:39",
+              "28:32",
+              "29:27",
+              "32:35",
+              "34:38"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 7,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 16,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "26:43",
+              "28:36",
+              "29:27",
+              "32:38",
+              "40:32"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E14",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 51,
+            "one_to_one_support": 14,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:2",
+              "2:3",
+              "8:0",
+              "12:25",
+              "13:7"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 5,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 15,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "3:36",
+              "5:2",
+              "7:3",
+              "13:26",
+              "18:10"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 74,
+            "one_to_one_support": 15,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:2",
+              "2:3",
+              "3:36",
+              "4:4",
+              "16:30"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 11,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:4",
+              "5:3",
+              "11:25",
+              "13:6",
+              "26:5"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 24,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:4",
+              "3:36",
+              "5:2",
+              "7:3",
+              "13:6"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E15",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 18,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 6,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 34,
+            "one_to_one_support": 10,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:22",
+              "2:35",
+              "8:44",
+              "9:46",
+              "74:43"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 7,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E16",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 46,
+            "one_to_one_support": 18,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "2:72",
+              "6:11",
+              "20:61",
+              "42:9",
+              "65:21"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 7,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 88,
+            "one_to_one_support": 27,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "2:71",
+              "6:11",
+              "20:13",
+              "24:21"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 7,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 16,
+            "one_to_one_support": 9,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E17",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 23,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "23:9",
+              "27:41",
+              "32:26",
+              "43:16",
+              "45:15"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 29,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "18:41",
+              "23:42",
+              "27:44",
+              "32:31",
+              "41:16"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 8,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 19,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "18:41",
+              "23:43",
+              "27:42",
+              "28:9",
+              "52:18"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E18",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 14,
+            "one_to_one_support": 6,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "23:2",
+              "24:36",
+              "32:34",
+              "38:0",
+              "65:35"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 8,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 21,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "23:2",
+              "24:34",
+              "38:3",
+              "63:18",
+              "89:37"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 11,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E19",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 45,
+            "one_to_one_support": 17,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:13",
+              "1:31",
+              "4:63",
+              "11:75",
+              "25:10"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 7,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 90,
+            "one_to_one_support": 24,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:13",
+              "1:31",
+              "4:63",
+              "11:75",
+              "25:9"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 8,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 16,
+            "one_to_one_support": 10,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:63",
+              "11:75",
+              "13:69",
+              "18:33",
+              "82:70"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E20",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 38,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "8:2",
+              "15:39",
+              "16:1",
+              "19:4",
+              "22:33"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 7,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 17,
+            "one_to_one_support": 7,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "10:15",
+              "18:6",
+              "19:5",
+              "20:34",
+              "21:32"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 63,
+            "one_to_one_support": 17,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "1:11",
+              "2:20",
+              "3:28",
+              "8:37",
+              "15:39"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 7,
+            "one_to_one_support": 3,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 20,
+            "one_to_one_support": 10,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "8:42",
+              "10:15",
+              "18:33",
+              "19:5",
+              "20:32"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E21",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 53,
+            "one_to_one_support": 13,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:11",
+              "5:5",
+              "6:10",
+              "19:66",
+              "22:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 13,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 68,
+            "one_to_one_support": 15,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:3",
+              "5:5",
+              "6:10",
+              "8:66",
+              "19:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 14,
+            "one_to_one_support": 7,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E22",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 19,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:48",
+              "1:47",
+              "21:28",
+              "49:45",
+              "52:44"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 7,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 29,
+            "one_to_one_support": 9,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:2",
+              "1:0",
+              "2:41",
+              "7:48",
+              "49:45"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 3,
+            "one_to_one_support": 2,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 9,
+            "one_to_one_support": 5,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E23",
+      "split": "holdout",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 46,
+            "one_to_one_support": 15,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "2:73",
+              "23:12",
+              "25:3",
+              "28:76"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 4,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 7,
+            "one_to_one_support": 6,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 83,
+            "one_to_one_support": 23,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "2:73",
+              "23:12",
+              "25:3",
+              "27:68"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 11,
+            "one_to_one_support": 8,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "2:73",
+              "27:68",
+              "28:76",
+              "62:66",
+              "68:69"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 19,
+            "one_to_one_support": 11,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:4",
+              "2:73",
+              "27:68",
+              "28:76",
+              "62:66"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    },
+    {
+      "episode_id": "E24",
+      "split": "development",
+      "support": {
+        "XYZ": {
+          "before": {
+            "candidate_edges": 91,
+            "one_to_one_support": 33,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:71",
+              "9:64",
+              "11:59",
+              "13:53",
+              "67:18"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 6,
+            "one_to_one_support": 4,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 28,
+            "one_to_one_support": 17,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:71",
+              "9:64",
+              "11:59",
+              "67:18",
+              "95:78"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        },
+        "XY_SE2": {
+          "before": {
+            "candidate_edges": 153,
+            "one_to_one_support": 46,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:64",
+              "9:71",
+              "16:31",
+              "18:33",
+              "38:25"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "B0": {
+            "candidate_edges": 11,
+            "one_to_one_support": 9,
+            "clique_at_least_5": false,
+            "witness_task_ids": [],
+            "graph_matches_pinned_CLIPPER": true
+          },
+          "selected": {
+            "candidate_edges": 39,
+            "one_to_one_support": 22,
+            "clique_at_least_5": true,
+            "witness_task_ids": [
+              "0:64",
+              "16:31",
+              "18:74",
+              "42:75",
+              "92:80"
+            ],
+            "graph_matches_pinned_CLIPPER": true
+          }
+        }
+      }
+    }
+  ],
+  "proximity_limit_m": 0.6,
+  "primary_summary_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+  "script_sha256": "363aaba97247650ecd580c31c99d9525b5c6dfa3302f4d268aa4cbbdd487e532",
+  "command": [
+    "scripts/size_gate_dimension_audit.py"
+  ],
+  "XYZ_reference": "Full saved GT SE3, original annotation pool",
+  "XY_reference": "Saved planar GT SE2, matching coordinates used by algorithm",
+  "scope": "Passive support audit, no semantic labels, solving, temporal updates or tuning",
+  "caveat": "GT-close graph can contain different physical objects. Existence of five compatible edges does not ensure selected or correct pose."
+}

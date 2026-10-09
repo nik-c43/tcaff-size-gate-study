@@ -1,0 +1,4794 @@
+{
+  "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+  "annotator": "Nik",
+  "labels": [
+    {
+      "task_id": "P0001",
+      "label": "cannot_tell",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0002",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": "разные ракурсы"
+    },
+    {
+      "task_id": "P0003",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0004",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0005",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0006",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0007",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0008",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0009",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признак отмечен на подвижном роботе"
+    },
+    {
+      "task_id": "P0010",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0011",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0012",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": "две похожие близко стоящие коробки"
+    },
+    {
+      "task_id": "P0013",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0014",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0015",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0016",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0017",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0018",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0019",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0020",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0021",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0022",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0023",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0024",
+      "label": "cannot_tell",
+      "confidence": "medium",
+      "notes": "признаки на подвижном роботе"
+    },
+    {
+      "task_id": "P0025",
+      "label": "cannot_tell",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0026",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0027",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0028",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0029",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0030",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0031",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0032",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0033",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0034",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0035",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0036",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0037",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0038",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0039",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0040",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0041",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0042",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0043",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0044",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0045",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0046",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0047",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0048",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0049",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0050",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0051",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0052",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0053",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0054",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0055",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0056",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0057",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0058",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0059",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0060",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0061",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0062",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0063",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0064",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0065",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0066",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0067",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0068",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0069",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0070",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0071",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0072",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0073",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0074",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0075",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0076",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0077",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0078",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0079",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0080",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0081",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0082",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0083",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0084",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0085",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0086",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0087",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0088",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0089",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0090",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0091",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0092",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0093",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0094",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0095",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0096",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0097",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0098",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0099",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0100",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0101",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0102",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0103",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0104",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0105",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0106",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0107",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0108",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0109",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0110",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0111",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0112",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0113",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0114",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0115",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0116",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0117",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0118",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0119",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0120",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0121",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0122",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0123",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0124",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0125",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0126",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0127",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0128",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0129",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0130",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0131",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0132",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0133",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0134",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0135",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0136",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0137",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0138",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0139",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0140",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0141",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0142",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "признаки на потенциально подвижном роботе"
+    },
+    {
+      "task_id": "P0143",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0144",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0145",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0146",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0147",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0148",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0149",
+      "label": "cannot_tell",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0150",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0151",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0152",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0153",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0154",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0155",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0156",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0157",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0158",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0159",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0160",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0161",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0162",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0163",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0164",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0165",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0166",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0167",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0168",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0169",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0170",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0171",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0172",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0173",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0174",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0175",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0176",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "относится к роботу"
+    },
+    {
+      "task_id": "P0177",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0178",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0179",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0180",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0181",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0182",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0183",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0184",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0185",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0186",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0187",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0188",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0189",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0190",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0191",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0192",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0193",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0194",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0195",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0196",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0197",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0198",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0199",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0200",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0201",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0202",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0203",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0204",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0205",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0206",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0207",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0208",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0209",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0210",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0211",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0212",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0213",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0214",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0215",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0216",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0217",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0218",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0219",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0220",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0221",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0222",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0223",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0224",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0225",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0226",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0227",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0228",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0229",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0230",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0231",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0232",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0233",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0234",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0235",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0236",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0237",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0238",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0239",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0240",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0241",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0242",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0243",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0244",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0245",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0246",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0247",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0248",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0249",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0250",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0251",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0252",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0253",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0254",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0255",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0256",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0257",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0258",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0259",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0260",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0261",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0262",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0263",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0264",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0265",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0266",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0267",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0268",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0269",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0270",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0271",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0272",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0273",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0274",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0275",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0276",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0277",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0278",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0279",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0280",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0281",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0282",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0283",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0284",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0285",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0286",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0287",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0288",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0289",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0290",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0291",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0292",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0293",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0294",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0295",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0296",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0297",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0298",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0299",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0300",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0301",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0302",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0303",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0304",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0305",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0306",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0307",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0308",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0309",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0310",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0311",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0312",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0313",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0314",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0315",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0316",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0317",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0318",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0319",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0320",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0321",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0322",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0323",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0324",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0325",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0326",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0327",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0328",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0329",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0330",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0331",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0332",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0333",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0334",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0335",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0336",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0337",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0338",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0339",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0340",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0341",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0342",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0343",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0344",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0345",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0346",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0347",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0348",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0349",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0350",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0351",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0352",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0353",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0354",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0355",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0356",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0357",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0358",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0359",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0360",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0361",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0362",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0363",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0364",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0365",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0366",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0367",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0368",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0369",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0370",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0371",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0372",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0373",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0374",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0375",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0376",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0377",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0378",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0379",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0380",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0381",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0382",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0383",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0384",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0385",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0386",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0387",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0388",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0389",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0390",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0391",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0392",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0393",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0394",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0395",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0396",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0397",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0398",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0399",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0400",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0401",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0402",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0403",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0404",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0405",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0406",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0407",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0408",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0409",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0410",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0411",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0412",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0413",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0414",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0415",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0416",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0417",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0418",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0419",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0420",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0421",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0422",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0423",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0424",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0425",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0426",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0427",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0428",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0429",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0430",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0431",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0432",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0433",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0434",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0435",
+      "label": "cannot_tell",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0436",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0437",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0438",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0439",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0440",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0441",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0442",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0443",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0444",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0445",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0446",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0447",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0448",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0449",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0450",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0451",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0452",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0453",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0454",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0455",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0456",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0457",
+      "label": "cannot_tell",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0458",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0459",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0460",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0461",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0462",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0463",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0464",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0465",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0466",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0467",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0468",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0469",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0470",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0471",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0472",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0473",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0474",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0475",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0476",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0477",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0478",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0479",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0480",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0481",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0482",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0483",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0484",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0485",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0486",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0487",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0488",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0489",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0490",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0491",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0492",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0493",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0494",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0495",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0496",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0497",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0498",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0499",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0500",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0501",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0502",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0503",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0504",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0505",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0506",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0507",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0508",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0509",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0510",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0511",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0512",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0513",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0514",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0515",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0516",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0517",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0518",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0519",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0520",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0521",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0522",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0523",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0524",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0525",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0526",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0527",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0528",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0529",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0530",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0531",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0532",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0533",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0534",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0535",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0536",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0537",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0538",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0539",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0540",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0541",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0542",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0543",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0544",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0545",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0546",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0547",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0548",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0549",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0550",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0551",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0552",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0553",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0554",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0555",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0556",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0557",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0558",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0559",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0560",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0561",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0562",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0563",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0564",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0565",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0566",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0567",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0568",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0569",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0570",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0571",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0572",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0573",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0574",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0575",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0576",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0577",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0578",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0579",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0580",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0581",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0582",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0583",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0584",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0585",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0586",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0587",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0588",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0589",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0590",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0591",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0592",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0593",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0594",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0595",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0596",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0597",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0598",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0599",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0600",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0601",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0602",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0603",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0604",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0605",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0606",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0607",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0608",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0609",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0610",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0611",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0612",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0613",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0614",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0615",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0616",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0617",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0618",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0619",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0620",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0621",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0622",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0623",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0624",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0625",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0626",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0627",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0628",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0629",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0630",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0631",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0632",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0633",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0634",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0635",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0636",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0637",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0638",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0639",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0640",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0641",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0642",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0643",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0644",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0645",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0646",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0647",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0648",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0649",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0650",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0651",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0652",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0653",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0654",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0655",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0656",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0657",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0658",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0659",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0660",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0661",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0662",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0663",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0664",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0665",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0666",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0667",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0668",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0669",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0670",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0671",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0672",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0673",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0674",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0675",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0676",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0677",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0678",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0679",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0680",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0681",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": "признак взят на человеке"
+    },
+    {
+      "task_id": "P0682",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0683",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0684",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0685",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0686",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0687",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0688",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0689",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0690",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0691",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0692",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0693",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0694",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0695",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0696",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0697",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0698",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0699",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0700",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0701",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0702",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0703",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0704",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0705",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0706",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0707",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0708",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0709",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0710",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0711",
+      "label": "same_object",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0712",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0713",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0714",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0715",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0716",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0717",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0718",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0719",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0720",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0721",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0722",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0723",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0724",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0725",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0726",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0727",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0728",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0729",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0730",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0731",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0732",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0733",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0734",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0735",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0736",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0737",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0738",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0739",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0740",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0741",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0742",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0743",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0744",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0745",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0746",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0747",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0748",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0749",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0750",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0751",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0752",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0753",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0754",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0755",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0756",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0757",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0758",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0759",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0760",
+      "label": "cannot_tell",
+      "confidence": "high",
+      "notes": "роботы"
+    },
+    {
+      "task_id": "P0761",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0762",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0763",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": "признак взят на человеке"
+    },
+    {
+      "task_id": "P0764",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0765",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0766",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0767",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0768",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0769",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0770",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0771",
+      "label": "same_object",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0772",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0773",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0774",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0775",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0776",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0777",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0778",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0779",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0780",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0781",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0782",
+      "label": "different_objects",
+      "confidence": "low",
+      "notes": ""
+    },
+    {
+      "task_id": "P0783",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0784",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0785",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0786",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0787",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0788",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0789",
+      "label": "part_whole_or_ambiguous",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0790",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0791",
+      "label": "different_objects",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "task_id": "P0792",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0793",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0794",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0795",
+      "label": "different_objects",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0796",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0797",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "task_id": "P0798",
+      "label": "same_object",
+      "confidence": "high",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+diff --git a/demo/alignment_results.py b/src/demo_cpu/alignment_results.py
+index 323bddc..a9cec24 100644
+--- a/demo/alignment_results.py
++++ b/src/demo_cpu/alignment_results.py
+@@ -30,9 +30,7 @@ class AlignmentResults():
+ 
+     def update_from_tcaff_manager(self, t: float, tcaff_manager: TCAFFManager, gt: List[float]=None):
+         fa = [z.reshape(-1) for z in tcaff_manager.latest_zs]
+-        est = transform_2_xypsi(tcaff_manager.T)
+-        if np.any(np.isnan(tcaff_manager.T)):
+-            est = None
++        est = None if np.any(np.isnan(tcaff_manager.T)) else transform_2_xypsi(tcaff_manager.T)
+         self.update(t, fa, gt, est)
+ 
+     def update(self, t: float, fa: List[List[float]]=None, gt: List[float]=None, est: List[float]=None):        
+diff --git a/demo/demo.py b/src/demo_cpu/demo.py
+index 8038de1..f6f429f 100644
+--- a/demo/demo.py
++++ b/src/demo_cpu/demo.py
+@@ -178,6 +178,8 @@ def main(args):
+     # setup results
+     results = {r1.name: {r2.name: AlignmentResults() for r2 in robots if r1 != r2} for r1 in robots}
+         
++    captured = {f"{a}_{b}": [] for a in robot_names for b in robot_names if a != b}
++
+     # Run the data processor
+     T_errs = []
+     printed_err = {robot.name: False for robot in robots}
+@@ -197,15 +199,35 @@ def main(args):
+                     except NoDataNearTimeException:
+                         xytheta_ij_gt = np.zeros(3) * np.nan
+                     results[ego_name][other_name].update_from_tcaff_manager(t, robots[i].frame_align_filters[other_name], xytheta_ij_gt)
++                    if os.environ.get('CAPTURE_CANDIDATES') == '1':
++                        manager = robots[i].frame_align_filters[other_name]
++                        pose = results[ego_name][other_name].est[-1]
++                        frame = dict(
++                            step=len(captured[f"{ego_name}_{other_name}"]), time=float(t),
++                            truth=None if not np.all(np.isfinite(xytheta_ij_gt)) else np.asarray(xytheta_ij_gt).tolist(),
++                            zs=[z.reshape(-1).tolist() for z in manager.latest_zs], R=manager.R.tolist(),
++                            baseline_estimate=None if not np.all(np.isfinite(pose)) else np.asarray(pose).tolist())
++                        if os.environ.get('CAPTURE_MAPS') == '1':
++                            frame['map_a'] = robots[i].get_map().as_array().tolist()
++                            frame['map_b'] = robots[j].get_map().as_array().tolist()
++                            try:
++                                T_truth = results[ego_name][other_name].get_Tij_gt(
++                                    t, pose_gt_data[ego_name], pose_gt_data[other_name],
++                                    robots[i].pose_est_data, robots[j].pose_est_data, xytheta=False)
++                                frame['truth_se3'] = None if T_truth is None or not np.all(np.isfinite(T_truth)) else T_truth.tolist()
++                            except NoDataNearTimeException:
++                                frame['truth_se3'] = None
++                        captured[f"{ego_name}_{other_name}"].append(frame)
++
+                     if not np.any(np.isnan(robots[i].frame_align_filters[other_name].T)):
+                         T_oi_ri = robots[i].pose_est_data.T_WB(t)
+-                        T_oj_rj = robots[i-1].pose_est_data.T_WB(t)
++                        T_oj_rj = robots[j].pose_est_data.T_WB(t)
+                         T_oi_oj = robots[i].frame_align_filters[other_name].T
+                         T_ri_rj_est = np.linalg.inv(T_oi_ri) @ T_oi_oj @ T_oj_rj
+ 
+                         try:
+                             T_w_ri = pose_gt_data[ego_name].T_WB(t)
+-                            T_w_rj = pose_gt_data[robots[i-1].name].T_WB(t)
++                            T_w_rj = pose_gt_data[other_name].T_WB(t)
+                             T_ri_rj_gt = np.linalg.inv(T_w_ri) @ T_w_rj
+ 
+                             T_errs.append(np.linalg.inv(T_ri_rj_gt) @ T_ri_rj_est)
+@@ -216,6 +238,14 @@ def main(args):
+     #                    Results                      #
+     ###################################################
+ 
++    if os.environ.get('CAPTURE_CANDIDATES') == '1':
++        capture_dir = os.environ['CAPTURE_DIR']
++        os.makedirs(capture_dir, exist_ok=True)
++        for pair, frames in captured.items():
++            with open(os.path.join(capture_dir, pair + '.json'), 'w') as f:
++                json.dump(dict(pair=pair, frames=frames, params=params['tcaff'],
++                               source='real saved detections through unchanged TCAFFManager; stochastic CLIPPER'), f)
++
+     avg_trans_err = np.mean([np.linalg.norm(T_err[:2,3]) for T_err in T_errs])
+     avg_rot_err = np.mean(np.abs([transform_to_xytheta(T_err)[2] for T_err in T_errs]))
+     print("Final results:")
+@@ -264,4 +294,4 @@ if __name__ == "__main__":
+ 
+     args = parser.parse_args()
+     
+-    main(args)
+\ No newline at end of file
++    main(args)
+diff --git a/demo/detections.py b/src/demo_cpu/detections.py
+index 2f93747..7a909f9 100644
+--- a/demo/detections.py
++++ b/src/demo_cpu/detections.py
+@@ -1,3 +1,4 @@
++from __future__ import annotations
+ import numpy as np
+ from abc import ABC, abstractclassmethod
+ from typing import List
+@@ -10,12 +11,12 @@ from robotdatapy.exceptions import NoDataNearTimeException
+ from robotdatapy.data import RobotData, ImgData
+ from robotdatapy.camera import CameraParams
+ # from fastsam3D.fastsam3D import FastSAM3D
+-from tcaff.fastsam3D.fastsam3D import FastSAM3D
++from typing import TYPE_CHECKING
++if TYPE_CHECKING:
++    from tcaff.fastsam3D.fastsam3D import FastSAM3D
+ 
+-try:
++if TYPE_CHECKING:
+     from .person_detector_3d import PersonDetector3D
+-except:
+-    from person_detector_3d import PersonDetector3D
+ 
+ # R_SHOULD_BE_PARAM = np.eye(3)*.3**2
+ R_SHOULD_BE_PARAM = np.eye(5)*.3**2

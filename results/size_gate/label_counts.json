@@ -1,0 +1,248 @@
+{
+  "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "annotator": "Nik",
+  "scope": "All near edges of the 24 selected anchors; no general-dataset or physical-object-level prevalence claim",
+  "pair_observation_counts": {
+    "cannot_tell_rejected": 63,
+    "same_object_rejected": 260,
+    "different_objects_rejected": 304,
+    "same_object_admitted": 54,
+    "part_whole_or_ambiguous_rejected": 61,
+    "different_objects_admitted": 37,
+    "part_whole_or_ambiguous_admitted": 6,
+    "cannot_tell_admitted": 13
+  },
+  "confirmed_correct_excluded": 260,
+  "confirmed_incorrect_blocked": 304,
+  "excluded_fraction_of_confirmed_correct": 0.8280254777070064,
+  "blocked_fraction_of_confirmed_incorrect": 0.8914956011730205,
+  "correct_fraction_among_resolved_rejected": 0.46099290780141844,
+  "by_episode": {
+    "E11": {
+      "cannot_tell_rejected": 3,
+      "same_object_admitted": 2,
+      "cannot_tell_admitted": 2,
+      "same_object_rejected": 3,
+      "different_objects_admitted": 2
+    },
+    "E21": {
+      "same_object_rejected": 18,
+      "different_objects_rejected": 17,
+      "different_objects_admitted": 2,
+      "cannot_tell_rejected": 9,
+      "part_whole_or_ambiguous_rejected": 5,
+      "same_object_admitted": 2
+    },
+    "E13": {
+      "same_object_rejected": 11,
+      "different_objects_rejected": 9,
+      "different_objects_admitted": 1,
+      "cannot_tell_rejected": 4,
+      "same_object_admitted": 1,
+      "cannot_tell_admitted": 1
+    },
+    "E24": {
+      "different_objects_rejected": 50,
+      "same_object_rejected": 25,
+      "cannot_tell_rejected": 4,
+      "same_object_admitted": 4,
+      "part_whole_or_ambiguous_rejected": 6,
+      "different_objects_admitted": 2
+    },
+    "E14": {
+      "different_objects_rejected": 21,
+      "part_whole_or_ambiguous_rejected": 4,
+      "same_object_admitted": 1,
+      "different_objects_admitted": 4,
+      "same_object_rejected": 20,
+      "cannot_tell_rejected": 1
+    },
+    "E09": {
+      "different_objects_rejected": 21,
+      "part_whole_or_ambiguous_rejected": 7,
+      "cannot_tell_rejected": 4,
+      "same_object_rejected": 29,
+      "same_object_admitted": 3,
+      "different_objects_admitted": 2
+    },
+    "E23": {
+      "same_object_rejected": 22,
+      "different_objects_rejected": 12,
+      "part_whole_or_ambiguous_rejected": 7,
+      "different_objects_admitted": 2,
+      "same_object_admitted": 2,
+      "cannot_tell_rejected": 1
+    },
+    "E10": {
+      "same_object_rejected": 10,
+      "cannot_tell_rejected": 7,
+      "different_objects_rejected": 5,
+      "part_whole_or_ambiguous_rejected": 2,
+      "part_whole_or_ambiguous_admitted": 1,
+      "cannot_tell_admitted": 1,
+      "same_object_admitted": 1
+    },
+    "E19": {
+      "cannot_tell_rejected": 3,
+      "same_object_rejected": 13,
+      "part_whole_or_ambiguous_rejected": 6,
+      "cannot_tell_admitted": 2,
+      "different_objects_rejected": 19,
+      "same_object_admitted": 1,
+      "different_objects_admitted": 1
+    },
+    "E05": {
+      "same_object_rejected": 10,
+      "different_objects_rejected": 13,
+      "cannot_tell_rejected": 1,
+      "same_object_admitted": 5,
+      "different_objects_admitted": 1
+    },
+    "E08": {
+      "same_object_admitted": 1,
+      "different_objects_admitted": 4,
+      "part_whole_or_ambiguous_rejected": 2,
+      "different_objects_rejected": 9,
+      "same_object_rejected": 3,
+      "cannot_tell_rejected": 1
+    },
+    "E07": {
+      "same_object_admitted": 4,
+      "same_object_rejected": 16,
+      "part_whole_or_ambiguous_admitted": 1,
+      "cannot_tell_rejected": 4,
+      "part_whole_or_ambiguous_rejected": 4,
+      "different_objects_admitted": 2,
+      "different_objects_rejected": 18
+    },
+    "E03": {
+      "different_objects_rejected": 6,
+      "cannot_tell_rejected": 1,
+      "same_object_rejected": 6,
+      "same_object_admitted": 3
+    },
+    "E01": {
+      "different_objects_rejected": 9,
+      "cannot_tell_rejected": 3,
+      "different_objects_admitted": 3,
+      "same_object_rejected": 1
+    },
+    "E20": {
+      "different_objects_rejected": 14,
+      "part_whole_or_ambiguous_rejected": 2,
+      "same_object_rejected": 14,
+      "part_whole_or_ambiguous_admitted": 1,
+      "same_object_admitted": 5,
+      "different_objects_admitted": 1,
+      "cannot_tell_rejected": 1
+    },
+    "E06": {
+      "same_object_rejected": 5,
+      "different_objects_rejected": 9,
+      "part_whole_or_ambiguous_admitted": 1,
+      "cannot_tell_admitted": 2,
+      "cannot_tell_rejected": 6,
+      "same_object_admitted": 2
+    },
+    "E02": {
+      "same_object_rejected": 11,
+      "same_object_admitted": 1,
+      "different_objects_rejected": 5,
+      "part_whole_or_ambiguous_rejected": 2,
+      "different_objects_admitted": 1,
+      "cannot_tell_rejected": 3,
+      "cannot_tell_admitted": 4
+    },
+    "E15": {
+      "part_whole_or_ambiguous_admitted": 1,
+      "part_whole_or_ambiguous_rejected": 1,
+      "same_object_rejected": 9,
+      "same_object_admitted": 1,
+      "different_objects_rejected": 5,
+      "different_objects_admitted": 1
+    },
+    "E12": {
+      "part_whole_or_ambiguous_rejected": 2,
+      "same_object_rejected": 7,
+      "cannot_tell_rejected": 2,
+      "same_object_admitted": 3,
+      "different_objects_rejected": 5
+    },
+    "E22": {
+      "different_objects_rejected": 6,
+      "part_whole_or_ambiguous_rejected": 3,
+      "cannot_tell_rejected": 1,
+      "same_object_rejected": 6,
+      "different_objects_admitted": 2,
+      "same_object_admitted": 1
+    },
+    "E16": {
+      "same_object_rejected": 17,
+      "part_whole_or_ambiguous_rejected": 8,
+      "same_object_admitted": 4,
+      "different_objects_admitted": 2,
+      "different_objects_rejected": 15
+    },
+    "E18": {
+      "different_objects_rejected": 10,
+      "different_objects_admitted": 2,
+      "same_object_admitted": 2
+    },
+    "E17": {
+      "different_objects_rejected": 13,
+      "different_objects_admitted": 2,
+      "same_object_rejected": 4,
+      "part_whole_or_ambiguous_admitted": 1,
+      "same_object_admitted": 3
+    },
+    "E04": {
+      "different_objects_rejected": 13,
+      "cannot_tell_rejected": 4,
+      "same_object_admitted": 2,
+      "cannot_tell_admitted": 1
+    }
+  },
+  "by_confidence": {
+    "medium": {
+      "cannot_tell_rejected": 5,
+      "same_object_admitted": 4,
+      "different_objects_rejected": 36,
+      "part_whole_or_ambiguous_rejected": 7,
+      "different_objects_admitted": 4,
+      "same_object_rejected": 45
+    },
+    "high": {
+      "same_object_rejected": 178,
+      "different_objects_rejected": 257,
+      "cannot_tell_rejected": 48,
+      "part_whole_or_ambiguous_rejected": 43,
+      "different_objects_admitted": 31,
+      "part_whole_or_ambiguous_admitted": 4,
+      "same_object_admitted": 42,
+      "cannot_tell_admitted": 13
+    },
+    "low": {
+      "part_whole_or_ambiguous_rejected": 11,
+      "different_objects_rejected": 11,
+      "same_object_rejected": 37,
+      "part_whole_or_ambiguous_admitted": 2,
+      "same_object_admitted": 8,
+      "cannot_tell_rejected": 10,
+      "different_objects_admitted": 2
+    }
+  },
+  "unique_map_track_pairs": 798,
+  "unchanging_unique_track_pair_counts": {
+    "cannot_tell_rejected": 63,
+    "same_object_rejected": 260,
+    "different_objects_rejected": 304,
+    "same_object_admitted": 54,
+    "part_whole_or_ambiguous_rejected": 61,
+    "different_objects_admitted": 37,
+    "part_whole_or_ambiguous_admitted": 6,
+    "cannot_tell_admitted": 13
+  },
+  "varying_or_disagreeing_track_pairs": [],
+  "caveat": "Track-pair deduplication is not physical-identity deduplication. Multiple track IDs can represent one object; ambiguous/unresolved labels never counted as confirmed true or false."
+}

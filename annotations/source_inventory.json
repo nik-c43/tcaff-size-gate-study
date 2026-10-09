@@ -1,0 +1,52 @@
+[
+  {
+    "source_path": "data/labels(5).json",
+    "path": "annotations/originals/labels-final-export.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "records": 798,
+    "assigned": 798,
+    "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+    "purpose": "final user export"
+  },
+  {
+    "source_path": "data/size_gate_study/labels.json",
+    "path": "annotations/originals/labels-final-canonical.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "records": 798,
+    "assigned": 798,
+    "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+    "purpose": "canonical used in metrics"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/labels_snapshot.json",
+    "path": "annotations/originals/labels-final-run-snapshot.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "records": 798,
+    "assigned": 798,
+    "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+    "purpose": "immutable experiment input"
+  },
+  {
+    "source_path": "results/size_gate_partial_150/analysis_private/labels_snapshot.json",
+    "path": "annotations/originals/labels-partial-snapshot.json",
+    "source_bytes": 86694,
+    "source_sha256": "4d66c3812256b181a67efd566d867a461e84735647a1f518cf0716d2021dc96a",
+    "records": 798,
+    "assigned": 159,
+    "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+    "purpose": "intermediate export: 159 assigned"
+  },
+  {
+    "source_path": "data/size_gate_study/annotation_blind/labels_template.json",
+    "path": "annotations/originals/labels-template.json",
+    "source_bytes": 83117,
+    "source_sha256": "f66b80e37de3cadb4a7dba36104cf7a0497ceeb501b9fca860aad8e9eebe0308",
+    "records": 798,
+    "assigned": 0,
+    "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+    "purpose": "original blank template"
+  }
+]

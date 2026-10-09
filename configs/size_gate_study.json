@@ -1,0 +1,51 @@
+{
+  "title": "Диагностика отказов TCAFF на авторских наблюдениях: влияние размерной фильтрации объектных соответствий",
+  "version": 1,
+  "seed": 20261008,
+  "baseline": "data/tcaff_baseline_release",
+  "audit": "results/h1_real_map_audit.json",
+  "output": "data/size_gate_study",
+  "tcaff_commit": "ff4ceab04b03fecabc4de9c9cbe7dbba4ab50df9",
+  "clipper_commit": "e514dc29c273837ffdfeebbefbdcb2a93d970969",
+  "proxy": {"dimension": 3, "radius_m": 0.6, "required": 5, "meaning": "GT-transformed centroid proximity and maximum one-to-one matching; never an identity label or a CLIPPER clique"},
+  "anchors": {
+    "RR01_RR04": [23, 130, 201, 263],
+    "RR01_RR06": [12, 76, 216, 285],
+    "RR01_RR08": [50, 119, 247, 310],
+    "RR04_RR06": [16, 86, 222, 291],
+    "RR04_RR08": [3, 116, 185, 254],
+    "RR06_RR08": [40, 109, 178, 257]
+  },
+  "selection": "Two early development and two late holdout anchors per canonical pair, each satisfying the proxy drop criterion. The RR01_RR04 step23 window contains the one incorrect global first solution among these six frozen streams. Same-pair anchors separated by >=40 updates. This is a diagnostic sample enriched for gate loss, not an unbiased dataset sample.",
+  "split": "For each pair, first two anchors development; last two holdout. Development windows end at step150, holdout windows start at step170. No cross-split overlap. These are held out from new parameter selection, not previously unseen recordings.",
+  "primary_comparison": "After freezing alpha, run the original and relaxed factories from recording start, preserving temporal history. Compare pose errors and availability on the late holdout windows against frozen B0 and stochastic B0 reruns. Global first initialization occurs in the development prefix and is descriptive, not a holdout initialization test.",
+  "initialization_diagnosis": "Separately compare identical cold starts on the selected saved-map windows. Label these supplemental diagnostics explicitly; window resets change the input history, not B0 code/configuration. Never present the first accepted update of an already initialized full-history holdout window as a new initialization.",
+  "window": {"lead_updates": 8, "length_updates": 29, "start": "max(0, anchor-8)", "state": "Cold-start both original factories on the same saved maps; separately retain original full-history B0 context. Mapper is not reset or changed. These diagnostic starts are not independent robot recordings."},
+  "annotation": {
+    "pool": "All centroid-near edges at every selected anchor, including maximum-matching edges, size-admitted edges and near alternatives. No gate-dependent edge sampling.",
+    "blind": "Hide gate decision, numeric dimensions, exclusion reason, outcome, proxy distance, split and target/control roles from primary review. Do not include private metadata in the blind bundle.",
+    "labels": ["same_object", "different_objects", "part_whole_or_ambiguous", "cannot_tell"],
+    "identity_rule": "same_object requires visual evidence for the same physical object. A center, proximity or track ID is insufficient; different parts/merged segments go to part_whole_or_ambiguous unless physical identity is clear.",
+    "required_before_experiment": "Complete exported manual labels for every task, with dataset fingerprint and a nonempty annotator name; uncertain labels are allowed but reported separately. No default labels or pseudo-ground-truth.",
+    "negative_controls": "Near alternative edges are candidates for hard negatives, not automatically different objects. Confirm their identity manually; visual screening, if recorded, is separate from the manual labels. Gate-admitted means putative candidate admitted, not selected by MNO-CLIPPER.",
+    "masks": "Author JSON contains no segmentation masks or exact boundaries. Show actual RGB and saved image-space covariance ellipses, explicitly not segmentation boundaries. Context crops are not detection boxes."
+  },
+  "relaxation": {
+    "alpha_grid_development_only": [1.25, 1.5, 2.0],
+    "formula": {"wh_scale_diff": "1 + alpha * (1.35 - 1)", "h_diff": "alpha * 0.1"},
+    "selection": "Among development candidates whose mean wrong-first-start count <= B0, maximize correctly initialized starts by horizon; then minimize wrong-first count; then maximize correct-update availability; then choose smallest alpha. If none satisfies constraint, choose the smallest-alpha candidate and report constraint violation, without a success claim. Freeze one alpha and selection evidence before reading holdout results.",
+    "repetitions": 5,
+    "randomness": "Retain upstream CLIPPER random_device. Repetitions describe solver variability within an episode, not independent experiments. Store all new proposals; verify deterministic temporal replay. No hidden seeded solver substitution.",
+    "unchanged": ["Frozen B0 files", "Object maps and tracks", "Cost function including original q squared", "CLIPPER settings and repeats", "Temporal filter and thresholds", "No object merging", "No adaptive gate"],
+    "stage_order": "Prepare bundle -> manual labels -> count gate errors -> development only -> freeze one alpha -> evaluate holdout B0 versus that alpha. Do not tune before annotations."
+  },
+  "metrics": {
+    "correct_pose": {"translation_m_max": 1.0, "yaw_deg_max": 5.0},
+    "pose_errors": "SE(2) inv(T_GT) @ T_EST translation norm and absolute wrapped yaw; mean/median on accepted GT-valid updates, always accompanied by availability and correct-update availability.",
+    "availability": "All accepted updates / all updates in the fixed window.",
+    "wrong_first": "First accepted solution has >1m or >5deg error. Distinguish from no first solution and later incorrect poses.",
+    "time_to_correct": "Seconds from window start to first accepted correct solution; absent correct solution is right-censored at the window end. Also show fraction correctly initialized by horizon; do not average only successful delays as the main conclusion.",
+    "annotation_counts": "True rejected, true admitted, false rejected, false admitted, unresolved by gate. Report pair-observation counts and deduplicated map-track pairs separately, not object-level truth unless independently annotated.",
+    "inference": "One four-robot recording. Frames, windows, six canonical pairs and twelve directed pairs are correlated. Report descriptive paired episode results, temporal blocks and solver-repeat ranges; no n=12 claim or independent-trial significance. Selection enrichment limits generalization."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Selected illustrations requiring external original images, no publication permission established",
+  "tasks": [
+    {
+      "task_id": "P0002",
+      "purpose": "same_object high, excluded; user note: different viewpoints"
+    },
+    {
+      "task_id": "P0034",
+      "purpose": "different_objects high, admitted negative control"
+    },
+    {
+      "task_id": "P0026",
+      "purpose": "part_whole_or_ambiguous high, excluded"
+    },
+    {
+      "task_id": "P0179",
+      "purpose": "cannot_tell low, excluded"
+    }
+  ]
+}

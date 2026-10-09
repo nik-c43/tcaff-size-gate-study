@@ -1,0 +1,36 @@
+{
+  "all_checks_passed": true,
+  "utc_time": "2026-10-08T23:37:10.927645+00:00",
+  "previous_verification_sha256": "a58838d13bd5acdb8f3a38c88dd51b95f763fb4c093aee1bdf2a9b31029f0e4e",
+  "previous_artifacts_unchanged": true,
+  "primary_outputs_unchanged": true,
+  "frozen_bundle_and_upstream_unchanged": true,
+  "labels_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+  "complete_annotation_count": 798,
+  "primary_verified_run_files": 420,
+  "completed_followup_studies": 14,
+  "occlusion_model_cases": 80,
+  "occlusion_cases_consistent": true,
+  "plot_changes_layout_only": true,
+  "artifact_hashes": {
+    "notes/size_gate_occlusion_followup_20261009.md": "5f50360224c0aca9e0ead1f073e1a9bebd353fdebac0172b3ea6aec6df4b0559",
+    "results/size_gate_occlusion_diagnosis_20261009/cases.json": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+    "results/size_gate_occlusion_diagnosis_20261009/display_masks.npz": "4633d4495a9d3213fee23e809d3be5a45e252aba56f2faa5685735a8861b5595",
+    "results/size_gate_occlusion_diagnosis_20261009/occlusion_centroid.png": "3933cc820e4fc6f89ac08b22929e2ab27c63293074d7800ef55d068bfcd31d38",
+    "results/size_gate_occlusion_diagnosis_20261009/occlusion_centroid_readable.png": "20a73b3ea38f4ae1f8a4390c11731f4b291da5eca7eb71009a2d403d5386ff0b",
+    "results/size_gate_occlusion_diagnosis_20261009/plot_provenance.json": "f90753a2f74d7b69005d43243225faf2e453083aa04f01beb2de46a5767c63fd",
+    "results/size_gate_occlusion_diagnosis_20261009/report.md": "7d20eb40c844d2da942d8fee47ae2a18211531d6a5c8465d11f73a00e35abb53",
+    "results/size_gate_occlusion_diagnosis_20261009/report_original.md": "125de77af76b0a4f51d61d9c84a76739dae50495f206efc9c6b7f08beaad6044",
+    "results/size_gate_occlusion_diagnosis_20261009/size_gate_occlusion_diagnosis.log": "3000be749085ee225aa987bb7eb161ae9234ee39431c84f4fe78bed4d47f686a",
+    "results/size_gate_occlusion_diagnosis_20261009/size_gate_occlusion_plot.log": "980b2e0866fd64467418cd74c8bceb9f8b8130d5a9520376cb78360ca641e752",
+    "results/size_gate_occlusion_diagnosis_20261009/summary.json": "eeda4c3983558091b4cc6663adc7130c4fec9ad6d91235cefab925d60fb7cd56",
+    "results/size_gate_research_continuation_20261009/index.md": "6c2ff222e7d942dd8ccadf2f1c75068ff564b1f717a0e107294b293743c91260",
+    "scripts/size_gate_occlusion_diagnosis.py": "c8109261aeee013c75e8feb2ef1e570c24030e5f340a964e0fbcbcdf32a0195e",
+    "scripts/size_gate_occlusion_plot.py": "4925fe5ddb3f791b9fce7f690bdc415a833e5319df63f4b632ffa95ce7cd3780"
+  },
+  "verifier_sha256": "9fd49bd06ef7bdbafce826e25f7ee9a9f7504f4556d7df334ae112c86c72003e",
+  "command": [
+    "scripts/size_gate_occlusion_verify.py"
+  ],
+  "scope": "Integrity and saved model consistency; not independent real-data validation"
+}

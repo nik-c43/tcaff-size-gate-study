@@ -1,0 +1,1984 @@
+{
+  "fingerprint": "d0d1cd7d9124d366ce4a6a840c751bf6bc6ff33d6093ed61a2356104a82f6001",
+  "alpha": 2.0,
+  "frozen_B0_holdout_context": {
+    "episodes": 12,
+    "solver_runs": 12,
+    "per_episode": [
+      {
+        "episode_id": "E09",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 1.0,
+        "correct_update_availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "mean_translation_m": 0.31299688826682975,
+        "mean_translation_m_repeat_range": [
+          0.31299688826682975,
+          0.31299688826682975
+        ],
+        "median_translation_m": 0.27273009466763387,
+        "median_translation_m_repeat_range": [
+          0.27273009466763387,
+          0.27273009466763387
+        ],
+        "mean_yaw_deg": 0.9132390150728502,
+        "mean_yaw_deg_repeat_range": [
+          0.9132390150728502,
+          0.9132390150728502
+        ],
+        "median_yaw_deg": 0.8547800030776745,
+        "median_yaw_deg_repeat_range": [
+          0.8547800030776745,
+          0.8547800030776745
+        ]
+      },
+      {
+        "episode_id": "E21",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.06896551724137931,
+        "correct_update_availability_repeat_range": [
+          0.06896551724137931,
+          0.06896551724137931
+        ],
+        "mean_translation_m": 0.701804810770035,
+        "mean_translation_m_repeat_range": [
+          0.701804810770035,
+          0.701804810770035
+        ],
+        "median_translation_m": 0.6965357359644574,
+        "median_translation_m_repeat_range": [
+          0.6965357359644574,
+          0.6965357359644574
+        ],
+        "mean_yaw_deg": 6.800462211894922,
+        "mean_yaw_deg_repeat_range": [
+          6.800462211894922,
+          6.800462211894922
+        ],
+        "median_yaw_deg": 6.656685466695856,
+        "median_yaw_deg_repeat_range": [
+          6.656685466695856,
+          6.656685466695856
+        ]
+      },
+      {
+        "episode_id": "E19",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.8620689655172413,
+        "correct_update_availability_repeat_range": [
+          0.8620689655172413,
+          0.8620689655172413
+        ],
+        "mean_translation_m": 0.22551848838407962,
+        "mean_translation_m_repeat_range": [
+          0.22551848838407962,
+          0.22551848838407962
+        ],
+        "median_translation_m": 0.21605265278549485,
+        "median_translation_m_repeat_range": [
+          0.21605265278549485,
+          0.21605265278549485
+        ],
+        "mean_yaw_deg": 2.3386794348983413,
+        "mean_yaw_deg_repeat_range": [
+          2.3386794348983413,
+          2.3386794348983413
+        ],
+        "median_yaw_deg": 1.6575533532791913,
+        "median_yaw_deg_repeat_range": [
+          1.6575533532791913,
+          1.6575533532791913
+        ]
+      },
+      {
+        "episode_id": "E23",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.5862068965517241,
+        "correct_update_availability_repeat_range": [
+          0.5862068965517241,
+          0.5862068965517241
+        ],
+        "mean_translation_m": 0.36568238897624794,
+        "mean_translation_m_repeat_range": [
+          0.36568238897624794,
+          0.36568238897624794
+        ],
+        "median_translation_m": 0.3557921167035837,
+        "median_translation_m_repeat_range": [
+          0.3557921167035837,
+          0.3557921167035837
+        ],
+        "mean_yaw_deg": 3.633012628898368,
+        "mean_yaw_deg_repeat_range": [
+          3.633012628898368,
+          3.633012628898368
+        ],
+        "median_yaw_deg": 3.6229334595010996,
+        "median_yaw_deg_repeat_range": [
+          3.6229334595010996,
+          3.6229334595010996
+        ]
+      },
+      {
+        "episode_id": "E04",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.5862068965517241,
+        "correct_update_availability_repeat_range": [
+          0.5862068965517241,
+          0.5862068965517241
+        ],
+        "mean_translation_m": 0.7452972300231956,
+        "mean_translation_m_repeat_range": [
+          0.7452972300231956,
+          0.7452972300231956
+        ],
+        "median_translation_m": 0.6257826490078894,
+        "median_translation_m_repeat_range": [
+          0.6257826490078894,
+          0.6257826490078894
+        ],
+        "mean_yaw_deg": 3.187178740121588,
+        "mean_yaw_deg_repeat_range": [
+          3.187178740121588,
+          3.187178740121588
+        ],
+        "median_yaw_deg": 2.9054030112110554,
+        "median_yaw_deg_repeat_range": [
+          2.9054030112110554,
+          2.9054030112110554
+        ]
+      },
+      {
+        "episode_id": "E17",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.6206896551724138,
+        "correct_update_availability_repeat_range": [
+          0.6206896551724138,
+          0.6206896551724138
+        ],
+        "mean_translation_m": 0.7761839458830103,
+        "mean_translation_m_repeat_range": [
+          0.7761839458830103,
+          0.7761839458830103
+        ],
+        "median_translation_m": 0.7899479095761547,
+        "median_translation_m_repeat_range": [
+          0.7899479095761547,
+          0.7899479095761547
+        ],
+        "mean_yaw_deg": 3.6402867398929755,
+        "mean_yaw_deg_repeat_range": [
+          3.6402867398929755,
+          3.6402867398929755
+        ],
+        "median_yaw_deg": 4.167082440293974,
+        "median_yaw_deg_repeat_range": [
+          4.167082440293974,
+          4.167082440293974
+        ]
+      },
+      {
+        "episode_id": "E06",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.9655172413793104,
+        "correct_update_availability_repeat_range": [
+          0.9655172413793104,
+          0.9655172413793104
+        ],
+        "mean_translation_m": 0.27154679035809426,
+        "mean_translation_m_repeat_range": [
+          0.27154679035809426,
+          0.27154679035809426
+        ],
+        "median_translation_m": 0.27807908504315526,
+        "median_translation_m_repeat_range": [
+          0.27807908504315526,
+          0.27807908504315526
+        ],
+        "mean_yaw_deg": 2.452628708460556,
+        "mean_yaw_deg_repeat_range": [
+          2.452628708460556,
+          2.452628708460556
+        ],
+        "median_yaw_deg": 2.1638849015109303,
+        "median_yaw_deg_repeat_range": [
+          2.1638849015109303,
+          2.1638849015109303
+        ]
+      },
+      {
+        "episode_id": "E11",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.9310344827586207,
+        "correct_update_availability_repeat_range": [
+          0.9310344827586207,
+          0.9310344827586207
+        ],
+        "mean_translation_m": 0.2751065087143293,
+        "mean_translation_m_repeat_range": [
+          0.2751065087143293,
+          0.2751065087143293
+        ],
+        "median_translation_m": 0.24496245877319056,
+        "median_translation_m_repeat_range": [
+          0.24496245877319056,
+          0.24496245877319056
+        ],
+        "mean_yaw_deg": 1.9827828375679077,
+        "mean_yaw_deg_repeat_range": [
+          1.9827828375679077,
+          1.9827828375679077
+        ],
+        "median_yaw_deg": 1.589755637118105,
+        "median_yaw_deg_repeat_range": [
+          1.589755637118105,
+          1.589755637118105
+        ]
+      },
+      {
+        "episode_id": "E08",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.9310344827586207,
+        "correct_update_availability_repeat_range": [
+          0.9310344827586207,
+          0.9310344827586207
+        ],
+        "mean_translation_m": 0.4489778841788784,
+        "mean_translation_m_repeat_range": [
+          0.4489778841788784,
+          0.4489778841788784
+        ],
+        "median_translation_m": 0.42791759420492964,
+        "median_translation_m_repeat_range": [
+          0.42791759420492964,
+          0.42791759420492964
+        ],
+        "mean_yaw_deg": 2.5960821799870386,
+        "mean_yaw_deg_repeat_range": [
+          2.5960821799870386,
+          2.5960821799870386
+        ],
+        "median_yaw_deg": 2.9290498040806536,
+        "median_yaw_deg_repeat_range": [
+          2.9290498040806536,
+          2.9290498040806536
+        ]
+      },
+      {
+        "episode_id": "E18",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.8275862068965517,
+        "correct_update_availability_repeat_range": [
+          0.8275862068965517,
+          0.8275862068965517
+        ],
+        "mean_translation_m": 0.5698968002572763,
+        "mean_translation_m_repeat_range": [
+          0.5698968002572763,
+          0.5698968002572763
+        ],
+        "median_translation_m": 0.4391972247659517,
+        "median_translation_m_repeat_range": [
+          0.4391972247659517,
+          0.4391972247659517
+        ],
+        "mean_yaw_deg": 2.06157117396406,
+        "mean_yaw_deg_repeat_range": [
+          2.06157117396406,
+          2.06157117396406
+        ],
+        "median_yaw_deg": 1.930038313926579,
+        "median_yaw_deg_repeat_range": [
+          1.930038313926579,
+          1.930038313926579
+        ]
+      },
+      {
+        "episode_id": "E14",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.6551724137931034,
+        "correct_update_availability_repeat_range": [
+          0.6551724137931034,
+          0.6551724137931034
+        ],
+        "mean_translation_m": 0.6732782053637846,
+        "mean_translation_m_repeat_range": [
+          0.6732782053637846,
+          0.6732782053637846
+        ],
+        "median_translation_m": 0.6797596415843509,
+        "median_translation_m_repeat_range": [
+          0.6797596415843509,
+          0.6797596415843509
+        ],
+        "mean_yaw_deg": 2.4875056193296006,
+        "mean_yaw_deg_repeat_range": [
+          2.4875056193296006,
+          2.4875056193296006
+        ],
+        "median_yaw_deg": 2.0577814374489116,
+        "median_yaw_deg_repeat_range": [
+          2.0577814374489116,
+          2.0577814374489116
+        ]
+      },
+      {
+        "episode_id": "E22",
+        "repetitions": 1,
+        "availability": 1.0,
+        "availability_repeat_range": [
+          1.0,
+          1.0
+        ],
+        "correct_update_availability": 0.41379310344827586,
+        "correct_update_availability_repeat_range": [
+          0.41379310344827586,
+          0.41379310344827586
+        ],
+        "mean_translation_m": 0.7156459526206718,
+        "mean_translation_m_repeat_range": [
+          0.7156459526206718,
+          0.7156459526206718
+        ],
+        "median_translation_m": 0.665065649081158,
+        "median_translation_m_repeat_range": [
+          0.665065649081158,
+          0.665065649081158
+        ],
+        "mean_yaw_deg": 3.948747600713059,
+        "mean_yaw_deg_repeat_range": [
+          3.948747600713059,
+          3.948747600713059
+        ],
+        "median_yaw_deg": 4.719318444752821,
+        "median_yaw_deg_repeat_range": [
+          4.719318444752821,
+          4.719318444752821
+        ]
+      }
+    ],
+    "availability": 1.0,
+    "correct_update_availability": 0.7040229885057471,
+    "mean_translation_m": 0.5068279911497028,
+    "mean_yaw_deg": 3.003514740900106
+  },
+  "rerun_holdout_context": {
+    "1.0": {
+      "episodes": 12,
+      "solver_runs": 60,
+      "per_episode": [
+        {
+          "episode_id": "E09",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 1.0,
+          "correct_update_availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "mean_translation_m": 0.31300247658705777,
+          "mean_translation_m_repeat_range": [
+            0.3129968827979424,
+            0.31301068264558773
+          ],
+          "median_translation_m": 0.27275047235626715,
+          "median_translation_m_repeat_range": [
+            0.272730088027553,
+            0.27277471919886875
+          ],
+          "mean_yaw_deg": 0.9108065005389003,
+          "mean_yaw_deg_repeat_range": [
+            0.9059428565737574,
+            0.9132677770730395
+          ],
+          "median_yaw_deg": 0.8421637474411947,
+          "median_yaw_deg_repeat_range": [
+            0.8169444921190326,
+            0.8549293994098291
+          ],
+          "runtime_s": 0.6498345457948744,
+          "runtime_s_repeat_range": [
+            0.6467647869430948,
+            0.658103316964116
+          ]
+        },
+        {
+          "episode_id": "E21",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.027586206896551724,
+          "correct_update_availability_repeat_range": [
+            0.0,
+            0.06896551724137931
+          ],
+          "mean_translation_m": 0.7443906353227527,
+          "mean_translation_m_repeat_range": [
+            0.7018048107707521,
+            0.7727811873614172
+          ],
+          "median_translation_m": 0.8524778551498347,
+          "median_translation_m_repeat_range": [
+            0.6965357359649662,
+            0.9564392694810855
+          ],
+          "mean_yaw_deg": 6.848518948739468,
+          "mean_yaw_deg_repeat_range": [
+            6.8004617135347845,
+            6.880639117070387
+          ],
+          "median_yaw_deg": 6.656750217523092,
+          "median_yaw_deg_repeat_range": [
+            6.656684694451479,
+            6.6568795064507045
+          ],
+          "runtime_s": 0.9516278193856124,
+          "runtime_s_repeat_range": [
+            0.8766065379895736,
+            1.224433382973075
+          ]
+        },
+        {
+          "episode_id": "E19",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.8275862068965518,
+          "correct_update_availability_repeat_range": [
+            0.6896551724137931,
+            0.8620689655172413
+          ],
+          "mean_translation_m": 0.2202091105068571,
+          "mean_translation_m_repeat_range": [
+            0.19876459000471175,
+            0.22673624469819564
+          ],
+          "median_translation_m": 0.2097120451159597,
+          "median_translation_m_repeat_range": [
+            0.19025156250303607,
+            0.21457777419640892
+          ],
+          "mean_yaw_deg": 2.4930368972942945,
+          "mean_yaw_deg_repeat_range": [
+            2.346085417257523,
+            3.063115784119694
+          ],
+          "median_yaw_deg": 1.8822679920538086,
+          "median_yaw_deg_repeat_range": [
+            1.6645264118717025,
+            2.7294899705532933
+          ],
+          "runtime_s": 1.148219165962655,
+          "runtime_s_repeat_range": [
+            1.1432875188766047,
+            1.1549255599675234
+          ]
+        },
+        {
+          "episode_id": "E23",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.5793103448275861,
+          "correct_update_availability_repeat_range": [
+            0.5517241379310345,
+            0.5862068965517241
+          ],
+          "mean_translation_m": 0.3685698955463867,
+          "mean_translation_m_repeat_range": [
+            0.3666101413479847,
+            0.3762157394602608
+          ],
+          "median_translation_m": 0.35647596383491326,
+          "median_translation_m_repeat_range": [
+            0.3564048847879478,
+            0.3565109198448368
+          ],
+          "mean_yaw_deg": 3.6172065968479408,
+          "mean_yaw_deg_repeat_range": [
+            3.590320770000084,
+            3.7156889710840115
+          ],
+          "median_yaw_deg": 3.649791882364428,
+          "median_yaw_deg_repeat_range": [
+            3.577199965131079,
+            3.937473700390234
+          ],
+          "runtime_s": 1.1520779706188478,
+          "runtime_s_repeat_range": [
+            1.1378335980407428,
+            1.1658187140128575
+          ]
+        },
+        {
+          "episode_id": "E04",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.5862068965517241,
+          "correct_update_availability_repeat_range": [
+            0.5862068965517241,
+            0.5862068965517241
+          ],
+          "mean_translation_m": 0.7433723472461611,
+          "mean_translation_m_repeat_range": [
+            0.7421934643294816,
+            0.7453237832610808
+          ],
+          "median_translation_m": 0.6232676184885291,
+          "median_translation_m_repeat_range": [
+            0.6217499939376713,
+            0.6258470297351196
+          ],
+          "mean_yaw_deg": 3.1631896382228946,
+          "mean_yaw_deg_repeat_range": [
+            3.1496190676564155,
+            3.1999608752956132
+          ],
+          "median_yaw_deg": 2.851508785479984,
+          "median_yaw_deg_repeat_range": [
+            2.823239053053068,
+            2.927534226653808
+          ],
+          "runtime_s": 0.6553824690403417,
+          "runtime_s_repeat_range": [
+            0.57688519693329,
+            0.9648935921723023
+          ]
+        },
+        {
+          "episode_id": "E17",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.593103448275862,
+          "correct_update_availability_repeat_range": [
+            0.5862068965517241,
+            0.6206896551724138
+          ],
+          "mean_translation_m": 0.7901153430726862,
+          "mean_translation_m_repeat_range": [
+            0.7761836443940144,
+            0.7935983069192795
+          ],
+          "median_translation_m": 0.8407412691566437,
+          "median_translation_m_repeat_range": [
+            0.7899478440717939,
+            0.8534397848008964
+          ],
+          "mean_yaw_deg": 3.7657484648345774,
+          "mean_yaw_deg_repeat_range": [
+            3.640159392125118,
+            3.7972020195858134
+          ],
+          "median_yaw_deg": 4.169874687014432,
+          "median_yaw_deg_repeat_range": [
+            4.166946014961074,
+            4.170706858566333
+          ],
+          "runtime_s": 0.6704459714179393,
+          "runtime_s_repeat_range": [
+            0.6596346800797619,
+            0.6810808989685029
+          ]
+        },
+        {
+          "episode_id": "E06",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9655172413793103,
+          "correct_update_availability_repeat_range": [
+            0.9655172413793104,
+            0.9655172413793104
+          ],
+          "mean_translation_m": 0.2722375282715954,
+          "mean_translation_m_repeat_range": [
+            0.2715577392681528,
+            0.2728805862476708
+          ],
+          "median_translation_m": 0.2782267629655381,
+          "median_translation_m_repeat_range": [
+            0.2780779944177778,
+            0.2784438191093748
+          ],
+          "mean_yaw_deg": 2.452816979030568,
+          "mean_yaw_deg_repeat_range": [
+            2.37121594348934,
+            2.4852976780319787
+          ],
+          "median_yaw_deg": 2.181933198933647,
+          "median_yaw_deg_repeat_range": [
+            2.162472091136451,
+            2.2564722641139037
+          ],
+          "runtime_s": 1.4979063683596905,
+          "runtime_s_repeat_range": [
+            1.3156905019714031,
+            1.770946088974597
+          ]
+        },
+        {
+          "episode_id": "E11",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9310344827586207,
+          "correct_update_availability_repeat_range": [
+            0.9310344827586207,
+            0.9310344827586207
+          ],
+          "mean_translation_m": 0.2730427814964783,
+          "mean_translation_m_repeat_range": [
+            0.2720251081119156,
+            0.27513551889423754
+          ],
+          "median_translation_m": 0.24451299938430182,
+          "median_translation_m_repeat_range": [
+            0.2435629010429468,
+            0.2451790022884768
+          ],
+          "mean_yaw_deg": 1.999099483428958,
+          "mean_yaw_deg_repeat_range": [
+            1.9829104475007977,
+            2.0134375334390056
+          ],
+          "median_yaw_deg": 1.6301596981761617,
+          "median_yaw_deg_repeat_range": [
+            1.5897498125314238,
+            1.6599123690574507
+          ],
+          "runtime_s": 1.12193286906695,
+          "runtime_s_repeat_range": [
+            1.1146849020151421,
+            1.1246513550868258
+          ]
+        },
+        {
+          "episode_id": "E08",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9310344827586207,
+          "correct_update_availability_repeat_range": [
+            0.9310344827586207,
+            0.9310344827586207
+          ],
+          "mean_translation_m": 0.44119288643584176,
+          "mean_translation_m_repeat_range": [
+            0.4280620361422426,
+            0.45010226886799276
+          ],
+          "median_translation_m": 0.4240836404074046,
+          "median_translation_m_repeat_range": [
+            0.4167980220237168,
+            0.4290456682904717
+          ],
+          "mean_yaw_deg": 2.5633964958794166,
+          "mean_yaw_deg_repeat_range": [
+            2.497091985524677,
+            2.6092877426389895
+          ],
+          "median_yaw_deg": 2.8781104448170494,
+          "median_yaw_deg_repeat_range": [
+            2.765444697509406,
+            2.9532114327535735
+          ],
+          "runtime_s": 0.5063348766067065,
+          "runtime_s_repeat_range": [
+            0.503590577893192,
+            0.5127528579032514
+          ]
+        },
+        {
+          "episode_id": "E18",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.8275862068965518,
+          "correct_update_availability_repeat_range": [
+            0.8275862068965517,
+            0.8275862068965517
+          ],
+          "mean_translation_m": 0.5705921791901181,
+          "mean_translation_m_repeat_range": [
+            0.5699215825261296,
+            0.5708698056499784
+          ],
+          "median_translation_m": 0.44266095458536575,
+          "median_translation_m_repeat_range": [
+            0.43922285946080436,
+            0.44365819394392403
+          ],
+          "mean_yaw_deg": 2.0712340389131016,
+          "mean_yaw_deg_repeat_range": [
+            2.06171108988713,
+            2.079152530513215
+          ],
+          "median_yaw_deg": 1.9792470337331523,
+          "median_yaw_deg_repeat_range": [
+            1.9307489904788089,
+            2.019340571029989
+          ],
+          "runtime_s": 0.6337731139967218,
+          "runtime_s_repeat_range": [
+            0.5384406299272086,
+            1.0057965309533756
+          ]
+        },
+        {
+          "episode_id": "E14",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.6551724137931034,
+          "correct_update_availability_repeat_range": [
+            0.6551724137931034,
+            0.6551724137931034
+          ],
+          "mean_translation_m": 0.6730085582586185,
+          "mean_translation_m_repeat_range": [
+            0.6714319740926875,
+            0.6735889930926569
+          ],
+          "median_translation_m": 0.6795839902849947,
+          "median_translation_m_repeat_range": [
+            0.67858664747418,
+            0.6799444469157329
+          ],
+          "mean_yaw_deg": 2.4835781557318817,
+          "mean_yaw_deg_repeat_range": [
+            2.4384768263972907,
+            2.498734932809089
+          ],
+          "median_yaw_deg": 2.0661624473534026,
+          "median_yaw_deg_repeat_range": [
+            1.9376571592371066,
+            2.1195364026777375
+          ],
+          "runtime_s": 0.2789342381816823,
+          "runtime_s_repeat_range": [
+            0.2766320379159879,
+            0.28200220290455036
+          ]
+        },
+        {
+          "episode_id": "E22",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.4344827586206897,
+          "correct_update_availability_repeat_range": [
+            0.41379310344827586,
+            0.4482758620689655
+          ],
+          "mean_translation_m": 0.7138690932949412,
+          "mean_translation_m_repeat_range": [
+            0.7128434956840285,
+            0.7161887127304418
+          ],
+          "median_translation_m": 0.662570800011208,
+          "median_translation_m_repeat_range": [
+            0.6611700342854775,
+            0.6657385626352673
+          ],
+          "mean_yaw_deg": 3.8922662174970313,
+          "mean_yaw_deg_repeat_range": [
+            3.8683947556666385,
+            3.945161872012287
+          ],
+          "median_yaw_deg": 4.653036382088938,
+          "median_yaw_deg_repeat_range": [
+            4.625023479975343,
+            4.715110551849353
+          ],
+          "runtime_s": 0.6825129793840461,
+          "runtime_s_repeat_range": [
+            0.5827157700259704,
+            1.0580310988880228
+          ]
+        }
+      ],
+      "availability": 1.0,
+      "correct_update_availability": 0.696551724137931,
+      "mean_translation_m": 0.5103002362691246,
+      "mean_yaw_deg": 3.0217415347465857,
+      "runtime_s": 0.829081865651339
+    },
+    "2.0": {
+      "episodes": 12,
+      "solver_runs": 60,
+      "per_episode": [
+        {
+          "episode_id": "E09",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 1.0,
+          "correct_update_availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "mean_translation_m": 0.29831264111331424,
+          "mean_translation_m_repeat_range": [
+            0.28011993343240726,
+            0.32525677764478017
+          ],
+          "median_translation_m": 0.24658221303382527,
+          "median_translation_m_repeat_range": [
+            0.2222665014537877,
+            0.28469870391035235
+          ],
+          "mean_yaw_deg": 1.0034608486548333,
+          "mean_yaw_deg_repeat_range": [
+            0.9130991625000708,
+            1.0881597835523773
+          ],
+          "median_yaw_deg": 0.7070051366143573,
+          "median_yaw_deg_repeat_range": [
+            0.6238903335087411,
+            0.828408500933917
+          ],
+          "runtime_s": 3.9678708584047855,
+          "runtime_s_repeat_range": [
+            3.9050928489887156,
+            4.179980895016342
+          ]
+        },
+        {
+          "episode_id": "E21",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.0,
+          "correct_update_availability_repeat_range": [
+            0.0,
+            0.0
+          ],
+          "mean_translation_m": 0.7305381707690103,
+          "mean_translation_m_repeat_range": [
+            0.726194062618449,
+            0.7342634184893936
+          ],
+          "median_translation_m": 0.9047178927253496,
+          "median_translation_m_repeat_range": [
+            0.8985080927216013,
+            0.909715011596126
+          ],
+          "mean_yaw_deg": 6.564919578726533,
+          "mean_yaw_deg_repeat_range": [
+            6.461606916669132,
+            6.675686887896349
+          ],
+          "median_yaw_deg": 6.365582790446187,
+          "median_yaw_deg_repeat_range": [
+            6.229469843168231,
+            6.4954753579460585
+          ],
+          "runtime_s": 5.151557871629484,
+          "runtime_s_repeat_range": [
+            5.0980181219638325,
+            5.3048156950681005
+          ]
+        },
+        {
+          "episode_id": "E19",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 1.0,
+          "correct_update_availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "mean_translation_m": 0.25693654988163145,
+          "mean_translation_m_repeat_range": [
+            0.2530809126132521,
+            0.2600081888705153
+          ],
+          "median_translation_m": 0.27364069751428544,
+          "median_translation_m_repeat_range": [
+            0.2674939400970853,
+            0.28293538468194984
+          ],
+          "mean_yaw_deg": 1.7129181976283,
+          "mean_yaw_deg_repeat_range": [
+            1.6804147685782227,
+            1.7558884369369627
+          ],
+          "median_yaw_deg": 1.541739106724645,
+          "median_yaw_deg_repeat_range": [
+            1.5111315740025968,
+            1.5891104140299983
+          ],
+          "runtime_s": 5.702112491376465,
+          "runtime_s_repeat_range": [
+            5.451570167031605,
+            6.027275684056804
+          ]
+        },
+        {
+          "episode_id": "E23",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.3448275862068966,
+          "correct_update_availability_repeat_range": [
+            0.3448275862068966,
+            0.3448275862068966
+          ],
+          "mean_translation_m": 0.5147846646546281,
+          "mean_translation_m_repeat_range": [
+            0.5071763356944943,
+            0.5261553372630454
+          ],
+          "median_translation_m": 0.4966370751150583,
+          "median_translation_m_repeat_range": [
+            0.4864419347155951,
+            0.5115899900851618
+          ],
+          "mean_yaw_deg": 6.424635901661063,
+          "mean_yaw_deg_repeat_range": [
+            6.278435881152912,
+            6.639053634475538
+          ],
+          "median_yaw_deg": 7.62204591106903,
+          "median_yaw_deg_repeat_range": [
+            7.478979982372441,
+            7.831866830068795
+          ],
+          "runtime_s": 6.184897108440055,
+          "runtime_s_repeat_range": [
+            5.952681280032266,
+            6.524795035977149
+          ]
+        },
+        {
+          "episode_id": "E04",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.48275862068965514,
+          "correct_update_availability_repeat_range": [
+            0.4827586206896552,
+            0.4827586206896552
+          ],
+          "mean_translation_m": 0.7941266717457112,
+          "mean_translation_m_repeat_range": [
+            0.7915169505238067,
+            0.7962596965018672
+          ],
+          "median_translation_m": 0.6692697365940319,
+          "median_translation_m_repeat_range": [
+            0.668952038563284,
+            0.6698488524133556
+          ],
+          "mean_yaw_deg": 3.5125504381101913,
+          "mean_yaw_deg_repeat_range": [
+            3.502215737495432,
+            3.5262637972935713
+          ],
+          "median_yaw_deg": 2.9252365048135838,
+          "median_yaw_deg_repeat_range": [
+            2.907790174926589,
+            2.9487757759938154
+          ],
+          "runtime_s": 2.456300561601529,
+          "runtime_s_repeat_range": [
+            2.4346542450075503,
+            2.475723582057981
+          ]
+        },
+        {
+          "episode_id": "E17",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.48275862068965514,
+          "correct_update_availability_repeat_range": [
+            0.4827586206896552,
+            0.4827586206896552
+          ],
+          "mean_translation_m": 0.9496046858588093,
+          "mean_translation_m_repeat_range": [
+            0.9478025673246397,
+            0.9503216747982948
+          ],
+          "median_translation_m": 1.0083297089973235,
+          "median_translation_m_repeat_range": [
+            1.006432249774009,
+            1.0099951625663293
+          ],
+          "mean_yaw_deg": 4.702691971755603,
+          "mean_yaw_deg_repeat_range": [
+            4.521289070259264,
+            4.836151240773572
+          ],
+          "median_yaw_deg": 4.715812688161689,
+          "median_yaw_deg_repeat_range": [
+            4.479704169210697,
+            4.890080229979278
+          ],
+          "runtime_s": 3.305771089013433,
+          "runtime_s_repeat_range": [
+            3.1445886970032007,
+            3.4511863270308822
+          ]
+        },
+        {
+          "episode_id": "E06",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9379310344827587,
+          "correct_update_availability_repeat_range": [
+            0.896551724137931,
+            0.9655172413793104
+          ],
+          "mean_translation_m": 0.29592751479695745,
+          "mean_translation_m_repeat_range": [
+            0.2898150437291903,
+            0.3011881764532703
+          ],
+          "median_translation_m": 0.2969900472637762,
+          "median_translation_m_repeat_range": [
+            0.28698316567364657,
+            0.308650113730175
+          ],
+          "mean_yaw_deg": 2.15163366506156,
+          "mean_yaw_deg_repeat_range": [
+            2.0859438254559093,
+            2.2377699115045178
+          ],
+          "median_yaw_deg": 1.7577618968143411,
+          "median_yaw_deg_repeat_range": [
+            1.6271772317504634,
+            1.9122063357307042
+          ],
+          "runtime_s": 4.606017679424258,
+          "runtime_s_repeat_range": [
+            4.392982481018407,
+            4.925508397049271
+          ]
+        },
+        {
+          "episode_id": "E11",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9310344827586207,
+          "correct_update_availability_repeat_range": [
+            0.9310344827586207,
+            0.9310344827586207
+          ],
+          "mean_translation_m": 0.29345903183070654,
+          "mean_translation_m_repeat_range": [
+            0.27485965853129257,
+            0.299395116504829
+          ],
+          "median_translation_m": 0.2766779769208544,
+          "median_translation_m_repeat_range": [
+            0.25621557105926296,
+            0.2835164221004579
+          ],
+          "mean_yaw_deg": 1.9537694360592766,
+          "mean_yaw_deg_repeat_range": [
+            1.9148577288329363,
+            2.0265844884930884
+          ],
+          "median_yaw_deg": 1.4913240337539986,
+          "median_yaw_deg_repeat_range": [
+            1.3356056191146062,
+            1.8171275792454962
+          ],
+          "runtime_s": 5.491021270147757,
+          "runtime_s_repeat_range": [
+            5.450167013012106,
+            5.554637574881781
+          ]
+        },
+        {
+          "episode_id": "E08",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.9862068965517242,
+          "correct_update_availability_repeat_range": [
+            0.9310344827586207,
+            1.0
+          ],
+          "mean_translation_m": 0.45508689272140634,
+          "mean_translation_m_repeat_range": [
+            0.4486795908610172,
+            0.4665354535970935
+          ],
+          "median_translation_m": 0.4479904429403132,
+          "median_translation_m_repeat_range": [
+            0.43801149844183007,
+            0.4569191859579049
+          ],
+          "mean_yaw_deg": 2.630014544325454,
+          "mean_yaw_deg_repeat_range": [
+            2.4980609138228687,
+            2.892788748345776
+          ],
+          "median_yaw_deg": 2.736169704348275,
+          "median_yaw_deg_repeat_range": [
+            2.646646657623615,
+            2.941041313916408
+          ],
+          "runtime_s": 2.385543189191958,
+          "runtime_s_repeat_range": [
+            2.2729625350038987,
+            2.805193200998474
+          ]
+        },
+        {
+          "episode_id": "E18",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.8620689655172413,
+          "correct_update_availability_repeat_range": [
+            0.8620689655172413,
+            0.8620689655172413
+          ],
+          "mean_translation_m": 0.5737142632656116,
+          "mean_translation_m_repeat_range": [
+            0.5702986073126529,
+            0.578126541104742
+          ],
+          "median_translation_m": 0.45225678426611804,
+          "median_translation_m_repeat_range": [
+            0.44332305129540894,
+            0.46190296646182344
+          ],
+          "mean_yaw_deg": 2.3243321259971403,
+          "mean_yaw_deg_repeat_range": [
+            2.310387202662871,
+            2.3418283154104333
+          ],
+          "median_yaw_deg": 2.2674471799979443,
+          "median_yaw_deg_repeat_range": [
+            2.2321833423894013,
+            2.304797971514944
+          ],
+          "runtime_s": 2.3377390011795796,
+          "runtime_s_repeat_range": [
+            2.3279944759851787,
+            2.350563409010647
+          ]
+        },
+        {
+          "episode_id": "E14",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 1.0,
+          "correct_update_availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "mean_translation_m": 0.5484226920737983,
+          "mean_translation_m_repeat_range": [
+            0.5469393675902312,
+            0.549110699684991
+          ],
+          "median_translation_m": 0.5086464760309692,
+          "median_translation_m_repeat_range": [
+            0.5075842631397107,
+            0.5093530710269352
+          ],
+          "mean_yaw_deg": 1.966062327292472,
+          "mean_yaw_deg_repeat_range": [
+            1.9646119533549344,
+            1.968190011381931
+          ],
+          "median_yaw_deg": 2.135193998737461,
+          "median_yaw_deg_repeat_range": [
+            2.1136054173415184,
+            2.155196105140888
+          ],
+          "runtime_s": 1.628722979000304,
+          "runtime_s_repeat_range": [
+            1.6008593469159678,
+            1.659752873092657
+          ]
+        },
+        {
+          "episode_id": "E22",
+          "repetitions": 5,
+          "availability": 1.0,
+          "availability_repeat_range": [
+            1.0,
+            1.0
+          ],
+          "correct_update_availability": 0.5862068965517241,
+          "correct_update_availability_repeat_range": [
+            0.5862068965517241,
+            0.5862068965517241
+          ],
+          "mean_translation_m": 0.6552963332257397,
+          "mean_translation_m_repeat_range": [
+            0.6525031423234814,
+            0.6576290360605893
+          ],
+          "median_translation_m": 0.5609440729253748,
+          "median_translation_m_repeat_range": [
+            0.5603518260180833,
+            0.5626642235491062
+          ],
+          "mean_yaw_deg": 2.6359286451899626,
+          "mean_yaw_deg_repeat_range": [
+            2.628266635245715,
+            2.651714413426482
+          ],
+          "median_yaw_deg": 2.2375802395407893,
+          "median_yaw_deg_repeat_range": [
+            2.2326616376784783,
+            2.2491339986924808
+          ],
+          "runtime_s": 3.8818995433801318,
+          "runtime_s_repeat_range": [
+            3.783790736051742,
+            4.238885643950198
+          ]
+        }
+      ],
+      "availability": 1.0,
+      "correct_update_availability": 0.717816091954023,
+      "mean_translation_m": 0.5305175093281105,
+      "mean_yaw_deg": 3.131909806705199,
+      "runtime_s": 3.924954470232477
+    }
+  },
+  "whole_record_descriptive": {
+    "1.0": {
+      "episodes": 6,
+      "solver_runs": 30,
+      "per_episode": [
+        {
+          "episode_id": "RR01_RR04",
+          "repetitions": 5,
+          "availability": 0.9198813056379823,
+          "availability_repeat_range": [
+            0.9198813056379822,
+            0.9198813056379822
+          ],
+          "correct_update_availability": 0.7115727002967359,
+          "correct_update_availability_repeat_range": [
+            0.7032640949554896,
+            0.7210682492581603
+          ],
+          "mean_translation_m": 0.4032037939155412,
+          "mean_translation_m_repeat_range": [
+            0.39663783754037335,
+            0.4073633018675525
+          ],
+          "median_translation_m": 0.3365688061312507,
+          "median_translation_m_repeat_range": [
+            0.3330818655137862,
+            0.3414224592755126
+          ],
+          "mean_yaw_deg": 2.9198709516668764,
+          "mean_yaw_deg_repeat_range": [
+            2.883020653496396,
+            2.9416334704553035
+          ],
+          "median_yaw_deg": 2.022756898614615,
+          "median_yaw_deg_repeat_range": [
+            2.002019135756884,
+            2.0479856976724364
+          ],
+          "capped_time_to_correct_s": 31.79996967315674,
+          "capped_time_to_correct_s_repeat_range": [
+            30.99997043609619,
+            31.999969482421875
+          ],
+          "runtime_s": 16.299267899413827,
+          "runtime_s_repeat_range": [
+            15.961089492891915,
+            16.48954226911883
+          ],
+          "wrong_first_rate": 1.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR01_RR06",
+          "repetitions": 5,
+          "availability": 0.913946587537092,
+          "availability_repeat_range": [
+            0.913946587537092,
+            0.913946587537092
+          ],
+          "correct_update_availability": 0.7934718100890207,
+          "correct_update_availability_repeat_range": [
+            0.7685459940652819,
+            0.8189910979228486
+          ],
+          "mean_translation_m": 0.3239213697789475,
+          "mean_translation_m_repeat_range": [
+            0.31470534808778744,
+            0.33606674845384776
+          ],
+          "median_translation_m": 0.3060833655769127,
+          "median_translation_m_repeat_range": [
+            0.29776627445098863,
+            0.3105301268573136
+          ],
+          "mean_yaw_deg": 2.6675623793185554,
+          "mean_yaw_deg_repeat_range": [
+            2.544763272640977,
+            2.7909736562381027
+          ],
+          "median_yaw_deg": 2.3125604965028543,
+          "median_yaw_deg_repeat_range": [
+            2.2307219014790425,
+            2.415957323208425
+          ],
+          "capped_time_to_correct_s": 28.999972343444824,
+          "capped_time_to_correct_s_repeat_range": [
+            28.999972343444824,
+            28.999972343444824
+          ],
+          "runtime_s": 12.736838650284335,
+          "runtime_s_repeat_range": [
+            12.494626421219436,
+            13.02162915279041
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR01_RR08",
+          "repetitions": 5,
+          "availability": 0.9258160237388724,
+          "availability_repeat_range": [
+            0.9258160237388724,
+            0.9258160237388724
+          ],
+          "correct_update_availability": 0.7762611275964393,
+          "correct_update_availability_repeat_range": [
+            0.771513353115727,
+            0.7804154302670623
+          ],
+          "mean_translation_m": 0.5105825576365566,
+          "mean_translation_m_repeat_range": [
+            0.507899343552814,
+            0.5115563325135353
+          ],
+          "median_translation_m": 0.4611173008263695,
+          "median_translation_m_repeat_range": [
+            0.45893301790197527,
+            0.4625941233124744
+          ],
+          "mean_yaw_deg": 2.4090466526395127,
+          "mean_yaw_deg_repeat_range": [
+            2.38838826801393,
+            2.422387731869652
+          ],
+          "median_yaw_deg": 1.868175203857578,
+          "median_yaw_deg_repeat_range": [
+            1.7914910733925924,
+            1.8986363121415175
+          ],
+          "capped_time_to_correct_s": 25.199975967407227,
+          "capped_time_to_correct_s_repeat_range": [
+            24.99997615814209,
+            25.999975204467773
+          ],
+          "runtime_s": 11.500655762961832,
+          "runtime_s_repeat_range": [
+            11.262660129199503,
+            11.68674990220461
+          ],
+          "wrong_first_rate": 0.2,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR04_RR06",
+          "repetitions": 5,
+          "availability": 0.913946587537092,
+          "availability_repeat_range": [
+            0.913946587537092,
+            0.913946587537092
+          ],
+          "correct_update_availability": 0.88486646884273,
+          "correct_update_availability_repeat_range": [
+            0.8813056379821959,
+            0.887240356083086
+          ],
+          "mean_translation_m": 0.44479431936142094,
+          "mean_translation_m_repeat_range": [
+            0.44223492641984014,
+            0.446385112076051
+          ],
+          "median_translation_m": 0.39038670453919383,
+          "median_translation_m_repeat_range": [
+            0.38042838183806504,
+            0.39694585535371213
+          ],
+          "mean_yaw_deg": 2.061091496919732,
+          "mean_yaw_deg_repeat_range": [
+            2.046567502120383,
+            2.0889419463827883
+          ],
+          "median_yaw_deg": 1.8995636030714216,
+          "median_yaw_deg_repeat_range": [
+            1.8838052287325082,
+            1.923480826510621
+          ],
+          "capped_time_to_correct_s": 28.999972343444824,
+          "capped_time_to_correct_s_repeat_range": [
+            28.999972343444824,
+            28.999972343444824
+          ],
+          "runtime_s": 12.076373983389932,
+          "runtime_s_repeat_range": [
+            11.627655361226061,
+            12.461218003038084
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR04_RR08",
+          "repetitions": 5,
+          "availability": 0.8718100890207715,
+          "availability_repeat_range": [
+            0.8694362017804155,
+            0.8724035608308606
+          ],
+          "correct_update_availability": 0.743620178041543,
+          "correct_update_availability_repeat_range": [
+            0.7388724035608308,
+            0.7507418397626113
+          ],
+          "mean_translation_m": 0.470068160313844,
+          "mean_translation_m_repeat_range": [
+            0.4657602993403084,
+            0.4732778243376073
+          ],
+          "median_translation_m": 0.42657891927610436,
+          "median_translation_m_repeat_range": [
+            0.42312981513393155,
+            0.4294300367963545
+          ],
+          "mean_yaw_deg": 2.383108605530526,
+          "mean_yaw_deg_repeat_range": [
+            2.3452750336162205,
+            2.43004451981665
+          ],
+          "median_yaw_deg": 1.8160208834250795,
+          "median_yaw_deg_repeat_range": [
+            1.751824974498005,
+            1.8858798253813687
+          ],
+          "capped_time_to_correct_s": 47.799954414367676,
+          "capped_time_to_correct_s_repeat_range": [
+            42.999958992004395,
+            66.9999361038208
+          ],
+          "runtime_s": 10.335996108839755,
+          "runtime_s_repeat_range": [
+            9.927628695819294,
+            10.474048006610246
+          ],
+          "wrong_first_rate": 0.2,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR06_RR08",
+          "repetitions": 5,
+          "availability": 0.7922848664688428,
+          "availability_repeat_range": [
+            0.7922848664688428,
+            0.7922848664688428
+          ],
+          "correct_update_availability": 0.6195845697329376,
+          "correct_update_availability_repeat_range": [
+            0.6172106824925816,
+            0.6201780415430267
+          ],
+          "mean_translation_m": 0.527238967299863,
+          "mean_translation_m_repeat_range": [
+            0.523225640061401,
+            0.5336396675987749
+          ],
+          "median_translation_m": 0.41982292820806766,
+          "median_translation_m_repeat_range": [
+            0.4148674179706365,
+            0.42682406180253457
+          ],
+          "mean_yaw_deg": 2.4355586970172167,
+          "mean_yaw_deg_repeat_range": [
+            2.4067564989174643,
+            2.461847920416754
+          ],
+          "median_yaw_deg": 2.0644759454136676,
+          "median_yaw_deg_repeat_range": [
+            2.04018975968562,
+            2.1023334637783613
+          ],
+          "capped_time_to_correct_s": 69.99993324279785,
+          "capped_time_to_correct_s_repeat_range": [
+            69.99993324279785,
+            69.99993324279785
+          ],
+          "runtime_s": 10.204681348142913,
+          "runtime_s_repeat_range": [
+            9.963115156890126,
+            10.57718366876361
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        }
+      ],
+      "availability": 0.8896142433234422,
+      "correct_update_availability": 0.7548961424332344,
+      "mean_translation_m": 0.4466348613843622,
+      "mean_yaw_deg": 2.479373130515403,
+      "capped_time_to_correct_s": 38.79996299743652,
+      "runtime_s": 12.1923022921721,
+      "wrong_first_rate": 0.2333333333333333,
+      "no_first_rate": 0.0,
+      "correct_by_horizon_rate": 1.0,
+      "mean_wrong_first_count": 1.4,
+      "mean_correct_by_horizon_count": 6.0
+    },
+    "2.0": {
+      "episodes": 6,
+      "solver_runs": 30,
+      "per_episode": [
+        {
+          "episode_id": "RR01_RR04",
+          "repetitions": 5,
+          "availability": 0.9198813056379823,
+          "availability_repeat_range": [
+            0.9198813056379822,
+            0.9198813056379822
+          ],
+          "correct_update_availability": 0.7353115727002967,
+          "correct_update_availability_repeat_range": [
+            0.7329376854599406,
+            0.7359050445103857
+          ],
+          "mean_translation_m": 0.41351129879027404,
+          "mean_translation_m_repeat_range": [
+            0.40790351479218806,
+            0.41644890537491697
+          ],
+          "median_translation_m": 0.33739648318751014,
+          "median_translation_m_repeat_range": [
+            0.3325117672256006,
+            0.3435354883062164
+          ],
+          "mean_yaw_deg": 2.8189768680516276,
+          "mean_yaw_deg_repeat_range": [
+            2.7946110841020944,
+            2.8532956077982985
+          ],
+          "median_yaw_deg": 2.2842815953258215,
+          "median_yaw_deg_repeat_range": [
+            2.26276090033527,
+            2.31405211467915
+          ],
+          "capped_time_to_correct_s": 26.999974250793457,
+          "capped_time_to_correct_s_repeat_range": [
+            26.999974250793457,
+            26.999974250793457
+          ],
+          "runtime_s": 110.28852085496764,
+          "runtime_s_repeat_range": [
+            106.5046222677338,
+            114.14828766309074
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR01_RR06",
+          "repetitions": 5,
+          "availability": 0.9169139465875371,
+          "availability_repeat_range": [
+            0.9169139465875371,
+            0.9169139465875371
+          ],
+          "correct_update_availability": 0.827893175074184,
+          "correct_update_availability_repeat_range": [
+            0.8219584569732937,
+            0.8338278931750742
+          ],
+          "mean_translation_m": 0.3270799187045622,
+          "mean_translation_m_repeat_range": [
+            0.32498013478413046,
+            0.3316847081849472
+          ],
+          "median_translation_m": 0.2931696690744657,
+          "median_translation_m_repeat_range": [
+            0.28767886634351536,
+            0.29648519944405294
+          ],
+          "mean_yaw_deg": 2.6736873010408497,
+          "mean_yaw_deg_repeat_range": [
+            2.6397158660041478,
+            2.699776086623871
+          ],
+          "median_yaw_deg": 2.508334919589415,
+          "median_yaw_deg_repeat_range": [
+            2.4623333752861933,
+            2.6138101502353095
+          ],
+          "capped_time_to_correct_s": 27.99997329711914,
+          "capped_time_to_correct_s_repeat_range": [
+            27.99997329711914,
+            27.99997329711914
+          ],
+          "runtime_s": 79.25493177199387,
+          "runtime_s_repeat_range": [
+            76.6874005634163,
+            82.12417543097399
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR01_RR08",
+          "repetitions": 5,
+          "availability": 0.9258160237388724,
+          "availability_repeat_range": [
+            0.9258160237388724,
+            0.9258160237388724
+          ],
+          "correct_update_availability": 0.7127596439169139,
+          "correct_update_availability_repeat_range": [
+            0.7091988130563798,
+            0.7151335311572701
+          ],
+          "mean_translation_m": 0.5676745425047657,
+          "mean_translation_m_repeat_range": [
+            0.5632194404344069,
+            0.5719910136427662
+          ],
+          "median_translation_m": 0.4696815761651568,
+          "median_translation_m_repeat_range": [
+            0.4660039937753485,
+            0.4760963744570065
+          ],
+          "mean_yaw_deg": 2.4356675316931637,
+          "mean_yaw_deg_repeat_range": [
+            2.4278703764380225,
+            2.4493805931371386
+          ],
+          "median_yaw_deg": 1.8636999669110146,
+          "median_yaw_deg_repeat_range": [
+            1.8270486152814018,
+            1.8999272420049582
+          ],
+          "capped_time_to_correct_s": 25.999975204467773,
+          "capped_time_to_correct_s_repeat_range": [
+            25.999975204467773,
+            25.999975204467773
+          ],
+          "runtime_s": 64.27734180210973,
+          "runtime_s_repeat_range": [
+            62.66878381892457,
+            65.81230926793069
+          ],
+          "wrong_first_rate": 1.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR04_RR06",
+          "repetitions": 5,
+          "availability": 0.913946587537092,
+          "availability_repeat_range": [
+            0.913946587537092,
+            0.913946587537092
+          ],
+          "correct_update_availability": 0.8712166172106824,
+          "correct_update_availability_repeat_range": [
+            0.8664688427299704,
+            0.8753709198813057
+          ],
+          "mean_translation_m": 0.4573376762063791,
+          "mean_translation_m_repeat_range": [
+            0.4550484086657344,
+            0.45891676487174954
+          ],
+          "median_translation_m": 0.394704743037846,
+          "median_translation_m_repeat_range": [
+            0.3896746858580872,
+            0.4001675672869984
+          ],
+          "mean_yaw_deg": 1.9529683437012242,
+          "mean_yaw_deg_repeat_range": [
+            1.918074592476825,
+            1.96607166846173
+          ],
+          "median_yaw_deg": 1.7099388570199299,
+          "median_yaw_deg_repeat_range": [
+            1.6685226633559358,
+            1.7697441100447466
+          ],
+          "capped_time_to_correct_s": 28.999972343444824,
+          "capped_time_to_correct_s_repeat_range": [
+            28.999972343444824,
+            28.999972343444824
+          ],
+          "runtime_s": 59.04724940508604,
+          "runtime_s_repeat_range": [
+            58.55201445001876,
+            59.7479653719638
+          ],
+          "wrong_first_rate": 0.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR04_RR08",
+          "repetitions": 5,
+          "availability": 0.7893175074183977,
+          "availability_repeat_range": [
+            0.7893175074183977,
+            0.7893175074183977
+          ],
+          "correct_update_availability": 0.7246290801186943,
+          "correct_update_availability_repeat_range": [
+            0.7210682492581603,
+            0.7270029673590505
+          ],
+          "mean_translation_m": 0.47219404612761284,
+          "mean_translation_m_repeat_range": [
+            0.4661766296843355,
+            0.47518238617273356
+          ],
+          "median_translation_m": 0.4286588235178386,
+          "median_translation_m_repeat_range": [
+            0.4204893018788125,
+            0.43935179271706815
+          ],
+          "mean_yaw_deg": 2.2252642491932866,
+          "mean_yaw_deg_repeat_range": [
+            2.1732646951737116,
+            2.276108659983376
+          ],
+          "median_yaw_deg": 1.725850664815864,
+          "median_yaw_deg_repeat_range": [
+            1.6275177776764758,
+            1.8191056872302518
+          ],
+          "capped_time_to_correct_s": 87.99991607666016,
+          "capped_time_to_correct_s_repeat_range": [
+            87.99991607666016,
+            87.99991607666016
+          ],
+          "runtime_s": 47.2743882282346,
+          "runtime_s_repeat_range": [
+            46.327328936517006,
+            48.35065938264597
+          ],
+          "wrong_first_rate": 1.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        },
+        {
+          "episode_id": "RR06_RR08",
+          "repetitions": 5,
+          "availability": 0.8973293768545995,
+          "availability_repeat_range": [
+            0.8961424332344213,
+            0.8991097922848664
+          ],
+          "correct_update_availability": 0.6219584569732938,
+          "correct_update_availability_repeat_range": [
+            0.6201780415430267,
+            0.6261127596439169
+          ],
+          "mean_translation_m": 2.625059287736712,
+          "mean_translation_m_repeat_range": [
+            2.613705649139193,
+            2.643224011068991
+          ],
+          "median_translation_m": 0.4483235730455508,
+          "median_translation_m_repeat_range": [
+            0.4368618675012335,
+            0.4546942611872766
+          ],
+          "mean_yaw_deg": 28.63641173953914,
+          "mean_yaw_deg_repeat_range": [
+            28.469006880830726,
+            28.884053322742833
+          ],
+          "median_yaw_deg": 1.9838796843435689,
+          "median_yaw_deg_repeat_range": [
+            1.9478130255948134,
+            2.071689172773532
+          ],
+          "capped_time_to_correct_s": 87.99991607666016,
+          "capped_time_to_correct_s_repeat_range": [
+            87.99991607666016,
+            87.99991607666016
+          ],
+          "runtime_s": 61.556817983684596,
+          "runtime_s_repeat_range": [
+            60.708806958718924,
+            63.3769231539045
+          ],
+          "wrong_first_rate": 1.0,
+          "no_first_rate": 0.0,
+          "correct_by_horizon_rate": 1.0
+        }
+      ],
+      "availability": 0.8938674579624135,
+      "correct_update_availability": 0.7489614243323444,
+      "mean_translation_m": 0.810476128345051,
+      "mean_yaw_deg": 6.790496005536549,
+      "capped_time_to_correct_s": 47.66662120819092,
+      "runtime_s": 70.28320834101275,
+      "wrong_first_rate": 0.5,
+      "no_first_rate": 0.0,
+      "correct_by_horizon_rate": 1.0,
+      "mean_wrong_first_count": 3.0,
+      "mean_correct_by_horizon_count": 6.0
+    }
+  },
+  "interpretation": "Primary pose/availability comparison preserves full temporal history. Global first initialization is descriptive and occurs in the development prefix; cold-start holdout initialization metrics are separately in summary.json. A first accepted update of a full-history holdout window is NOT a new initialization.",
+  "units": "Single recording, six canonical streams; directions and windows not independent"
+}

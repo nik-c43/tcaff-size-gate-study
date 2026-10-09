@@ -1,0 +1,352 @@
+[
+  {
+    "experiment_id": "baseline-release-tau9",
+    "inputs": "one author four-robot record; saved detections and Kimera/mocap; external for rerun",
+    "configuration": "configs/release.yaml; configs/tcaff_baseline_protocol.json",
+    "evaluation_scope": "337 updates x 12 directed pairs, one recording",
+    "metric_and_definition": "mean-of-pair-means translation (SE2 inv(GT) @ EST, metres)",
+    "value": 0.43790368425430765,
+    "source_file": "results/baseline/audit.json; results/baseline/error_traces.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "baseline-release-tau9",
+    "inputs": "one author four-robot record; saved detections and Kimera/mocap; external for rerun",
+    "configuration": "configs/release.yaml; configs/tcaff_baseline_protocol.json",
+    "evaluation_scope": "337 updates x 12 directed pairs, one recording",
+    "metric_and_definition": "mean-of-pair-means absolute wrapped yaw (degrees)",
+    "value": 2.4461272323504706,
+    "source_file": "results/baseline/audit.json; results/baseline/error_traces.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "baseline-release-tau9",
+    "inputs": "one author four-robot record; saved detections and Kimera/mocap; external for rerun",
+    "configuration": "configs/release.yaml; configs/tcaff_baseline_protocol.json",
+    "evaluation_scope": "337 updates x 12 directed pairs, one recording",
+    "metric_and_definition": "accepted / all pair-updates",
+    "value": "3598/4044 = 88.97131552917903%",
+    "source_file": "results/baseline/audit.json; results/baseline/error_traces.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "baseline-replay",
+    "inputs": "one author four-robot record; saved detections and Kimera/mocap; external for rerun; frozen proposals",
+    "configuration": "release tau9 original manager",
+    "evaluation_scope": "4044 stored updates, filter-only replay",
+    "metric_and_definition": "mismatches and maximum coordinate deviation",
+    "value": "{\"pair_updates\": 4044, \"mismatches\": 0, \"max_coordinate_error\": 8.881784197001252e-16}",
+    "source_file": "results/baseline/audit.json",
+    "reproduce_command": "external workspace: .venv/bin/python scripts/tcaff_baseline_audit.py --input data/tcaff_baseline_release --output results/new_audit (historically checked; not rerun during packaging)"
+  },
+  {
+    "experiment_id": "baseline-independent-GT",
+    "inputs": "one author four-robot record; saved detections and Kimera/mocap; external for rerun",
+    "configuration": "Ai @ inv(Bi) @ Bj @ inv(Aj)",
+    "evaluation_scope": "all captured GT-valid frames",
+    "metric_and_definition": "max component difference from author composition",
+    "value": 5.329070518200751e-15,
+    "source_file": "results/baseline/audit.json",
+    "reproduce_command": "external workspace: .venv/bin/python scripts/tcaff_baseline_audit.py --input data/tcaff_baseline_release --output results/new_audit (historical)"
+  },
+  {
+    "experiment_id": "baseline-tau8-control",
+    "inputs": "same stored proposals as tau9",
+    "configuration": "main_tree_obj_req=8; other settings release",
+    "evaluation_scope": "filter-only, 4044 updates; no mapping/MNO rerun",
+    "metric_and_definition": "translation / yaw / availability",
+    "value": "0.43790368425430765 m / 2.4461272323504706 deg / 3598 of 4044",
+    "source_file": "results/baseline/audit.json; results/baseline/error_traces.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "manual-size-gate",
+    "inputs": "798 original user answers and selected task metadata",
+    "configuration": "configs/size_gate_study.json; B0 ratio1.35 difference0.1m",
+    "evaluation_scope": "24 selected anchors; recorded labels, correlated identities",
+    "metric_and_definition": "same_object excluded / all recorded same labels",
+    "value": "260/314",
+    "source_file": "annotations/originals/labels-final-canonical.json; annotations/task_metadata.json; results/size_gate/label_counts.json",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "manual-size-gate",
+    "inputs": "798 original user answers and selected task metadata",
+    "configuration": "configs/size_gate_study.json; B0 ratio1.35 difference0.1m",
+    "evaluation_scope": "24 selected anchors; recorded labels, correlated identities",
+    "metric_and_definition": "same_object/high excluded / all recorded high same labels",
+    "value": "178/220",
+    "source_file": "annotations/originals/labels-final-canonical.json; annotations/task_metadata.json; results/size_gate/label_counts.json",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "manual-size-gate",
+    "inputs": "798 original user answers and selected task metadata",
+    "configuration": "configs/size_gate_study.json; B0 ratio1.35 difference0.1m",
+    "evaluation_scope": "24 selected anchors; recorded labels, correlated identities",
+    "metric_and_definition": "different_objects excluded / all recorded different labels",
+    "value": "304/341",
+    "source_file": "annotations/originals/labels-final-canonical.json; annotations/task_metadata.json; results/size_gate/label_counts.json",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "manual-size-gate",
+    "inputs": "798 original user answers and selected task metadata",
+    "configuration": "configs/size_gate_study.json; B0 ratio1.35 difference0.1m",
+    "evaluation_scope": "24 selected anchors; recorded labels, correlated identities",
+    "metric_and_definition": "all answers by category",
+    "value": "314 same / 341 different / 67 ambiguous / 76 cannot_tell",
+    "source_file": "annotations/originals/labels-final-canonical.json; annotations/task_metadata.json; results/size_gate/label_counts.json",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "development-selection",
+    "inputs": "12 early windows, frozen maps and full labels",
+    "configuration": "alpha grid 1,1.25,1.5,2;5 repeats; frozen selection rule",
+    "evaluation_scope": "development only, temporally separated from held windows",
+    "metric_and_definition": "selected alpha",
+    "value": 2,
+    "source_file": "results/size_gate/selection.json; results/size_gate/development.json",
+    "reproduce_command": "external workspace: bash scripts/run_size_gate_study.sh data/size_gate_study/labels.json data/new_size_gate_runs (historical runner)"
+  },
+  {
+    "experiment_id": "late-full-history-alpha1.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "correct updates / all; <=1m AND <=5deg",
+    "value": "1212/1740 = 69.65517241%",
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha1.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean accepted GT-valid translation, episode/repeat averaging, m",
+    "value": 0.5103002362691246,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha1.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean accepted GT-valid yaw, episode/repeat averaging, deg",
+    "value": 3.0217415347465857,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha1.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "accepted / all",
+    "value": 1.0,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha1.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean window update runtime s (perf_counter manager.update)",
+    "value": 0.829081865651339,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha1.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "wrong first accepted / all starts",
+    "value": "4/60 = 6.66666667%",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha1.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "no first / all starts",
+    "value": "40/60",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha1.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "correct solution by horizon / all starts",
+    "value": "20/60",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha1.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "mean capped time-to-correct s; no-success censored at window end",
+    "value": 24.166643619537354,
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha2.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "correct updates / all; <=1m AND <=5deg",
+    "value": "1249/1740 = 71.78160920%",
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha2.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean accepted GT-valid translation, episode/repeat averaging, m",
+    "value": 0.5305175093281105,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha2.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean accepted GT-valid yaw, episode/repeat averaging, deg",
+    "value": 3.131909806705199,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha2.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "accepted / all",
+    "value": 1.0,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "late-full-history-alpha2.0",
+    "inputs": "unchanged saved maps; filter runs from recording start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
+    "metric_and_definition": "mean window update runtime s (perf_counter manager.update)",
+    "value": 3.924954470232477,
+    "source_file": "results/size_gate/full_history.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha2.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "wrong first accepted / all starts",
+    "value": "10/60 = 16.66666667%",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha2.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "no first / all starts",
+    "value": "25/60",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha2.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "correct solution by horizon / all starts",
+    "value": "30/60",
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "cold-start-alpha2.0",
+    "inputs": "same maps, original factory reset at window start",
+    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "evaluation_scope": "12 late windows x5repeats, dependent starts",
+    "metric_and_definition": "mean capped time-to-correct s; no-success censored at window end",
+    "value": 21.566646099090576,
+    "source_file": "results/size_gate/cold_start.json; results/size_gate/run_metrics.json.gz",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "runtime-ratio",
+    "inputs": "saved measured update times",
+    "configuration": "same CPU, thread count1; same aggregation",
+    "evaluation_scope": "late full-history windows",
+    "metric_and_definition": "mean alpha2 runtime / mean B0 runtime",
+    "value": 4.7340975998178125,
+    "source_file": "results/size_gate/full_history.json",
+    "reproduce_command": "python3 scripts/inspect_saved.py"
+  },
+  {
+    "experiment_id": "ideal-occlusion-0.3",
+    "inputs": "own ideal cuboid mask and depth; fixed camera/object",
+    "configuration": "cube .4m;K fx=fy600;distance3m;left silhouette extent masked",
+    "evaluation_scope": "single model case, part of80 dependent cases",
+    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / alpha2 admitted",
+    "value": "[0.39200000000000007, 0.2706666666666667, 0.060666666666666674, false, true]",
+    "source_file": "results/occlusion/cases.json",
+    "reproduce_command": ".venv/bin/python scripts/reproduce_model.py"
+  },
+  {
+    "experiment_id": "ideal-occlusion-0.6",
+    "inputs": "own ideal cuboid mask and depth; fixed camera/object",
+    "configuration": "cube .4m;K fx=fy600;distance3m;left silhouette extent masked",
+    "evaluation_scope": "single model case, part of80 dependent cases",
+    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / alpha2 admitted",
+    "value": "[0.39200000000000007, 0.15400000000000003, 0.11900000000000002, false, false]",
+    "source_file": "results/occlusion/cases.json",
+    "reproduce_command": ".venv/bin/python scripts/reproduce_model.py"
+  },
+  {
+    "experiment_id": "ideal-occlusion-grid",
+    "inputs": "own ideal masks and noiseless depths",
+    "configuration": "2 shapes x2 angles x2 screens x10fractions",
+    "evaluation_scope": "80 dependent cases,8zero controls",
+    "metric_and_definition": "case / control count",
+    "value": "80 / 8",
+    "source_file": "results/occlusion/summary.json; results/model_checks.json",
+    "reproduce_command": ".venv/bin/python scripts/reproduce_model.py"
+  },
+  {
+    "experiment_id": "history-B0-B3",
+    "inputs": "saved historical replay summary",
+    "configuration": "historical B0/B3_delta1 rules, not release baseline",
+    "evaluation_scope": "12 directed pairs, one prior recording/protocol",
+    "metric_and_definition": "wrong first count B0 and B3",
+    "value": "3/12 and 3/12",
+    "source_file": "results/history/decision_rules_summary.txt",
+    "reproduce_command": "saved-table reading only; historical scripts remain in original project"
+  },
+  {
+    "experiment_id": "history-MNO-budget",
+    "inputs": "historical first60-step prefixes,6canonical pairs",
+    "configuration": "configs/historical_h7.json;seeded helper;MNO4 vs16",
+    "evaluation_scope": "historical protocol, not primary stochastic release ablation",
+    "metric_and_definition": "correct / wrong / no first",
+    "value": "4/1/1 -> 2/3/1",
+    "source_file": "results/history/h7_summary.json",
+    "reproduce_command": "saved-summary reading only; historical rerun retained in original project"
+  }
+]

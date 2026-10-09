@@ -1,0 +1,648 @@
+[
+  {
+    "source_path": "data/labels(5).json",
+    "path": "annotations/originals/labels-final-export.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "bytes": 96540,
+    "sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "transformation": "byte-for-byte",
+    "purpose": "final user export"
+  },
+  {
+    "source_path": "data/size_gate_study/labels.json",
+    "path": "annotations/originals/labels-final-canonical.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "bytes": 96540,
+    "sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "transformation": "byte-for-byte",
+    "purpose": "canonical used in metrics"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/labels_snapshot.json",
+    "path": "annotations/originals/labels-final-run-snapshot.json",
+    "source_bytes": 96540,
+    "source_sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "bytes": 96540,
+    "sha256": "15b4743920dd903356fe375a428f65a363159ad3b95c02bdad9da1ae1ce2dca8",
+    "transformation": "byte-for-byte",
+    "purpose": "immutable experiment input"
+  },
+  {
+    "source_path": "results/size_gate_partial_150/analysis_private/labels_snapshot.json",
+    "path": "annotations/originals/labels-partial-snapshot.json",
+    "source_bytes": 86694,
+    "source_sha256": "4d66c3812256b181a67efd566d867a461e84735647a1f518cf0716d2021dc96a",
+    "bytes": 86694,
+    "sha256": "4d66c3812256b181a67efd566d867a461e84735647a1f518cf0716d2021dc96a",
+    "transformation": "byte-for-byte",
+    "purpose": "intermediate export: 159 assigned"
+  },
+  {
+    "source_path": "data/size_gate_study/annotation_blind/labels_template.json",
+    "path": "annotations/originals/labels-template.json",
+    "source_bytes": 83117,
+    "source_sha256": "f66b80e37de3cadb4a7dba36104cf7a0497ceeb501b9fca860aad8e9eebe0308",
+    "bytes": 83117,
+    "sha256": "f66b80e37de3cadb4a7dba36104cf7a0497ceeb501b9fca860aad8e9eebe0308",
+    "transformation": "byte-for-byte",
+    "purpose": "original blank template"
+  },
+  {
+    "source_path": "scripts/run_demo.sh",
+    "path": "scripts/original/run_demo.sh",
+    "source_bytes": 443,
+    "source_sha256": "19748d141f69a05e85e90a63e624b69db7051352da7a8442e90ed5bc81a6a924",
+    "bytes": 443,
+    "sha256": "19748d141f69a05e85e90a63e624b69db7051352da7a8442e90ed5bc81a6a924",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/run_tcaff_baseline.sh",
+    "path": "scripts/original/run_tcaff_baseline.sh",
+    "source_bytes": 874,
+    "source_sha256": "9d359e2288f22f7b3df444df6ad3c306cafbe4e99e9534ca70624ff992a3fe88",
+    "bytes": 874,
+    "sha256": "9d359e2288f22f7b3df444df6ad3c306cafbe4e99e9534ca70624ff992a3fe88",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/tcaff_baseline_audit.py",
+    "path": "scripts/original/tcaff_baseline_audit.py",
+    "source_bytes": 13364,
+    "source_sha256": "02c454f8814a77d159105fa0be72690ca1ab155ea69cf5bd5a41b8f7cd0b51b9",
+    "bytes": 13364,
+    "sha256": "02c454f8814a77d159105fa0be72690ca1ab155ea69cf5bd5a41b8f7cd0b51b9",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/h1_map_audit.py",
+    "path": "scripts/original/h1_map_audit.py",
+    "source_bytes": 6559,
+    "source_sha256": "0000ee21070478ae744ceede39918f1c0da8cdd58e72e16790b2fab470e47b58",
+    "bytes": 6559,
+    "sha256": "0000ee21070478ae744ceede39918f1c0da8cdd58e72e16790b2fab470e47b58",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/run_size_gate_study.sh",
+    "path": "scripts/original/run_size_gate_study.sh",
+    "source_bytes": 4719,
+    "source_sha256": "4deb9dd1ad0f6891948377eadba6db67b977c92875d33f382c7d1996d282a2a5",
+    "bytes": 4719,
+    "sha256": "4deb9dd1ad0f6891948377eadba6db67b977c92875d33f382c7d1996d282a2a5",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_prepare.py",
+    "path": "scripts/original/size_gate_prepare.py",
+    "source_bytes": 17078,
+    "source_sha256": "e835d891c8ed763c84580192bafbf2a640b1e07878043fde024056d1e0c6eebc",
+    "bytes": 17078,
+    "sha256": "e835d891c8ed763c84580192bafbf2a640b1e07878043fde024056d1e0c6eebc",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_images.py",
+    "path": "scripts/original/size_gate_images.py",
+    "source_bytes": 14346,
+    "source_sha256": "d4c82bda9e0c6df919f55affb0ef3a74be650da2422293171e2301d7a72451a9",
+    "bytes": 14346,
+    "sha256": "d4c82bda9e0c6df919f55affb0ef3a74be650da2422293171e2301d7a72451a9",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_finalize.py",
+    "path": "scripts/original/size_gate_finalize.py",
+    "source_bytes": 6649,
+    "source_sha256": "c63d5315f36160e66993ace945bdab3cf5d6225cd85d7fd6ff2369f09a1630e4",
+    "bytes": 6649,
+    "sha256": "c63d5315f36160e66993ace945bdab3cf5d6225cd85d7fd6ff2369f09a1630e4",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_review.html",
+    "path": "scripts/original/size_gate_review.html",
+    "source_bytes": 9521,
+    "source_sha256": "e98bbea93cfb464631721c8b6dc99b600a19472de7880c0a5893e21030e004dd",
+    "bytes": 9521,
+    "sha256": "e98bbea93cfb464631721c8b6dc99b600a19472de7880c0a5893e21030e004dd",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_evaluate.py",
+    "path": "scripts/original/size_gate_evaluate.py",
+    "source_bytes": 18718,
+    "source_sha256": "9369c1e8fb7b69e901aee4d09e40551c5b7d55c9e1c7cf000900ce97833b6c72",
+    "bytes": 18718,
+    "sha256": "9369c1e8fb7b69e901aee4d09e40551c5b7d55c9e1c7cf000900ce97833b6c72",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_label_audit.py",
+    "path": "scripts/original/size_gate_label_audit.py",
+    "source_bytes": 10270,
+    "source_sha256": "6e97c20b5f4eda36ea53a68968e92a24c3f044cc6a57b1416b9c167f232803d3",
+    "bytes": 10270,
+    "sha256": "6e97c20b5f4eda36ea53a68968e92a24c3f044cc6a57b1416b9c167f232803d3",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_results_report.py",
+    "path": "scripts/original/size_gate_results_report.py",
+    "source_bytes": 31919,
+    "source_sha256": "8cbce7cec549f53c73a3062ae0dbbebd442de93f6dec5e18eb770a1257be085c",
+    "bytes": 31919,
+    "sha256": "8cbce7cec549f53c73a3062ae0dbbebd442de93f6dec5e18eb770a1257be085c",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_viewpoint_diagnosis.py",
+    "path": "scripts/original/size_gate_viewpoint_diagnosis.py",
+    "source_bytes": 13562,
+    "source_sha256": "5b8a6a62e25f88b2c2fd707c496671f04f4ab5b23a5f57ad7b4d28eb8dd0d798",
+    "bytes": 13562,
+    "sha256": "5b8a6a62e25f88b2c2fd707c496671f04f4ab5b23a5f57ad7b4d28eb8dd0d798",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_occlusion_diagnosis.py",
+    "path": "scripts/original/size_gate_occlusion_diagnosis.py",
+    "source_bytes": 13528,
+    "source_sha256": "c8109261aeee013c75e8feb2ef1e570c24030e5f340a964e0fbcbcdf32a0195e",
+    "bytes": 13528,
+    "sha256": "c8109261aeee013c75e8feb2ef1e570c24030e5f340a964e0fbcbcdf32a0195e",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_occlusion_plot.py",
+    "path": "scripts/original/size_gate_occlusion_plot.py",
+    "source_bytes": 4364,
+    "source_sha256": "4925fe5ddb3f791b9fce7f690bdc415a833e5319df63f4b632ffa95ce7cd3780",
+    "bytes": 4364,
+    "sha256": "4925fe5ddb3f791b9fce7f690bdc415a833e5319df63f4b632ffa95ce7cd3780",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_results_verify.py",
+    "path": "scripts/original/size_gate_results_verify.py",
+    "source_bytes": 4524,
+    "source_sha256": "6b1a0699935f3fdaa6049a13b05e6bf09b83dc6415c3d6ba85d9adfea20de18a",
+    "bytes": 4524,
+    "sha256": "6b1a0699935f3fdaa6049a13b05e6bf09b83dc6415c3d6ba85d9adfea20de18a",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "scripts/size_gate_occlusion_verify.py",
+    "path": "scripts/original/size_gate_occlusion_verify.py",
+    "source_bytes": 7564,
+    "source_sha256": "9fd49bd06ef7bdbafce826e25f7ee9a9f7504f4556d7df334ae112c86c72003e",
+    "bytes": 7564,
+    "sha256": "9fd49bd06ef7bdbafce826e25f7ee9a9f7504f4556d7df334ae112c86c72003e",
+    "transformation": "byte-for-byte",
+    "purpose": "unchanged executed source; legacy workspace layout required"
+  },
+  {
+    "source_path": "src/demo_cpu/rover_artist.py",
+    "path": "src/demo_cpu/rover_artist.py",
+    "source_bytes": 3714,
+    "source_sha256": "ad24a33e126741f138bf51ef3bfbe0b560a67cdd28b258a2306479b67ba7aca0",
+    "bytes": 3714,
+    "sha256": "ad24a33e126741f138bf51ef3bfbe0b560a67cdd28b258a2306479b67ba7aca0",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/tcaff_data_processory.py",
+    "path": "src/demo_cpu/tcaff_data_processory.py",
+    "source_bytes": 2208,
+    "source_sha256": "309311b63f8fa1d135519dd771cb3249ea4d541c98b69a693b6bb028c63223d4",
+    "bytes": 2208,
+    "sha256": "309311b63f8fa1d135519dd771cb3249ea4d541c98b69a693b6bb028c63223d4",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/demo_viz.py",
+    "path": "src/demo_cpu/demo_viz.py",
+    "source_bytes": 8551,
+    "source_sha256": "bebead83672c7fde1331e551801744e263732869efa53f3844611813b9d206f5",
+    "bytes": 8551,
+    "sha256": "bebead83672c7fde1331e551801744e263732869efa53f3844611813b9d206f5",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/alignment_results.py",
+    "path": "src/demo_cpu/alignment_results.py",
+    "source_bytes": 3350,
+    "source_sha256": "33ea7d9109164d224d317e4d97298d7ec003b1f7c86b2030d3f7746895058535",
+    "bytes": 3350,
+    "sha256": "33ea7d9109164d224d317e4d97298d7ec003b1f7c86b2030d3f7746895058535",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/person_detector_3d.py",
+    "path": "src/demo_cpu/person_detector_3d.py",
+    "source_bytes": 2296,
+    "source_sha256": "f0fb9cc08105d25f379862b9cc9240e269ccdc0cb8249bf9b3b94c8248e67bde",
+    "bytes": 2296,
+    "sha256": "f0fb9cc08105d25f379862b9cc9240e269ccdc0cb8249bf9b3b94c8248e67bde",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/demo.py",
+    "path": "src/demo_cpu/demo.py",
+    "source_bytes": 13557,
+    "source_sha256": "34942fea486523e6deeb8aaa60d58104687191e601470867216acdbcd8b49417",
+    "bytes": 13557,
+    "sha256": "34942fea486523e6deeb8aaa60d58104687191e601470867216acdbcd8b49417",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/detections.py",
+    "path": "src/demo_cpu/detections.py",
+    "source_bytes": 5845,
+    "source_sha256": "5d1bd879ce843089f3479dd5348bbe18cda3892ed8f7f9bc291e0ecd725ee07a",
+    "bytes": 5845,
+    "sha256": "5d1bd879ce843089f3479dd5348bbe18cda3892ed8f7f9bc291e0ecd725ee07a",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "src/demo_cpu/robot.py",
+    "path": "src/demo_cpu/robot.py",
+    "source_bytes": 4627,
+    "source_sha256": "1f0e6fd5b49f8be53bbb7a68aba8dd95104f157fa722de27c9057d8073923577",
+    "bytes": 4627,
+    "sha256": "1f0e6fd5b49f8be53bbb7a68aba8dd95104f157fa722de27c9057d8073923577",
+    "transformation": "byte-for-byte",
+    "purpose": "author demo with recorded local compatibility/logging adaptations"
+  },
+  {
+    "source_path": "configs/tcaff_baseline_protocol.json",
+    "path": "configs/tcaff_baseline_protocol.json",
+    "source_bytes": 1739,
+    "source_sha256": "100614c725cf08abf72e4db9bc9dadd2f23653e525edec65781c7ca0ee54fcc3",
+    "bytes": 1739,
+    "sha256": "100614c725cf08abf72e4db9bc9dadd2f23653e525edec65781c7ca0ee54fcc3",
+    "transformation": "byte-for-byte",
+    "purpose": ""
+  },
+  {
+    "source_path": "configs/size_gate_study.json",
+    "path": "configs/size_gate_study.json",
+    "source_bytes": 6630,
+    "source_sha256": "eef42f31a2830ffdb0c9a850d824b0fd0b9a8a4a33d069587f8e7814cab65bc4",
+    "bytes": 6630,
+    "sha256": "eef42f31a2830ffdb0c9a850d824b0fd0b9a8a4a33d069587f8e7814cab65bc4",
+    "transformation": "byte-for-byte",
+    "purpose": ""
+  },
+  {
+    "source_path": "vendor/tcaff/demo/params/tcaff_mot_dataset.yaml",
+    "path": "configs/release.yaml",
+    "source_bytes": 4049,
+    "source_sha256": "886c515c6fdd6450257972ed0e0c5e0d6d884261d6877220e7cb62950721ef77",
+    "bytes": 4049,
+    "sha256": "886c515c6fdd6450257972ed0e0c5e0d6d884261d6877220e7cb62950721ef77",
+    "transformation": "byte-for-byte",
+    "purpose": "exact released B0 configuration"
+  },
+  {
+    "source_path": "configs/h7_protocol.json",
+    "path": "configs/historical_h7.json",
+    "source_bytes": 1600,
+    "source_sha256": "38b1ef5e76c769e55169ae8d718298b007dd485d074a9d72ed9df5ced0608692",
+    "bytes": 1600,
+    "sha256": "38b1ef5e76c769e55169ae8d718298b007dd485d074a9d72ed9df5ced0608692",
+    "transformation": "byte-for-byte",
+    "purpose": "historical experiment only; excluded from B0 runner"
+  },
+  {
+    "source_path": "results/tcaff_baseline_release/audit.json",
+    "path": "results/baseline/audit.json",
+    "source_bytes": 20649,
+    "source_sha256": "fdadf5da4dec8ba8dd449dacf1b9c508570d9249b322ea8359e4abdace583583",
+    "bytes": 20619,
+    "sha256": "ec4f26cfa2bbbe05c50b95ade751d5a3e84f9dd4189190f20abd25c118132175",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_study_20261009/summary.json",
+    "path": "results/size_gate/summary.json",
+    "source_bytes": 79314,
+    "source_sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+    "bytes": 79314,
+    "sha256": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/development/selection.json",
+    "path": "results/size_gate/selection.json",
+    "source_bytes": 988,
+    "source_sha256": "a7a40b3393591c5c779c08f407d9ddb78ba8ce6d91c8e9824c2cb9e6890413d4",
+    "bytes": 988,
+    "sha256": "a7a40b3393591c5c779c08f407d9ddb78ba8ce6d91c8e9824c2cb9e6890413d4",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/development/summary.json",
+    "path": "results/size_gate/development.json",
+    "source_bytes": 72093,
+    "source_sha256": "4cba306e6d5d015b8c26104e0442bd68e2c5eded68cf4214b9867ff9f6ef9ba4",
+    "bytes": 72093,
+    "sha256": "4cba306e6d5d015b8c26104e0442bd68e2c5eded68cf4214b9867ff9f6ef9ba4",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/holdout/summary.json",
+    "path": "results/size_gate/cold_start.json",
+    "source_bytes": 34237,
+    "source_sha256": "77f25a7482db309833b6a01baad02bd454c0f278cdc663d8ae0f21f506680a97",
+    "bytes": 34237,
+    "sha256": "77f25a7482db309833b6a01baad02bd454c0f278cdc663d8ae0f21f506680a97",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/holdout/full_history_summary.json",
+    "path": "results/size_gate/full_history.json",
+    "source_bytes": 62699,
+    "source_sha256": "7ce095f6dac2458079e3f95c6a04883622f20800ac37e126bfc508ab2044d621",
+    "bytes": 62699,
+    "sha256": "7ce095f6dac2458079e3f95c6a04883622f20800ac37e126bfc508ab2044d621",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_runs_20261009/environment.json",
+    "path": "results/environment.json",
+    "source_bytes": 511,
+    "source_sha256": "210d494a607322524405c3a74ca4792dcd38316063cbb2aaa5e75ccc54a112f8",
+    "bytes": 511,
+    "sha256": "210d494a607322524405c3a74ca4792dcd38316063cbb2aaa5e75ccc54a112f8",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "data/size_gate_study/analysis_private/label_counts.json",
+    "path": "results/size_gate/label_counts.json",
+    "source_bytes": 7879,
+    "source_sha256": "4d504de7df9308fb5bf85e14d8d2be48e0f9e7eee6b65026dea4e029a3b59273",
+    "bytes": 7879,
+    "sha256": "4d504de7df9308fb5bf85e14d8d2be48e0f9e7eee6b65026dea4e029a3b59273",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_full_annotation_audit/summary.json",
+    "path": "results/size_gate/label_audit.json",
+    "source_bytes": 4468,
+    "source_sha256": "6e6d24dba9d0e39975be5f93e7c3af29138473dcdf1a64e4b19ff45f0b5037b4",
+    "bytes": 4468,
+    "sha256": "6e6d24dba9d0e39975be5f93e7c3af29138473dcdf1a64e4b19ff45f0b5037b4",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_occlusion_diagnosis_20261009/summary.json",
+    "path": "results/occlusion/summary.json",
+    "source_bytes": 1765,
+    "source_sha256": "eeda4c3983558091b4cc6663adc7130c4fec9ad6d91235cefab925d60fb7cd56",
+    "bytes": 1765,
+    "sha256": "eeda4c3983558091b4cc6663adc7130c4fec9ad6d91235cefab925d60fb7cd56",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_occlusion_diagnosis_20261009/cases.json",
+    "path": "results/occlusion/cases.json",
+    "source_bytes": 166979,
+    "source_sha256": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+    "bytes": 166979,
+    "sha256": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_occlusion_diagnosis_20261009/plot_provenance.json",
+    "path": "results/occlusion/original_plot_provenance.json",
+    "source_bytes": 780,
+    "source_sha256": "f90753a2f74d7b69005d43243225faf2e453083aa04f01beb2de46a5767c63fd",
+    "bytes": 780,
+    "sha256": "f90753a2f74d7b69005d43243225faf2e453083aa04f01beb2de46a5767c63fd",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/h7_summary.json",
+    "path": "results/history/h7_summary.json",
+    "source_bytes": 19619,
+    "source_sha256": "7b6e1e48a95274ff240bd53d028f0ad9c04d1225e4ffd12cad61ae6397d84d4d",
+    "bytes": 19619,
+    "sha256": "7b6e1e48a95274ff240bd53d028f0ad9c04d1225e4ffd12cad61ae6397d84d4d",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_research_20261009/final_checks.json",
+    "path": "results/diagnostics/research_checks.json",
+    "source_bytes": 64141,
+    "source_sha256": "a58838d13bd5acdb8f3a38c88dd51b95f763fb4c093aee1bdf2a9b31029f0e4e",
+    "bytes": 64141,
+    "sha256": "a58838d13bd5acdb8f3a38c88dd51b95f763fb4c093aee1bdf2a9b31029f0e4e",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_research_continuation_20261009/final_checks.json",
+    "path": "results/diagnostics/continuation_checks.json",
+    "source_bytes": 2792,
+    "source_sha256": "8d37ff923273da66f2db3678e2d58caa9ee738a3b7d8745089782d05ed708b29",
+    "bytes": 2792,
+    "sha256": "8d37ff923273da66f2db3678e2d58caa9ee738a3b7d8745089782d05ed708b29",
+    "transformation": "replace local absolute paths in string metadata only",
+    "purpose": "saved numerical result; local path strings made portable"
+  },
+  {
+    "source_path": "results/size_gate_occlusion_diagnosis_20261009/display_masks.npz",
+    "path": "results/occlusion/display_masks.npz",
+    "source_bytes": 2349,
+    "source_sha256": "4633d4495a9d3213fee23e809d3be5a45e252aba56f2faa5685735a8861b5595",
+    "bytes": 2349,
+    "sha256": "4633d4495a9d3213fee23e809d3be5a45e252aba56f2faa5685735a8861b5595",
+    "transformation": "byte-for-byte",
+    "purpose": "own ideal synthetic masks, not author observations"
+  },
+  {
+    "source_path": "results/size_gate_occlusion_diagnosis_20261009/occlusion_centroid_readable.png",
+    "path": "results/figures/occlusion.png",
+    "source_bytes": 170821,
+    "source_sha256": "20a73b3ea38f4ae1f8a4390c11731f4b291da5eca7eb71009a2d403d5386ff0b",
+    "bytes": 170821,
+    "sha256": "20a73b3ea38f4ae1f8a4390c11731f4b291da5eca7eb71009a2d403d5386ff0b",
+    "transformation": "byte-for-byte",
+    "purpose": "existing verified own model figure"
+  },
+  {
+    "source_path": "results/tcaff_baseline_release/baseline_errors.png",
+    "path": "results/figures/baseline_errors.png",
+    "source_bytes": 355162,
+    "source_sha256": "588e84a6ce833c73931398e0f2dc3a81e4974661cd1a51b7da93e355584de725",
+    "bytes": 355162,
+    "sha256": "588e84a6ce833c73931398e0f2dc3a81e4974661cd1a51b7da93e355584de725",
+    "transformation": "byte-for-byte",
+    "purpose": "existing own metric figure"
+  },
+  {
+    "source_path": "results/tcaff_baseline_release/error_traces.json",
+    "source_sha256": "f788a15140176cfbde9aba21c29d90d1821a879ace3ef9ec986ff5c7d633cad8",
+    "path": "results/baseline/error_traces.json.gz",
+    "sha256": "d8a229ac1ff5b12b04322aff12b8906d340a87253242eca22d8a97e1c877de2c",
+    "transformation": "lossless gzip of own pose-error traces"
+  },
+  {
+    "source_path": "results/size_gate_source_size_stability_20261009/summary.json",
+    "path": "results/diagnostics/source_size_stability.json",
+    "source_sha256": "f97e655e872ca163fb37351508a900f16aeeafaa0a72b070daf3ef7bebd98c92",
+    "sha256": "f97e655e872ca163fb37351508a900f16aeeafaa0a72b070daf3ef7bebd98c92",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_source_size_stability.py",
+    "path": "scripts/original/size_gate_source_size_stability.py",
+    "source_sha256": "bbc4efa8743dfa82f5dd4c03a5d8190b63aa1cdaf82f9086f6a584c84dd8d54f",
+    "sha256": "bbc4efa8743dfa82f5dd4c03a5d8190b63aa1cdaf82f9086f6a584c84dd8d54f",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_smoothing_diagnosis_20261009/summary.json",
+    "path": "results/diagnostics/smoothing_diagnosis.json",
+    "source_sha256": "0d2f6a1e8b35030483b01fd04241bcfbb47b29f66613dc37af09dbbb2b8c58ff",
+    "sha256": "0d2f6a1e8b35030483b01fd04241bcfbb47b29f66613dc37af09dbbb2b8c58ff",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_smoothing_diagnosis.py",
+    "path": "scripts/original/size_gate_smoothing_diagnosis.py",
+    "source_sha256": "51f26ff3714d505973c7929d8d9f949e52b8aa1948f026d887619ebd6c4ac8c3",
+    "sha256": "51f26ff3714d505973c7929d8d9f949e52b8aa1948f026d887619ebd6c4ac8c3",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_threshold_diagnosis_20261009/summary.json",
+    "path": "results/diagnostics/threshold_diagnosis.json",
+    "source_sha256": "6410af5d83f135a613a169509160a8fc5780632af1953509bac3ec05862bcfc4",
+    "sha256": "6410af5d83f135a613a169509160a8fc5780632af1953509bac3ec05862bcfc4",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_threshold_diagnosis.py",
+    "path": "scripts/original/size_gate_threshold_diagnosis.py",
+    "source_sha256": "c8899a4ff5f566334ee92144941ddf7bd017fc93c255a3b69d57acbf2238005a",
+    "sha256": "c8899a4ff5f566334ee92144941ddf7bd017fc93c255a3b69d57acbf2238005a",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_dimension_audit_20261009/summary.json",
+    "path": "results/diagnostics/dimension_audit.json",
+    "source_sha256": "20affea0beb5fbe7371a35d0c9221e2d355e3f45abc02234b9dc6e8c02cb53e3",
+    "sha256": "20affea0beb5fbe7371a35d0c9221e2d355e3f45abc02234b9dc6e8c02cb53e3",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_dimension_audit.py",
+    "path": "scripts/original/size_gate_dimension_audit.py",
+    "source_sha256": "363aaba97247650ecd580c31c99d9525b5c6dfa3302f4d268aa4cbbdd487e532",
+    "sha256": "363aaba97247650ecd580c31c99d9525b5c6dfa3302f4d268aa4cbbdd487e532",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_candidate_stage_audit_20261009/summary.json",
+    "path": "results/diagnostics/candidate_stage_audit.json",
+    "source_sha256": "18e434dfc065f347e7c37f8a94f7d4fd105021cdc707d7a593f76c0b5afb3f92",
+    "sha256": "18e434dfc065f347e7c37f8a94f7d4fd105021cdc707d7a593f76c0b5afb3f92",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_candidate_stage_audit.py",
+    "path": "scripts/original/size_gate_candidate_stage_audit.py",
+    "source_sha256": "e2b69b60424c34214a510e718859bc3c8764b0e6b410e3f1c60052f75cf44102",
+    "sha256": "e2b69b60424c34214a510e718859bc3c8764b0e6b410e3f1c60052f75cf44102",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_candidate_window_audit_20261009/summary.json",
+    "path": "results/diagnostics/candidate_window_audit.json",
+    "source_sha256": "f80d48722494de55c38c0b2615b75970e44d7d9810fe2bf1b5216af088e556bd",
+    "sha256": "f80d48722494de55c38c0b2615b75970e44d7d9810fe2bf1b5216af088e556bd",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_candidate_window_audit.py",
+    "path": "scripts/original/size_gate_candidate_window_audit.py",
+    "source_sha256": "cd19723e97cb3631c6e11740f49fe5fc1b280f1ea9f2b739027f564f545f9287",
+    "sha256": "cd19723e97cb3631c6e11740f49fe5fc1b280f1ea9f2b739027f564f545f9287",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_semantic_case_20261009/summary.json",
+    "path": "results/diagnostics/semantic_case.json",
+    "source_sha256": "b6eb2e40327e7ff2c7b9a385a805a07e5ed018ab1522095efbf4f7d6070eedbb",
+    "sha256": "b6eb2e40327e7ff2c7b9a385a805a07e5ed018ab1522095efbf4f7d6070eedbb",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_semantic_case.py",
+    "path": "scripts/original/size_gate_semantic_case.py",
+    "source_sha256": "536ad8149fdaaf67bde20c095fca0d19ccaddae1b8310732d1258227f40e2384",
+    "sha256": "536ad8149fdaaf67bde20c095fca0d19ccaddae1b8310732d1258227f40e2384",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/size_gate_mno_budget_probe_20261009/summary.json",
+    "path": "results/diagnostics/mno_budget_probe.json",
+    "source_sha256": "98a3ff6b2096f2fd1f8fa349f848d3432c1a19b1f9e9ab860fce9e5f14fef2ef",
+    "sha256": "98a3ff6b2096f2fd1f8fa349f848d3432c1a19b1f9e9ab860fce9e5f14fef2ef",
+    "transformation": "replace local absolute paths in string metadata only"
+  },
+  {
+    "source_path": "scripts/size_gate_mno_budget_probe.py",
+    "path": "scripts/original/size_gate_mno_budget_probe.py",
+    "source_sha256": "c20be536b7ce16fbe229a83263ec4e56b353a2d151ac10cf08cbfb3507d79d34",
+    "sha256": "c20be536b7ce16fbe229a83263ec4e56b353a2d151ac10cf08cbfb3507d79d34",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "source_path": "results/replay_summary.txt",
+    "path": "results/history/decision_rules_summary.txt",
+    "source_sha256": "496daa56a7d957e2236f0d1e9509bc34b958aab4e6147499856a342618cdf908",
+    "sha256": "496daa56a7d957e2236f0d1e9509bc34b958aab4e6147499856a342618cdf908",
+    "transformation": "byte-for-byte"
+  }
+]

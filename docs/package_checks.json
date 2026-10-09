@@ -1,0 +1,25 @@
+{
+  "all_checks_passed": true,
+  "own_indexed_files": 120,
+  "submodules": {
+    "tcaff": "ff4ceab04b03fecabc4de9c9cbe7dbba4ab50df9",
+    "clipper": "e514dc29c273837ffdfeebbefbdcb2a93d970969"
+  },
+  "local_links_checked": 125,
+  "canonical_answers": 798,
+  "original_label_files": 5,
+  "source_files_checked": 70,
+  "primary_runs_with_unchanged_non_gate_parameters": 420,
+  "no_author_dataset_in_parent_index": true,
+  "no_ROMAN_dependency_or_import": true,
+  "adapted_mapping_and_GT_unchanged": true,
+  "evidence_rows": 35,
+  "script_sha256": "285e5885825f559550610f22774d07e6787a89afcd2cc061c5dcc7d137264914",
+  "scope": "Local packaging and saved metrics; no clean installation or broad rerun",
+  "clean_export_light_path_passed": true,
+  "original_project_preservation_checked_files": 92,
+  "numeric_fields_preserved": 10989,
+  "heavy_workspace_count_passed": true,
+  "clean_installation_checked": false,
+  "new_full_baseline_or_ablation_series_started": false
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Layout only; no new experiment or changed numerical input",
+  "command": "python3 scripts/render_saved.py --output <new-directory>",
+  "script_sha256": "7f584b307a88be057a6931c62d42563871a2289e6ea805488a4d1a2ebbf1d570",
+  "inputs": {
+    "results/size_gate/summary.json": "1d0e4a23ef519297775df12775be27ebd7eff510c14d898901b9a5e721db46a9",
+    "results/occlusion/cases.json": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+    "results/occlusion/display_masks.npz": "4633d4495a9d3213fee23e809d3be5a45e252aba56f2faa5685735a8861b5595"
+  },
+  "outputs": {
+    "late_windows.svg": "6d227a3cc93a1c26600cd4273f816f34674adb3f3e0b7b0173f9a393db966c1d",
+    "late_windows.png": "32d1fa1c149eab783dd52e1f046190ed63187514a9827cc05e917ecff57e03e6",
+    "cold_start.png": "f7a531bf80a0d97876d0615f82fbc8a813f48a741f557fb4a63281e785bfae93",
+    "occlusion.png": "54820864238f9ee868cd40da4bf01e255524844397e56e227677dd17669ef798"
+  }
+}

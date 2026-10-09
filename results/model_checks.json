@@ -1,0 +1,10 @@
+{
+  "cases": 80,
+  "controls": 8,
+  "max_numeric_difference": 0.0,
+  "geometry_function_AST_unchanged": true,
+  "scope": "Existing ideal descriptor/gate model recheck, not a new research series",
+  "script_sha256": "386b4795ba21a3b7b0de4ed8349743e1d3dd426bfbf9ecd3b73ce71452211ec2",
+  "saved_cases_sha256": "67604881f34e49b568b53442263321617c0e5df06863a72b8ba20bc46f7803ad",
+  "all_checks_passed": true
+}
