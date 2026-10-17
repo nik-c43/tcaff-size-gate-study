@@ -1,0 +1,69 @@
+{
+ "capture": "rep1/capture",
+ "step_stride": 10,
+ "failing_pairs": [
+  "RR04_RR08",
+  "RR06_RR08",
+  "RR08_RR04",
+  "RR08_RR06"
+ ],
+ "map_objects_robot_a": {
+  "gt_obstacle": 7713,
+  "other": 8793,
+  "floor": 2619,
+  "room_edge": 13719,
+  "high": 204
+ },
+ "inliers": {
+  "all": {
+   "inliers": 2144,
+   "kind:mixed": 389,
+   "same_place": 1416,
+   "right_dynamic": 15,
+   "wrong_place": 728,
+   "wrong_kind:mixed": 264,
+   "wrong_dynamic": 49,
+   "kind:room_edge": 484,
+   "kind:gt_obstacle": 1158,
+   "wrong_kind:gt_obstacle": 278,
+   "wrong_kind:room_edge": 109,
+   "kind:other": 102,
+   "wrong_kind:other": 71,
+   "kind:floor": 11,
+   "wrong_kind:floor": 6
+  },
+  "failing_pairs": {
+   "inliers": 559,
+   "kind:mixed": 89,
+   "wrong_place": 143,
+   "wrong_kind:mixed": 47,
+   "wrong_dynamic": 11,
+   "kind:gt_obstacle": 346,
+   "wrong_kind:gt_obstacle": 58,
+   "kind:room_edge": 94,
+   "wrong_kind:room_edge": 20,
+   "kind:other": 28,
+   "wrong_kind:other": 18,
+   "same_place": 416,
+   "right_dynamic": 4,
+   "kind:floor": 2
+  },
+  "other_pairs": {
+   "inliers": 1585,
+   "kind:mixed": 300,
+   "same_place": 1000,
+   "right_dynamic": 11,
+   "wrong_place": 585,
+   "wrong_kind:mixed": 217,
+   "wrong_dynamic": 38,
+   "kind:room_edge": 390,
+   "kind:gt_obstacle": 812,
+   "wrong_kind:gt_obstacle": 220,
+   "wrong_kind:room_edge": 89,
+   "kind:other": 74,
+   "wrong_kind:other": 53,
+   "kind:floor": 9,
+   "wrong_kind:floor": 6
+  }
+ }
+}

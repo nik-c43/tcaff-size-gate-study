@@ -508,5 +508,65 @@
     "value": "no",
     "source_file": "results/segment_unit/unit_test/aggregate.json; configs/unit_hypothesis.json",
     "reproduce_command": "python3 scripts/segment_unit/aggregate.py RUNS_DIR MECHANISM_JSON OUT_JSON"
+  },
+  {
+    "experiment_id": "annotation-places",
+    "inputs": "798 labelled pairs; last observation of each side placed in the world with the robot GT pose",
+    "configuration": "geometric place classes (report section 4)",
+    "evaluation_scope": "1596 labelled observations",
+    "metric_and_definition": "observations within 0.35 m XY of a GT obstacle point and below 0.9 m",
+    "value": 1012,
+    "source_file": "results/segment_unit/annotation_places.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/annotation_places.py WORKSPACE OUT_JSON"
+  },
+  {
+    "experiment_id": "annotation-robot-notes",
+    "inputs": "54 tasks whose notes mention robots; GT poses of robots and pedestrians",
+    "configuration": "near mover = within 0.3 m XY of another robot or a pedestrian at observation time",
+    "evaluation_scope": "54 robot-noted tasks (all cannot_tell)",
+    "metric_and_definition": "robot-noted tasks with a side within 0.3 m of another robot",
+    "value": 50,
+    "source_file": "results/segment_unit/annotation_places.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/annotation_places.py WORKSPACE OUT_JSON"
+  },
+  {
+    "experiment_id": "landmarks-B0",
+    "inputs": "maps captured in B0 rep1; frame alignment replayed every 10th step (release TCAFFManager)",
+    "configuration": "scripts/segment_unit/landmarks.py; solution closest to the run's accepted estimate",
+    "evaluation_scope": "2144 inlier correspondences, 12 directed pairs, one recording",
+    "metric_and_definition": "inlier correspondences with both ends at GT obstacles",
+    "value": 1158,
+    "source_file": "results/segment_unit/landmarks/B0.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS"
+  },
+  {
+    "experiment_id": "landmarks-B0",
+    "inputs": "maps captured in B0 rep1; replayed frame alignment",
+    "configuration": "same place = ends closer than 0.5 m XY in the world frame",
+    "evaluation_scope": "2144 inlier correspondences",
+    "metric_and_definition": "inlier correspondences whose ends lie at the same world place",
+    "value": 1416,
+    "source_file": "results/segment_unit/landmarks/B0.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS"
+  },
+  {
+    "experiment_id": "landmarks-R0-failing-pairs",
+    "inputs": "maps captured in R0 rep1; replayed frame alignment",
+    "configuration": "failing pairs RR04_RR08, RR08_RR04, RR06_RR08, RR08_RR06",
+    "evaluation_scope": "inliers of the four failing directed pairs",
+    "metric_and_definition": "same-place inlier correspondences",
+    "value": 487,
+    "source_file": "results/segment_unit/landmarks/R0.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS"
+  },
+  {
+    "experiment_id": "landmarks-U3-failing-pairs",
+    "inputs": "maps captured in U3 rep1; replayed frame alignment",
+    "configuration": "failing pairs RR04_RR08, RR08_RR04, RR06_RR08, RR08_RR06",
+    "evaluation_scope": "inliers of the four failing directed pairs",
+    "metric_and_definition": "same-place inlier correspondences",
+    "value": 133,
+    "source_file": "results/segment_unit/landmarks/U3.json",
+    "reproduce_command": "external data: python -I scripts/segment_unit/landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS"
   }
 ]

@@ -1,0 +1,76 @@
+{
+ "capture": "rep1/capture",
+ "step_stride": 10,
+ "failing_pairs": [
+  "RR04_RR08",
+  "RR06_RR08",
+  "RR08_RR04",
+  "RR08_RR06"
+ ],
+ "map_objects_robot_a": {
+  "gt_obstacle": 6987,
+  "floor": 3747,
+  "other": 14499,
+  "room_edge": 12888,
+  "high": 3402
+ },
+ "inliers": {
+  "all": {
+   "inliers": 1947,
+   "kind:room_edge": 257,
+   "same_place": 767,
+   "right_dynamic": 31,
+   "kind:gt_obstacle": 532,
+   "wrong_place": 1180,
+   "wrong_kind:room_edge": 94,
+   "wrong_dynamic": 172,
+   "kind:mixed": 721,
+   "wrong_kind:mixed": 593,
+   "wrong_kind:gt_obstacle": 168,
+   "kind:other": 304,
+   "wrong_kind:other": 234,
+   "kind:floor": 36,
+   "wrong_kind:floor": 22,
+   "kind:high": 97,
+   "wrong_kind:high": 69
+  },
+  "failing_pairs": {
+   "inliers": 409,
+   "kind:mixed": 170,
+   "wrong_place": 276,
+   "wrong_kind:mixed": 138,
+   "wrong_dynamic": 47,
+   "kind:other": 101,
+   "wrong_kind:other": 80,
+   "kind:gt_obstacle": 93,
+   "wrong_kind:gt_obstacle": 33,
+   "kind:high": 19,
+   "wrong_kind:high": 13,
+   "same_place": 133,
+   "right_dynamic": 6,
+   "kind:room_edge": 22,
+   "wrong_kind:room_edge": 10,
+   "kind:floor": 4,
+   "wrong_kind:floor": 2
+  },
+  "other_pairs": {
+   "inliers": 1538,
+   "kind:room_edge": 235,
+   "same_place": 634,
+   "right_dynamic": 25,
+   "kind:gt_obstacle": 439,
+   "wrong_place": 904,
+   "wrong_kind:room_edge": 84,
+   "wrong_dynamic": 125,
+   "kind:mixed": 551,
+   "wrong_kind:mixed": 455,
+   "wrong_kind:gt_obstacle": 135,
+   "kind:other": 203,
+   "wrong_kind:other": 154,
+   "kind:floor": 32,
+   "wrong_kind:floor": 20,
+   "kind:high": 78,
+   "wrong_kind:high": 56
+  }
+ }
+}

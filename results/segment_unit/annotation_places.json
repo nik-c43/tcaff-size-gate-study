@@ -1,0 +1,56 @@
+{
+ "pairs": 798,
+ "sides_by_place": {
+  "gt_obstacle": 1012,
+  "room_edge": 276,
+  "other": 201,
+  "high": 2,
+  "floor": 105
+ },
+ "pairs_by_answer_and_place": {
+  "cannot_tell": {
+   "gt_obstacle": 14,
+   "other": 57,
+   "floor": 5
+  },
+  "same_object": {
+   "room_edge": 90,
+   "gt_obstacle": 214,
+   "mixed": 10
+  },
+  "different_objects": {
+   "mixed": 98,
+   "gt_obstacle": 212,
+   "high": 1,
+   "floor": 7,
+   "other": 8,
+   "room_edge": 15
+  },
+  "part_whole_or_ambiguous": {
+   "gt_obstacle": 36,
+   "room_edge": 31
+  }
+ },
+ "notes_vs_gt": {
+  "none": {
+   "near_mover=False": 685,
+   "near_mover=True": 57
+  },
+  "none_near_mover_answers": {
+   "different_objects": 54,
+   "cannot_tell": 3
+  },
+  "robot": {
+   "near_mover=True": 50,
+   "near_mover=False": 4
+  },
+  "person": {
+   "near_mover=True": 2
+  }
+ },
+ "robot_noted_min_distance_m_q25_q50_q75": [
+  0.164,
+  0.214,
+  0.25
+ ]
+}

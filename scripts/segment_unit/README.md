@@ -23,6 +23,13 @@
 | 5 | `aggregate.py RUNS_DIR MECHANISM_JSON OUT_JSON` | любой Python | Среднее и размах по повторам и правило решения протокола |
 | 6 | `plot_unit_test.py` | `.venv` (matplotlib) | Рисунок §9 из сохранённой сводки → `results/figures/publication/unit_hypothesis.png`, хэши входа и выходов в `unit_hypothesis_provenance.json` |
 
+## Состав карт, соответствий и разметки (§5, §8.3, §9)
+
+| Скрипт | Окружение | Что делает |
+|---|---|---|
+| `landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS` | `.venv` | Переводит объекты захваченных карт в мировую систему, повторяет совмещение на каждом десятом шаге и раскладывает соответствия CLIPPER по классам положения, месту и близости к роботам и людям → `results/segment_unit/landmarks/` |
+| `annotation_places.py WORKSPACE OUT_JSON` | `.venv` | Ставит наблюдения 798 размеченных пар в мировую систему, сверяет пометки о роботах и людях с GT → `results/segment_unit/annotation_places.json` |
+
 **Окружения.** `.venv` — окружение бейслайна с robotdatapy, rosbags и clipperpy. `.venv-vision` — FastSAM (CASIA, коммит 4d153e9), ultralytics 8.0.120, PyTorch 2.4.1 CPU; версии записаны в протоколе.
 
 **Веса** FastSAM-x скачиваются отдельно: `https://github.com/ultralytics/assets/releases/download/v0.0.0/FastSAM-x.pt`, SHA-256 указан в протоколе. В репозиторий веса не входят.
