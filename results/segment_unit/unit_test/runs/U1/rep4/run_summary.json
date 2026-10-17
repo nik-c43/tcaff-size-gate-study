@@ -1,0 +1,43 @@
+{
+ "availability": 0.8741345202769535,
+ "mean_of_pair_means_translation_m": 0.6986897024880242,
+ "mean_of_pair_means_yaw_deg": 7.712763518767338,
+ "pooled_mean_translation_m": 0.6792025534764513,
+ "correct_share_all_updates": 0.6419386745796242,
+ "correct_updates": 2596,
+ "pair_updates": 4044,
+ "first_acceptance_s": {
+  "RR01_RR04": 34.999966621398926,
+  "RR01_RR06": 36.99996471405029,
+  "RR01_RR08": 24.99997615814209,
+  "RR04_RR01": 34.999966621398926,
+  "RR04_RR06": 28.999972343444824,
+  "RR04_RR08": 24.99997615814209,
+  "RR06_RR01": 36.99996471405029,
+  "RR06_RR04": 28.999972343444824,
+  "RR06_RR08": 79.99992370605469,
+  "RR08_RR01": 24.99997615814209,
+  "RR08_RR04": 35.99996566772461,
+  "RR08_RR06": 79.99992370605469
+ },
+ "replay_mismatches": 0,
+ "max_replay_coordinate_error": 6.661338147750939e-16,
+ "variant_inputs": [
+  {
+   "file": "RR01.json",
+   "sha256": "f08e4f493d04d90ec1c2eb7224e25d9d82a05012e25f16c7ed4c6421f7b8ce34"
+  },
+  {
+   "file": "RR04.json",
+   "sha256": "272883685d57e4ce60e1f26a0ccfa623be0e832a291cf501ecbf0f3192b5a97a"
+  },
+  {
+   "file": "RR06.json",
+   "sha256": "1a055c1f17699924f3c0b563b8896a8dc7ab144bd9508dce57c59b114f76be09"
+  },
+  {
+   "file": "RR08.json",
+   "sha256": "a2eb3919f2214373b3d0f45078b6d0f38bd34b006114d761467a0f7df5877783"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Layout only; no new experiment or changed numerical input",
+  "command": "MPLBACKEND=Agg python scripts/segment_unit/plot_unit_test.py",
+  "script_sha256": "0048eb9001ea3e08d2734d014a2a58d9989ac2833517327bb4c7466f62e926fb",
+  "inputs": {
+    "results/segment_unit/unit_test/aggregate.json": "eba3fee3023872836bd22c891c4975e1d8d896bf20121e9c6fde7dee5b77134c"
+  },
+  "outputs": {
+    "unit_hypothesis.png": "056dd7cb41f0ee70857d37c7993404d924757b7804a8c04d33f438bd307bf36b",
+    "unit_hypothesis.svg": "7104860c14fa9646ae7c38c7477491c96d382b1d51ca481ec6d9204cc3887e5b"
+  }
+}

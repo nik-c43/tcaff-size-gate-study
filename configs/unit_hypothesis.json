@@ -1,0 +1,38 @@
+{
+  "title": "Рабочая гипотеза: стабилизация единицы сегмента до объектного совмещения TCAFF",
+  "version": 1,
+  "fixed_at_utc": "2026-10-16T18:40:00Z",
+  "fixed_before": "Variant construction and every TCAFF run of this protocol. The FastSAM frontend run on all frames was already started; it records mask attributes only and does not depend on the variant rules below.",
+  "motivation": "Segmentation audit on 800 sampled frames (results/segment_unit/sample_audit.json): among box-related segments in the authors' detection set 32% cover several GT boxes, 31% of visible boxes appear in two or more saved segments, and the segment unit of a box changes between consecutive sampled frames in 23% of cases. Multi-layer depth flags 33% of merged segments and 5% of single-box segments.",
+  "hypothesis": "In this scene a large part of wrong or lost object correspondences comes from an unstable segment unit (part/whole, nested masks, masks spanning several depth layers). Removing container masks and multi-layer masks before mapping lowers the alignment error of the unchanged TCAFF pipeline without a material loss of availability, compared with the same frontend without these rules.",
+  "tcaff_commit": "ff4ceab04b03fecabc4de9c9cbe7dbba4ab50df9",
+  "clipper_commit": "e514dc29c273837ffdfeebbefbdcb2a93d970969",
+  "tcaff_parameters": "configs/release.yaml, unchanged; only fastsam3d_data.root differs per variant",
+  "frontend": {
+    "model": "FastSAM-x",
+    "weights_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/FastSAM-x.pt",
+    "weights_sha256": "c0be4e7ddbe4c15333d15a859c676d053c486d0a746a3be6a7a9790d52a9b6d7",
+    "fastsam_package": "CASIA FastSAM commit 4d153e9, ultralytics 8.0.120, PyTorch 2.4.1 CPU",
+    "inference": {"mode": "everything", "conf": 0.5, "iou": 0.9, "imgsz": 1024, "retina_masks": true, "device": "cpu"},
+    "measurement": "TCAFF FastSAM3D: pixel mean and covariance of the mask; centroid = mean pixel back-projected at the median valid depth (raw depth >= 1 mm); width/height = pixel bounding box at that depth; masks without valid depth dropped",
+    "frames": "Every frame of the saved author JSON (13546 frames, four robots); L515 colour and aligned depth with the same stamp"
+  },
+  "variants": {
+    "R0": {"role": "control", "rule": "TCAFF measurement + drop masks touching the image border (the audit indicates the authors applied this filter)"},
+    "U1": {"role": "ablation", "rule": "R0 minus container masks: a mask is removed when at least 80% of the area of another R0 mask lies inside it (computed at 1/4 resolution)"},
+    "U2": {"role": "ablation", "rule": "R0 minus multi-layer masks: at least 10% of valid depth pixels lie more than 0.30 m behind the median depth, or at least 10% lie more than 0.30 m in front of it (same definition as the audit)"},
+    "U3": {"role": "primary", "rule": "R0 minus masks removed by U1 or U2"},
+    "B0": {"role": "reference only", "rule": "Authors' saved detections; frozen release baseline (results/baseline/audit.json); different frontend run, not the controlled comparison"}
+  },
+  "thresholds_origin": "80% containment, 0.30 m layer and 10% share were used in the 800-frame audit before this protocol; they are not tuned on any TCAFF result.",
+  "repeats": 5,
+  "repeat_note": "CLIPPER uses std::random_device; repeats are independent runs, not paired seeds",
+  "metrics": {
+    "primary": "share of all pair updates with an estimate within 1 m and 5 degrees of GT (unavailable updates count as not correct)",
+    "secondary": ["mean of per-directed-pair mean translation and yaw error (released demo metric)", "availability = accepted pair updates / all pair updates", "first acceptance time per directed pair"],
+    "mechanism": ["share of box-related detections covering two or more GT boxes", "share of (frame, GT box) observations present in two or more detections", "detections per frame"]
+  },
+  "decision_rule": "Supported if, averaged over repeats, U3 has a higher primary metric and a lower mean-of-pair-means translation error than R0, both differences exceed the range of R0 across its repeats, availability falls by at most 5 percentage points, and the mechanism metric (multi-box share) decreases. Otherwise not supported; U1 and U2 are reported as ablations without changing the verdict.",
+  "independence": "One recording. The audit that motivated the rules used 800 frames of the same recording; this is a test of a fixed rule on the full recording, not an evaluation on unseen data.",
+  "excluded": ["changes to TCAFF costs, size gate, CLIPPER or temporal filter", "retuning thresholds after seeing TCAFF results", "MOT/MOTA"]
+}

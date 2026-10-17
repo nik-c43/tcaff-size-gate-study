@@ -348,5 +348,165 @@
     "value": "4/1/1 -> 2/3/1",
     "source_file": "results/history/h7_summary.json",
     "reproduce_command": "saved-summary reading only; historical rerun retained in original project"
+  },
+  {
+    "experiment_id": "literature-systematic-2025-2026",
+    "inputs": "OpenAlex and arXiv queries Q1-Q5; forward citations of 15 seed papers (OpenAlex, Semantic Scholar)",
+    "configuration": "docs/literature_search/search_log.json",
+    "evaluation_scope": "2025-01-01..2026-10-15; 1028 unique records screened by title, 150 by abstract",
+    "metric_and_definition": "records included in synthesis",
+    "value": 35,
+    "source_file": "docs/literature_search/screening.csv; docs/systematic_search_2025_2026.md",
+    "reproduce_command": "python3 -I docs/literature_search/search.py OUT_DIR (API results change over time)"
+  },
+  {
+    "experiment_id": "uncertainty-calibration-feasibility",
+    "inputs": "saved author detections; TCAFF map tracker (release parameters) with GT poses; GT pedestrians/robots excluded",
+    "configuration": "scripts/uncertainty/README.md",
+    "evaluation_scope": "44794 within-track pairs of 513 box tracks, four robots, one recording",
+    "metric_and_definition": "90% quantile of XY centroid discrepancy within a track (metres)",
+    "value": 0.6278,
+    "source_file": "results/uncertainty/calibration_feasibility.json",
+    "reproduce_command": "external data: scripts/uncertainty/extract.py then analyze.py"
+  },
+  {
+    "experiment_id": "uncertainty-calibration-feasibility",
+    "inputs": "same pairs; GT box positions from objects.txt",
+    "configuration": "scripts/uncertainty/README.md",
+    "evaluation_scope": "591 box tracks",
+    "metric_and_definition": "share of box tracks with more than 20% of detections off their modal GT box",
+    "value": 0.4653,
+    "source_file": "results/uncertainty/calibration_feasibility.json",
+    "reproduce_command": "external data: scripts/uncertainty/extract.py then analyze.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "800 L515 frames (200 per robot, time-uniform); FastSAM-x CPU, TCAFF wrapper defaults",
+    "configuration": "configs/unit_hypothesis.json (frontend); results/segment_unit/sample_frames.json",
+    "evaluation_scope": "6238 saved author detections in the sampled frames",
+    "metric_and_definition": "share of saved detections reproduced (pixel centroid within 15 px)",
+    "value": 0.8913,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "masks matched to saved detections; depth back-projection; GT box positions",
+    "configuration": "scripts/segment_unit/README.md",
+    "evaluation_scope": "2127 box-related masks in the TCAFF input subset; frame bootstrap",
+    "metric_and_definition": "share of box-related segments covering two or more GT boxes",
+    "value": 0.3235,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "masks matched to saved detections; GT box positions",
+    "configuration": "scripts/segment_unit/README.md",
+    "evaluation_scope": "2119 (frame, GT box) observations",
+    "metric_and_definition": "share of box observations present in two or more saved segments",
+    "value": 0.3072,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "all reproduced masks; GT box positions",
+    "configuration": "scripts/segment_unit/README.md",
+    "evaluation_scope": "1320 consecutive sampled-frame pairs of the same robot and GT box",
+    "metric_and_definition": "share where the dominant segment changes between single-box and multi-box unit",
+    "value": 0.2295,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "masks matched to saved detections; valid depth pixels",
+    "configuration": "multi-layer: >=10% of valid pixels >0.30 m behind or in front of the median",
+    "evaluation_scope": "single-box masks of the TCAFF input subset",
+    "metric_and_definition": "share of single-box masks flagged multi-layer",
+    "value": 0.0506,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "segment-audit-sample",
+    "inputs": "masks matched to saved detections; valid depth pixels",
+    "configuration": "multi-layer: >=10% of valid pixels >0.30 m behind or in front of the median",
+    "evaluation_scope": "multi-box and box-plus-background masks of the TCAFF input subset",
+    "metric_and_definition": "share of merged masks flagged multi-layer",
+    "value": 0.3271,
+    "source_file": "results/segment_unit/sample_audit.json",
+    "reproduce_command": "external data: scripts/segment_unit extract_frames.py, segment.py, summarize.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-R0",
+    "inputs": "FastSAM-x on all 13546 frames; R0 rule (TCAFF measurement + border filter)",
+    "configuration": "configs/unit_hypothesis.json; configs/release.yaml unchanged",
+    "evaluation_scope": "5 repeats x 337 updates x 12 directed pairs, one recording",
+    "metric_and_definition": "share of all pair updates within 1 m and 5 deg of GT, mean over repeats",
+    "value": 0.7513,
+    "source_file": "results/segment_unit/unit_test/aggregate.json",
+    "reproduce_command": "external data: scripts/segment_unit run_all.sh, build_variants.py, run_variants.sh, aggregate.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-U3",
+    "inputs": "same masks; U3 rule (R0 minus container and multi-layer masks)",
+    "configuration": "configs/unit_hypothesis.json; configs/release.yaml unchanged",
+    "evaluation_scope": "5 repeats x 337 updates x 12 directed pairs, one recording",
+    "metric_and_definition": "share of all pair updates within 1 m and 5 deg of GT, mean over repeats",
+    "value": 0.536,
+    "source_file": "results/segment_unit/unit_test/aggregate.json",
+    "reproduce_command": "external data: scripts/segment_unit run_all.sh, build_variants.py, run_variants.sh, aggregate.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-R0",
+    "inputs": "FastSAM-x on all 13546 frames; R0 rule",
+    "configuration": "configs/unit_hypothesis.json",
+    "evaluation_scope": "5 repeats, 12 directed pairs",
+    "metric_and_definition": "mean-of-pair-means translation (SE2 inv(GT) @ EST, metres), mean over repeats",
+    "value": 0.5016,
+    "source_file": "results/segment_unit/unit_test/aggregate.json",
+    "reproduce_command": "external data: scripts/segment_unit run_variants.sh, aggregate.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-U3",
+    "inputs": "same masks; U3 rule",
+    "configuration": "configs/unit_hypothesis.json",
+    "evaluation_scope": "5 repeats, 12 directed pairs",
+    "metric_and_definition": "mean-of-pair-means translation (SE2 inv(GT) @ EST, metres), mean over repeats",
+    "value": 1.2053,
+    "source_file": "results/segment_unit/unit_test/aggregate.json",
+    "reproduce_command": "external data: scripts/segment_unit run_variants.sh, aggregate.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-U3",
+    "inputs": "same masks; U3 rule",
+    "configuration": "configs/unit_hypothesis.json",
+    "evaluation_scope": "5 repeats, 4044 pair updates each",
+    "metric_and_definition": "availability drop versus R0 (percentage points)",
+    "value": 8.259,
+    "source_file": "results/segment_unit/unit_test/aggregate.json",
+    "reproduce_command": "external data: scripts/segment_unit run_variants.sh, aggregate.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-mechanism",
+    "inputs": "variant detections with GT box composition of each mask",
+    "configuration": "configs/unit_hypothesis.json",
+    "evaluation_scope": "13546 frames, box-related detections",
+    "metric_and_definition": "multi-box share of box-related detections, R0 minus U3",
+    "value": 0.0804,
+    "source_file": "results/segment_unit/unit_test/aggregate.json; results/segment_unit/unit_test/mechanism.json",
+    "reproduce_command": "external data: scripts/segment_unit build_variants.py"
+  },
+  {
+    "experiment_id": "unit-hypothesis-decision",
+    "inputs": "aggregate of R0 and U3 repeats",
+    "configuration": "decision_rule in configs/unit_hypothesis.json",
+    "evaluation_scope": "pre-registered rule applied mechanically",
+    "metric_and_definition": "hypothesis supported by the protocol rule",
+    "value": "no",
+    "source_file": "results/segment_unit/unit_test/aggregate.json; configs/unit_hypothesis.json",
+    "reproduce_command": "python3 scripts/segment_unit/aggregate.py RUNS_DIR MECHANISM_JSON OUT_JSON"
   }
 ]

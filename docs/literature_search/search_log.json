@@ -1,0 +1,181 @@
+{
+ "queries": {
+  "Q1_object_alignment_uncertainty": {
+   "openalex": 73,
+   "arxiv": 26,
+   "openalex_query": "(\"object map\" OR \"object maps\" OR \"object-level\" OR \"object-based\" OR \"object landmarks\" OR \"semantic landmarks\" OR \"scene graph\" OR \"scene graphs\" OR \"open-set\" OR \"open-vocabulary\" OR \"segment map\" OR \"object centroids\") AND (\"map alignment\" OR \"map merging\" OR \"map matching\" OR \"data association\" OR registration OR relocalization OR \"global localization\" OR \"loop closure\" OR \"frame alignment\" OR \"place recognition\" OR \"multi-robot\") AND (uncertainty OR covariance OR \"partial observation\" OR \"partial observations\" OR \"partial view\" OR \"partial views\" OR occlusion OR truncation OR \"noise bound\" OR conformal OR calibrated OR viewpoint)",
+   "arxiv_query": "((abs:\"object map\" OR abs:\"object maps\" OR abs:\"object-level\" OR abs:\"object-based\" OR abs:\"object landmarks\" OR abs:\"semantic landmarks\" OR abs:\"scene graph\" OR abs:\"scene graphs\" OR abs:\"open-set\" OR abs:\"open-vocabulary\" OR abs:\"segment map\" OR abs:\"object centroids\") AND (abs:\"map alignment\" OR abs:\"map merging\" OR abs:\"map matching\" OR abs:\"data association\" OR abs:registration OR abs:relocalization OR abs:\"global localization\" OR abs:\"loop closure\" OR abs:\"frame alignment\" OR abs:\"place recognition\" OR abs:\"multi-robot\") AND (abs:uncertainty OR abs:covariance OR abs:\"partial observation\" OR abs:\"partial observations\" OR abs:\"partial view\" OR abs:\"partial views\" OR abs:occlusion OR abs:truncation OR abs:\"noise bound\" OR abs:conformal OR abs:calibrated OR abs:viewpoint)) AND (cat:cs.RO OR cat:cs.CV) AND submittedDate:[202501010000 TO 202610152359]"
+  },
+  "Q2_centroid_size_partial_view": {
+   "openalex": 39,
+   "arxiv": 11,
+   "openalex_query": "(centroid OR \"object center\" OR \"object size\" OR \"bounding box\") AND (\"partial observation\" OR \"partial view\" OR occlusion OR truncation OR \"partially observed\" OR \"partially visible\") AND (uncertainty OR covariance OR bias OR calibration OR conformal) AND (SLAM OR mapping OR localization OR robot OR \"data association\")",
+   "arxiv_query": "((abs:centroid OR abs:\"object center\" OR abs:\"object size\" OR abs:\"bounding box\") AND (abs:\"partial observation\" OR abs:\"partial view\" OR abs:occlusion OR abs:truncation OR abs:\"partially observed\" OR abs:\"partially visible\") AND (abs:uncertainty OR abs:covariance OR abs:bias OR abs:calibration OR abs:conformal) AND (abs:SLAM OR abs:mapping OR abs:localization OR abs:robot OR abs:\"data association\")) AND (cat:cs.RO OR cat:cs.CV) AND submittedDate:[202501010000 TO 202610152359]"
+  },
+  "Q3_registration_noise_bounds": {
+   "openalex": 185,
+   "arxiv": 24,
+   "openalex_query": "(registration OR \"data association\" OR correspondence OR correspondences) AND (\"noise bound\" OR \"noise bounds\" OR \"bounded noise\" OR \"unknown-but-bounded\" OR heteroscedastic OR \"per-correspondence\" OR conformal OR \"uncertainty-aware\") AND (robust OR outlier OR outliers OR certifiable OR \"maximum clique\" OR \"graph-theoretic\" OR \"consistency graph\")",
+   "arxiv_query": "((abs:registration OR abs:\"data association\" OR abs:correspondence OR abs:correspondences) AND (abs:\"noise bound\" OR abs:\"noise bounds\" OR abs:\"bounded noise\" OR abs:\"unknown-but-bounded\" OR abs:heteroscedastic OR abs:\"per-correspondence\" OR abs:conformal OR abs:\"uncertainty-aware\") AND (abs:robust OR abs:outlier OR abs:outliers OR abs:certifiable OR abs:\"maximum clique\" OR abs:\"graph-theoretic\" OR abs:\"consistency graph\")) AND (cat:cs.RO OR cat:cs.CV) AND submittedDate:[202501010000 TO 202610152359]"
+  },
+  "Q4_multirobot_object_alignment": {
+   "openalex": 58,
+   "arxiv": 23,
+   "openalex_query": "(\"multi-robot\" OR \"multi-agent\" OR collaborative OR \"inter-robot\" OR \"cross-view\") AND (\"object map\" OR \"object maps\" OR \"object-level\" OR \"object-based\" OR \"object landmarks\" OR \"semantic landmarks\" OR \"scene graph\" OR \"scene graphs\" OR \"open-set\" OR \"open-vocabulary\" OR \"segment map\" OR \"object centroids\" OR \"semantic map\" OR segment) AND (\"map alignment\" OR \"map merging\" OR registration OR \"frame alignment\" OR \"relative pose\" OR \"global localization\" OR \"loop closure\")",
+   "arxiv_query": "((abs:\"multi-robot\" OR abs:\"multi-agent\" OR abs:collaborative OR abs:\"inter-robot\" OR abs:\"cross-view\") AND (abs:\"object map\" OR abs:\"object maps\" OR abs:\"object-level\" OR abs:\"object-based\" OR abs:\"object landmarks\" OR abs:\"semantic landmarks\" OR abs:\"scene graph\" OR abs:\"scene graphs\" OR abs:\"open-set\" OR abs:\"open-vocabulary\" OR abs:\"segment map\" OR abs:\"object centroids\" OR abs:\"semantic map\" OR abs:segment) AND (abs:\"map alignment\" OR abs:\"map merging\" OR abs:registration OR abs:\"frame alignment\" OR abs:\"relative pose\" OR abs:\"global localization\" OR abs:\"loop closure\")) AND (cat:cs.RO OR cat:cs.CV) AND submittedDate:[202501010000 TO 202610152359]"
+  },
+  "Q5_object_alignment_domain": {
+   "openalex": 94,
+   "arxiv": 64,
+   "openalex_query": "(\"object map\" OR \"object maps\" OR \"object-level\" OR \"object-based\" OR \"object landmarks\" OR \"semantic landmarks\" OR \"scene graph\" OR \"scene graphs\" OR \"open-set\" OR \"open-vocabulary\" OR \"segment map\" OR \"object centroids\") AND (\"map alignment\" OR \"map merging\" OR relocalization OR \"global localization\" OR \"frame alignment\" OR submap OR submaps OR \"loop closure\" OR \"place recognition\")",
+   "arxiv_query": "((abs:\"object map\" OR abs:\"object maps\" OR abs:\"object-level\" OR abs:\"object-based\" OR abs:\"object landmarks\" OR abs:\"semantic landmarks\" OR abs:\"scene graph\" OR abs:\"scene graphs\" OR abs:\"open-set\" OR abs:\"open-vocabulary\" OR abs:\"segment map\" OR abs:\"object centroids\") AND (abs:\"map alignment\" OR abs:\"map merging\" OR abs:relocalization OR abs:\"global localization\" OR abs:\"frame alignment\" OR abs:submap OR abs:submaps OR abs:\"loop closure\" OR abs:\"place recognition\")) AND (cat:cs.RO OR cat:cs.CV) AND submittedDate:[202501010000 TO 202610152359]"
+  }
+ },
+ "seeds": {
+  "TCAFF": {
+   "arxiv": "2405.05210",
+   "doi": null,
+   "openalex_ids": [
+    "W4413925410"
+   ],
+   "openalex_citing": 1,
+   "s2_citing": 3
+  },
+  "ROMAN": {
+   "arxiv": "2410.08262",
+   "doi": "10.15607/RSS.2025.XXI.029",
+   "openalex_ids": [
+    "W4414051112",
+    "W4414051112"
+   ],
+   "openalex_citing": 10,
+   "s2_citing": 22
+  },
+  "MOTLEE": {
+   "arxiv": "2304.12175",
+   "doi": null,
+   "openalex_ids": [
+    "W4389665460"
+   ],
+   "openalex_citing": 5,
+   "s2_citing": 4
+  },
+  "SOS-Match": {
+   "arxiv": "2401.04791",
+   "doi": null,
+   "openalex_ids": [
+    "W4405786830"
+   ],
+   "openalex_citing": 7,
+   "s2_citing": 7
+  },
+  "CLIPPER_ICRA21": {
+   "arxiv": "2011.10202",
+   "doi": "10.1109/ICRA48506.2021.9561069",
+   "openalex_ids": [
+    "W3108271589",
+    "W3108271589"
+   ],
+   "openalex_citing": 12,
+   "s2_citing": 22
+  },
+  "CLIPPER_2024": {
+   "arxiv": "2402.07284",
+   "doi": null,
+   "openalex_ids": [
+    "W4391759918"
+   ],
+   "openalex_citing": 4,
+   "s2_citing": 9
+  },
+  "CLIPPER+": {
+   "arxiv": "2402.15464",
+   "doi": null,
+   "openalex_ids": [
+    "W4391992736"
+   ],
+   "openalex_citing": 12,
+   "s2_citing": 20
+  },
+  "TEASER": {
+   "arxiv": "2001.07715",
+   "doi": "10.1109/TRO.2020.3033695",
+   "openalex_ids": [
+    "W3111598592",
+    "W3111598592"
+   ],
+   "openalex_citing": 0,
+   "s2_citing": 356,
+   "openalex_errors": [
+    "W3111598592: <HTTPError 401: 'Unauthorized'>"
+   ]
+  },
+  "GAPSLAM": {
+   "arxiv": "2303.14283",
+   "doi": null,
+   "openalex_ids": [
+    "W4389665439"
+   ],
+   "openalex_citing": 2,
+   "s2_citing": 3
+  },
+  "PUMA": {
+   "arxiv": "2311.03655",
+   "doi": null,
+   "openalex_ids": [
+    "W4401415952"
+   ],
+   "openalex_citing": 7,
+   "s2_citing": 7
+  },
+  "DistributionEstimation": {
+   "arxiv": "2509.15565",
+   "doi": null,
+   "openalex_ids": [
+    "W4414698791"
+   ],
+   "openalex_citing": 0,
+   "s2_citing": 1
+  },
+  "Hickory": {
+   "arxiv": "2606.01545",
+   "doi": null,
+   "openalex_ids": [
+    "W7163153625"
+   ],
+   "openalex_citing": 0,
+   "s2_citing": 0
+  },
+  "Hydra-Multi": {
+   "arxiv": "2304.13487",
+   "doi": null,
+   "openalex_ids": [
+    "W4389665630"
+   ],
+   "openalex_citing": 20,
+   "s2_citing": 33
+  },
+  "QuadricSLAM": {
+   "arxiv": "1804.04011",
+   "doi": "10.1109/LRA.2018.2866205",
+   "openalex_ids": [
+    "W2887751724",
+    "W2887751724"
+   ],
+   "openalex_citing": 66,
+   "s2_citing": 82
+  },
+  "CubeSLAM": {
+   "arxiv": "1806.00557",
+   "doi": "10.1109/TRO.2019.2909168",
+   "openalex_ids": [
+    "W2938672559",
+    "W2938672559"
+   ],
+   "openalex_citing": 106,
+   "s2_citing": 107
+  }
+ },
+ "records_before_dedup": 1525,
+ "records_after_dedup": 1028
+}
