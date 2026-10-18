@@ -568,5 +568,155 @@
     "value": 133,
     "source_file": "results/segment_unit/landmarks/U3.json",
     "reproduce_command": "external data: python -I scripts/segment_unit/landmarks.py WORKSPACE CAPTURE_DIR OUT_JSON 10 FAILING_PAIRS"
+  },
+  {
+    "experiment_id": "support-B0-decomposition",
+    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "share of updates without an estimate before the first acceptance (U_pre)",
+    "value": 0.11028684470820968,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-B0-decomposition",
+    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "share of accepted updates with t <= 1 m and |yaw| > 5 deg (E_psi)",
+    "value": 0.08323442136498517,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-B0-decomposition",
+    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "share of accepted updates with t > 1 m (E_t)",
+    "value": 0.03961424332344214,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-T0-coverage",
+    "inputs": "captures of the 5 B0 repeats",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "steps before the first acceptance with GT, 60 captures",
+    "metric_and_definition": "share with at least one MNO measurement within 1 m and 5 deg of GT",
+    "value": 0.18654708520179372,
+    "source_file": "results/support/coverage.json",
+    "reproduce_command": "external data: python -I scripts/support/coverage.py LAB OUT_JSON CAPTURE_DIRS"
+  },
+  {
+    "experiment_id": "support-T0-coverage",
+    "inputs": "captures of the 5 B0 repeats",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "60 captures",
+    "metric_and_definition": "median steps from the first correct measurement to the first acceptance",
+    "value": 8.0,
+    "source_file": "results/support/coverage.json",
+    "reproduce_command": "external data: python -I scripts/support/coverage.py LAB OUT_JSON CAPTURE_DIRS"
+  },
+  {
+    "experiment_id": "support-T2.0-size-auc",
+    "inputs": "798 labelled pairs (same_object vs different_objects)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "314 same / 341 different, 24 episodes",
+    "metric_and_definition": "ROC AUC of the size similarity s",
+    "value": 0.6580589125277845,
+    "source_file": "results/support/size_auc.json",
+    "reproduce_command": "python3 -I scripts/support/size_auc.py OUT_JSON (needs numpy)"
+  },
+  {
+    "experiment_id": "support-T3.0-robust",
+    "inputs": "captures of the 5 B0 repeats; MNO rerun every 5th accepted step",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "3383 in-mode measurements, 60 clusters",
+    "metric_and_definition": "paired difference R3 minus WLS in the share within 1 m and 5 deg",
+    "value": -0.02601241501625776,
+    "source_file": "results/support/robust_offline.json",
+    "reproduce_command": "external data: python -I scripts/support/robust_offline.py LAB OUT_JSON CAPTURE_DIRS"
+  },
+  {
+    "experiment_id": "support-T3.0-robust",
+    "inputs": "captures of the 5 B0 repeats; MNO rerun every 5th accepted step",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "correspondences of in-mode measurements",
+    "metric_and_definition": "AUC of the WLS residual for GT-consistent correspondences",
+    "value": 0.5616255690796054,
+    "source_file": "results/support/robust_offline.json",
+    "reproduce_command": "external data: python -I scripts/support/robust_offline.py LAB OUT_JSON CAPTURE_DIRS"
+  },
+  {
+    "experiment_id": "support-T3.0-robust",
+    "inputs": "captures of the 5 B0 repeats",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "2793 in-mode measurements where the oracle is defined",
+    "metric_and_definition": "share within 1 m and 5 deg with the GT oracle subset",
+    "value": 0.8915145005370569,
+    "source_file": "results/support/aggregate.json; results/support/robust_offline.rows.json.gz",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-full-S2",
+    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg, S2",
+    "value": 0.774431256181998,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-full-G2",
+    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "Acc, G2 (gate alpha = 2 only)",
+    "value": 0.7594955489614243,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-full-R3",
+    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "Acc, R3 (robust re-estimation)",
+    "value": 0.7672106824925816,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-full-S2",
+    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "share of accepted estimates with |yaw| > 10 deg, S2",
+    "value": 0.027819830004725467,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-cold-S2",
+    "inputs": "frozen author maps, 12 holdout windows of section 6.4",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "60 cold starts",
+    "metric_and_definition": "wrong first accepted decisions, S2",
+    "value": 11,
+    "source_file": "results/support/cold_start/S2.json",
+    "reproduce_command": "external data: python -I scripts/support/cold_start.py LAB S2 OUT_JSON 5"
+  },
+  {
+    "experiment_id": "support-cold-B0",
+    "inputs": "frozen author maps, 12 holdout windows of section 6.4",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "60 cold starts",
+    "metric_and_definition": "wrong first accepted decisions, B0 rerun",
+    "value": 5,
+    "source_file": "results/support/cold_start/B0.json",
+    "reproduce_command": "external data: python -I scripts/support/cold_start.py LAB B0 OUT_JSON 5"
   }
 ]

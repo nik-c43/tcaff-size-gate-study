@@ -1,0 +1,34 @@
+{
+ "test": "T2.0 size-similarity AUC on labelled pairs (configs/support_hypotheses.json)",
+ "all": {
+  "n_same": 314,
+  "n_different": 341,
+  "episodes": 24,
+  "auc": 0.6580589125277845,
+  "ci95": [
+   0.5852171078798266,
+   0.7279093614808094
+  ]
+ },
+ "gate_rejected": {
+  "n_same": 260,
+  "n_different": 304,
+  "episodes": 24,
+  "auc": 0.661120951417004,
+  "ci95": [
+   0.5842456268976689,
+   0.7280704580686865
+  ]
+ },
+ "gate_admitted": {
+  "n_same": 54,
+  "n_different": 37,
+  "episodes": 24,
+  "auc": 0.6811811811811812,
+  "ci95": [
+   0.5894958333333333,
+   0.7509138747041972
+  ]
+ },
+ "passed": true
+}

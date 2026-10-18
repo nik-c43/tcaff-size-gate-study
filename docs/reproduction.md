@@ -146,7 +146,7 @@ bash scripts/run_size_gate_study.sh \
 
 Если прежнего приватного пакета нет, исходные `size_gate_prepare.py`, `size_gate_images.py`, `size_gate_finalize.py` сохраняют процедуру формирования. Однако пересоздание карт/пакета может изменить fingerprint и отбор; исходная разметка не назначается новому пулу автоматически. Это ограничение повторного тяжёлого запуска, а не препятствие чтению и проверке всех готовых ответов по пути A.
 
-## C. Анализы гипотез §7–9
+## C. Анализы гипотез §7–10
 
 Эти анализы выполнены во внешней рабочей области со структурой исходного проекта: `data/tcaff_mot_data`, `vendor/tcaff`, `.venv` бейслайна и отдельное `.venv-vision` с FastSAM. Они требуют авторских данных; веса FastSAM-x скачиваются отдельно, ссылка и SHA-256 записаны в [протоколе](../configs/unit_hypothesis.json).
 
@@ -156,6 +156,7 @@ bash scripts/run_size_gate_study.sh \
 | §7.2 Калибровка | [scripts/uncertainty](../scripts/uncertainty/README.md) | [calibration_feasibility.json](../results/uncertainty/calibration_feasibility.json) |
 | §8 Аудит сегментации | [scripts/segment_unit](../scripts/segment_unit/README.md), выборка из 800 кадров | [sample_audit.json](../results/segment_unit/sample_audit.json) |
 | §9 Рабочая гипотеза | [scripts/segment_unit](../scripts/segment_unit/README.md), все кадры | [unit_test/](../results/segment_unit/unit_test/) |
+| §10 Поддержка верного совмещения | [scripts/support](../scripts/support/README.md): авторские детекции, `.venv` бейслайна; захваты B0 из §9 для T0 и T3.0 | [support/](../results/support/), [aggregate.json](../results/support/aggregate.json) |
 
 Порядок команд и окружения описаны в README каталогов со скриптами. FastSAM работает на CPU около 1.2 с на кадр; полный фронтенд на 13 546 кадрах занимает несколько часов. Промежуточные файлы (кадры, свойства масок, детекции вариантов, захваченные предложения) содержат производные данные авторской записи и в репозиторий не входят; сохраняются только сводки, метрики прогонов и хэши входов.
 

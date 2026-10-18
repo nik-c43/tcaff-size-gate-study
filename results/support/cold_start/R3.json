@@ -1,0 +1,1999 @@
+{
+ "test": "cold start, 12 holdout windows of section 6.4 (configs/support_hypotheses.json)",
+ "variant": "R3",
+ "alpha": 1.0,
+ "starts": 60,
+ "wrong_first": 4,
+ "no_first": 40,
+ "correct_by_horizon": 20,
+ "capped_time_to_correct_s": 24.166643619537354,
+ "correct_update_availability": 0.1425287356321839,
+ "mean_runtime_per_window_s": 0.934018693548084,
+ "summary": {
+  "episodes": 12,
+  "solver_runs": 60,
+  "per_episode": [
+   {
+    "episode_id": "E14",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.3524111474107485,
+    "runtime_s_repeat_range": [
+     0.3300016040157061,
+     0.4153698720037937
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E08",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.5390826306422241,
+    "runtime_s_repeat_range": [
+     0.5310085751698352,
+     0.5510103280248586
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E09",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.8905672083667013,
+    "runtime_s_repeat_range": [
+     0.8760087839327753,
+     0.9084105388901662
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E19",
+    "repetitions": 5,
+    "availability": 0.27586206896551724,
+    "availability_repeat_range": [
+     0.27586206896551724,
+     0.27586206896551724
+    ],
+    "correct_update_availability": 0.27586206896551724,
+    "correct_update_availability_repeat_range": [
+     0.27586206896551724,
+     0.27586206896551724
+    ],
+    "mean_translation_m": 0.25418508277449164,
+    "mean_translation_m_repeat_range": [
+     0.25013369265884566,
+     0.25530218030754476
+    ],
+    "median_translation_m": 0.2275868553222054,
+    "median_translation_m_repeat_range": [
+     0.2218073051437866,
+     0.2314398887744846
+    ],
+    "mean_yaw_deg": 1.8941089629904546,
+    "mean_yaw_deg_repeat_range": [
+     1.8693832845753837,
+     1.9513723895752975
+    ],
+    "median_yaw_deg": 1.8204325576772349,
+    "median_yaw_deg_repeat_range": [
+     1.7851631247811461,
+     1.8794593374014523
+    ],
+    "capped_time_to_correct_s": 20.999979972839355,
+    "capped_time_to_correct_s_repeat_range": [
+     20.999979972839355,
+     20.999979972839355
+    ],
+    "runtime_s": 1.44877943097963,
+    "runtime_s_repeat_range": [
+     1.425272753025638,
+     1.4843698599142954
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 0.0,
+    "correct_by_horizon_rate": 1.0
+   },
+   {
+    "episode_id": "E06",
+    "repetitions": 5,
+    "availability": 0.7241379310344828,
+    "availability_repeat_range": [
+     0.7241379310344828,
+     0.7241379310344828
+    ],
+    "correct_update_availability": 0.7103448275862069,
+    "correct_update_availability_repeat_range": [
+     0.6896551724137931,
+     0.7241379310344828
+    ],
+    "mean_translation_m": 0.29833840534733386,
+    "mean_translation_m_repeat_range": [
+     0.29543535023625156,
+     0.3024344493064882
+    ],
+    "median_translation_m": 0.3136929606085447,
+    "median_translation_m_repeat_range": [
+     0.3033322964436383,
+     0.3292059558445562
+    ],
+    "mean_yaw_deg": 2.3025653678217552,
+    "mean_yaw_deg_repeat_range": [
+     2.221006627391902,
+     2.405997845736309
+    ],
+    "median_yaw_deg": 2.2520685440233974,
+    "median_yaw_deg_repeat_range": [
+     2.0577165528318035,
+     2.542483443124003
+    ],
+    "capped_time_to_correct_s": 7.999992370605469,
+    "capped_time_to_correct_s_repeat_range": [
+     7.999992370605469,
+     7.999992370605469
+    ],
+    "runtime_s": 1.534866127942223,
+    "runtime_s_repeat_range": [
+     1.4523183659475762,
+     1.7326336839760188
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 0.0,
+    "correct_by_horizon_rate": 1.0
+   },
+   {
+    "episode_id": "E04",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.6525941313710064,
+    "runtime_s_repeat_range": [
+     0.6322162969736382,
+     0.6707963659719098
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E18",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.5950984027818776,
+    "runtime_s_repeat_range": [
+     0.5716893969220109,
+     0.6439954879460856
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E22",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.6172899686323945,
+    "runtime_s_repeat_range": [
+     0.6066079390584491,
+     0.6221218050050084
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E21",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.9643964645802043,
+    "runtime_s_repeat_range": [
+     0.9487043790286407,
+     0.9796302360773552
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   },
+   {
+    "episode_id": "E23",
+    "repetitions": 5,
+    "availability": 0.3310344827586207,
+    "availability_repeat_range": [
+     0.27586206896551724,
+     0.3448275862068966
+    ],
+    "correct_update_availability": 0.27586206896551724,
+    "correct_update_availability_repeat_range": [
+     0.27586206896551724,
+     0.27586206896551724
+    ],
+    "mean_translation_m": 0.5599336188974452,
+    "mean_translation_m_repeat_range": [
+     0.53644362937594,
+     0.5753689602062816
+    ],
+    "median_translation_m": 0.5274864337509098,
+    "median_translation_m_repeat_range": [
+     0.503329522147501,
+     0.5348501645101803
+    ],
+    "mean_yaw_deg": 2.41398205744974,
+    "mean_yaw_deg_repeat_range": [
+     1.7052379327430949,
+     2.6609945149148855
+    ],
+    "median_yaw_deg": 2.525829845322849,
+    "median_yaw_deg_repeat_range": [
+     1.3631724409723036,
+     2.868177438741238
+    ],
+    "capped_time_to_correct_s": 20.999979972839355,
+    "capped_time_to_correct_s_repeat_range": [
+     20.999979972839355,
+     20.999979972839355
+    ],
+    "runtime_s": 1.3402809562161564,
+    "runtime_s_repeat_range": [
+     1.3232535490242299,
+     1.3723576630291063
+    ],
+    "wrong_first_rate": 0.8,
+    "no_first_rate": 0.0,
+    "correct_by_horizon_rate": 1.0
+   },
+   {
+    "episode_id": "E11",
+    "repetitions": 5,
+    "availability": 0.44827586206896547,
+    "availability_repeat_range": [
+     0.4482758620689655,
+     0.4482758620689655
+    ],
+    "correct_update_availability": 0.44827586206896547,
+    "correct_update_availability_repeat_range": [
+     0.4482758620689655,
+     0.4482758620689655
+    ],
+    "mean_translation_m": 0.19492810556646717,
+    "mean_translation_m_repeat_range": [
+     0.19429804647753357,
+     0.19574229383596586
+    ],
+    "median_translation_m": 0.2078920354616569,
+    "median_translation_m_repeat_range": [
+     0.2074062632002604,
+     0.20801347852700608
+    ],
+    "mean_yaw_deg": 1.404865445617922,
+    "mean_yaw_deg_repeat_range": [
+     1.3896370988089315,
+     1.4152833313851103
+    ],
+    "median_yaw_deg": 1.5804369571468058,
+    "median_yaw_deg_repeat_range": [
+     1.5421302156374157,
+     1.606886477884121
+    ],
+    "capped_time_to_correct_s": 15.999984741210938,
+    "capped_time_to_correct_s_repeat_range": [
+     15.999984741210938,
+     15.999984741210938
+    ],
+    "runtime_s": 1.4809059464081655,
+    "runtime_s_repeat_range": [
+     1.4118075660662726,
+     1.7328095280681737
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 0.0,
+    "correct_by_horizon_rate": 1.0
+   },
+   {
+    "episode_id": "E17",
+    "repetitions": 5,
+    "availability": 0.0,
+    "availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "correct_update_availability": 0.0,
+    "correct_update_availability_repeat_range": [
+     0.0,
+     0.0
+    ],
+    "mean_translation_m": null,
+    "mean_translation_m_repeat_range": null,
+    "median_translation_m": null,
+    "median_translation_m_repeat_range": null,
+    "mean_yaw_deg": null,
+    "mean_yaw_deg_repeat_range": null,
+    "median_yaw_deg": null,
+    "median_yaw_deg_repeat_range": null,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "capped_time_to_correct_s_repeat_range": [
+     27.99997329711914,
+     27.99997329711914
+    ],
+    "runtime_s": 0.7919519072456751,
+    "runtime_s_repeat_range": [
+     0.7829395990411285,
+     0.808067134959856
+    ],
+    "wrong_first_rate": 0.0,
+    "no_first_rate": 1.0,
+    "correct_by_horizon_rate": 0.0
+   }
+  ],
+  "availability": 0.1482758620689655,
+  "correct_update_availability": 0.1425287356321839,
+  "mean_translation_m": 0.3268463031464345,
+  "mean_yaw_deg": 2.003880458469968,
+  "capped_time_to_correct_s": 24.166643619537354,
+  "runtime_s": 0.934018693548084,
+  "wrong_first_rate": 0.06666666666666667,
+  "no_first_rate": 0.6666666666666666,
+  "correct_by_horizon_rate": 0.3333333333333333,
+  "mean_wrong_first_count": 0.8,
+  "mean_correct_by_horizon_count": 4.0
+ },
+ "runs": [
+  {
+   "episode_id": "E14",
+   "pair": "RR06_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.342579389893217
+   }
+  },
+  {
+   "episode_id": "E14",
+   "pair": "RR06_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.34336291506770067
+   }
+  },
+  {
+   "episode_id": "E14",
+   "pair": "RR06_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.3300016040157061
+   }
+  },
+  {
+   "episode_id": "E14",
+   "pair": "RR06_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.3307419560733251
+   }
+  },
+  {
+   "episode_id": "E14",
+   "pair": "RR06_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.4153698720037937
+   }
+  },
+  {
+   "episode_id": "E08",
+   "pair": "RR04_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5310085751698352
+   }
+  },
+  {
+   "episode_id": "E08",
+   "pair": "RR04_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5374581179930829
+   }
+  },
+  {
+   "episode_id": "E08",
+   "pair": "RR04_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5319617399945855
+   }
+  },
+  {
+   "episode_id": "E08",
+   "pair": "RR04_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5510103280248586
+   }
+  },
+  {
+   "episode_id": "E08",
+   "pair": "RR04_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5439743920287583
+   }
+  },
+  {
+   "episode_id": "E09",
+   "pair": "RR01_RR04",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.8819187100452837
+   }
+  },
+  {
+   "episode_id": "E09",
+   "pair": "RR01_RR04",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.8840533940237947
+   }
+  },
+  {
+   "episode_id": "E09",
+   "pair": "RR01_RR04",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9024446149414871
+   }
+  },
+  {
+   "episode_id": "E09",
+   "pair": "RR01_RR04",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9084105388901662
+   }
+  },
+  {
+   "episode_id": "E09",
+   "pair": "RR01_RR04",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.8760087839327753
+   }
+  },
+  {
+   "episode_id": "E19",
+   "pair": "RR01_RR06",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.25530218030754476,
+    "median_translation_m": 0.2314398887744846,
+    "mean_yaw_deg": 1.8693832845753837,
+    "median_yaw_deg": 1.7851631247811461,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.4843698599142954
+   }
+  },
+  {
+   "episode_id": "E19",
+   "pair": "RR01_RR06",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.25530218030754476,
+    "median_translation_m": 0.2314398887744846,
+    "mean_yaw_deg": 1.8693832845753837,
+    "median_yaw_deg": 1.7851631247811461,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.4292983839986846
+   }
+  },
+  {
+   "episode_id": "E19",
+   "pair": "RR01_RR06",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.2548851802909782,
+    "median_translation_m": 0.2218073051437866,
+    "mean_yaw_deg": 1.9110225716508236,
+    "median_yaw_deg": 1.8672140766412824,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.4496275419951417
+   }
+  },
+  {
+   "episode_id": "E19",
+   "pair": "RR01_RR06",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.25013369265884566,
+    "median_translation_m": 0.2218073051437866,
+    "mean_yaw_deg": 1.9513723895752975,
+    "median_yaw_deg": 1.8794593374014523,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.4553286159643903
+   }
+  },
+  {
+   "episode_id": "E19",
+   "pair": "RR01_RR06",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.25530218030754476,
+    "median_translation_m": 0.2314398887744846,
+    "mean_yaw_deg": 1.8693832845753837,
+    "median_yaw_deg": 1.7851631247811461,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.425272753025638
+   }
+  },
+  {
+   "episode_id": "E06",
+   "pair": "RR04_RR06",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 21,
+    "availability": 0.7241379310344828,
+    "correct_updates": 20,
+    "correct_update_availability": 0.6896551724137931,
+    "mean_translation_m": 0.3024344493064882,
+    "median_translation_m": 0.3292059558445562,
+    "mean_yaw_deg": 2.405997845736309,
+    "median_yaw_deg": 2.542483443124003,
+    "first_solution": "correct",
+    "first_solution_delay_s": 7.999992370605469,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 7.999992370605469,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 7.999992370605469,
+    "runtime_s": 1.7326336839760188
+   }
+  },
+  {
+   "episode_id": "E06",
+   "pair": "RR04_RR06",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 21,
+    "availability": 0.7241379310344828,
+    "correct_updates": 21,
+    "correct_update_availability": 0.7241379310344828,
+    "mean_translation_m": 0.29543535023625156,
+    "median_translation_m": 0.303378120255828,
+    "mean_yaw_deg": 2.25894237921746,
+    "median_yaw_deg": 2.0596802937257594,
+    "first_solution": "correct",
+    "first_solution_delay_s": 7.999992370605469,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 7.999992370605469,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 7.999992370605469,
+    "runtime_s": 1.5406541679112706
+   }
+  },
+  {
+   "episode_id": "E06",
+   "pair": "RR04_RR06",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 21,
+    "availability": 0.7241379310344828,
+    "correct_updates": 20,
+    "correct_update_availability": 0.6896551724137931,
+    "mean_translation_m": 0.30241420706329203,
+    "median_translation_m": 0.32920093074909623,
+    "mean_yaw_deg": 2.405680244310566,
+    "median_yaw_deg": 2.542483443124003,
+    "first_solution": "correct",
+    "first_solution_delay_s": 7.999992370605469,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 7.999992370605469,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 7.999992370605469,
+    "runtime_s": 1.4679093348968308
+   }
+  },
+  {
+   "episode_id": "E06",
+   "pair": "RR04_RR06",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 21,
+    "availability": 0.7241379310344828,
+    "correct_updates": 21,
+    "correct_update_availability": 0.7241379310344828,
+    "mean_translation_m": 0.2957098650730938,
+    "median_translation_m": 0.3033322964436383,
+    "mean_yaw_deg": 2.2211997424525403,
+    "median_yaw_deg": 2.0577165528318035,
+    "first_solution": "correct",
+    "first_solution_delay_s": 7.999992370605469,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 7.999992370605469,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 7.999992370605469,
+    "runtime_s": 1.4523183659475762
+   }
+  },
+  {
+   "episode_id": "E06",
+   "pair": "RR04_RR06",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 21,
+    "availability": 0.7241379310344828,
+    "correct_updates": 21,
+    "correct_update_availability": 0.7241379310344828,
+    "mean_translation_m": 0.2956981550575438,
+    "median_translation_m": 0.30334749974960484,
+    "mean_yaw_deg": 2.221006627391902,
+    "median_yaw_deg": 2.0579789873114174,
+    "first_solution": "correct",
+    "first_solution_delay_s": 7.999992370605469,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 7.999992370605469,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 7.999992370605469,
+    "runtime_s": 1.480815086979419
+   }
+  },
+  {
+   "episode_id": "E04",
+   "pair": "RR01_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6436701329948846
+   }
+  },
+  {
+   "episode_id": "E04",
+   "pair": "RR01_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6322162969736382
+   }
+  },
+  {
+   "episode_id": "E04",
+   "pair": "RR01_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6623832489713095
+   }
+  },
+  {
+   "episode_id": "E04",
+   "pair": "RR01_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6539046119432896
+   }
+  },
+  {
+   "episode_id": "E04",
+   "pair": "RR01_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6707963659719098
+   }
+  },
+  {
+   "episode_id": "E18",
+   "pair": "RR04_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5716893969220109
+   }
+  },
+  {
+   "episode_id": "E18",
+   "pair": "RR04_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.584213788039051
+   }
+  },
+  {
+   "episode_id": "E18",
+   "pair": "RR04_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5791383559408132
+   }
+  },
+  {
+   "episode_id": "E18",
+   "pair": "RR04_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6439954879460856
+   }
+  },
+  {
+   "episode_id": "E18",
+   "pair": "RR04_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.5964549850614276
+   }
+  },
+  {
+   "episode_id": "E22",
+   "pair": "RR06_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6217681460257154
+   }
+  },
+  {
+   "episode_id": "E22",
+   "pair": "RR06_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6221218050050084
+   }
+  },
+  {
+   "episode_id": "E22",
+   "pair": "RR06_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6181864889804274
+   }
+  },
+  {
+   "episode_id": "E22",
+   "pair": "RR06_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.6066079390584491
+   }
+  },
+  {
+   "episode_id": "E22",
+   "pair": "RR06_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.617765464092372
+   }
+  },
+  {
+   "episode_id": "E21",
+   "pair": "RR01_RR04",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9796302360773552
+   }
+  },
+  {
+   "episode_id": "E21",
+   "pair": "RR01_RR04",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9600787009403575
+   }
+  },
+  {
+   "episode_id": "E21",
+   "pair": "RR01_RR04",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9487043790286407
+   }
+  },
+  {
+   "episode_id": "E21",
+   "pair": "RR01_RR04",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9623519188899081
+   }
+  },
+  {
+   "episode_id": "E21",
+   "pair": "RR01_RR04",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.9712170879647601
+   }
+  },
+  {
+   "episode_id": "E23",
+   "pair": "RR01_RR06",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 10,
+    "availability": 0.3448275862068966,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.5753689602062816,
+    "median_translation_m": 0.5347819880824363,
+    "mean_yaw_deg": 2.6609945149148855,
+    "median_yaw_deg": 2.841234821976612,
+    "first_solution": "wrong",
+    "first_solution_delay_s": 18.99998188018799,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.3723576630291063
+   }
+  },
+  {
+   "episode_id": "E23",
+   "pair": "RR01_RR06",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 8,
+    "availability": 0.27586206896551724,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.53644362937594,
+    "median_translation_m": 0.503329522147501,
+    "mean_yaw_deg": 1.7052379327430949,
+    "median_yaw_deg": 1.3631724409723036,
+    "first_solution": "correct",
+    "first_solution_delay_s": 20.999979972839355,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.3321662530652247
+   }
+  },
+  {
+   "episode_id": "E23",
+   "pair": "RR01_RR06",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 10,
+    "availability": 0.3448275862068966,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.5670490741264692,
+    "median_translation_m": 0.5348501645101803,
+    "mean_yaw_deg": 2.554744565593808,
+    "median_yaw_deg": 2.868177438741238,
+    "first_solution": "wrong",
+    "first_solution_delay_s": 18.99998188018799,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.3232535490242299
+   }
+  },
+  {
+   "episode_id": "E23",
+   "pair": "RR01_RR06",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 10,
+    "availability": 0.3448275862068966,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.5537573566520657,
+    "median_translation_m": 0.5296203295042514,
+    "mean_yaw_deg": 2.594188708403104,
+    "median_yaw_deg": 2.688387086182853,
+    "first_solution": "wrong",
+    "first_solution_delay_s": 18.99998188018799,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.343173744971864
+   }
+  },
+  {
+   "episode_id": "E23",
+   "pair": "RR01_RR06",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 10,
+    "availability": 0.3448275862068966,
+    "correct_updates": 8,
+    "correct_update_availability": 0.27586206896551724,
+    "mean_translation_m": 0.5670490741264692,
+    "median_translation_m": 0.5348501645101803,
+    "mean_yaw_deg": 2.554744565593808,
+    "median_yaw_deg": 2.868177438741238,
+    "first_solution": "wrong",
+    "first_solution_delay_s": 18.99998188018799,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 20.999979972839355,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 20.999979972839355,
+    "runtime_s": 1.3304535709903575
+   }
+  },
+  {
+   "episode_id": "E11",
+   "pair": "RR04_RR06",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 13,
+    "availability": 0.4482758620689655,
+    "correct_updates": 13,
+    "correct_update_availability": 0.4482758620689655,
+    "mean_translation_m": 0.19429804647753357,
+    "median_translation_m": 0.2074062632002604,
+    "mean_yaw_deg": 1.4152833313851103,
+    "median_yaw_deg": 1.606886477884121,
+    "first_solution": "correct",
+    "first_solution_delay_s": 15.999984741210938,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 15.999984741210938,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 15.999984741210938,
+    "runtime_s": 1.4195256779785268
+   }
+  },
+  {
+   "episode_id": "E11",
+   "pair": "RR04_RR06",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 13,
+    "availability": 0.4482758620689655,
+    "correct_updates": 13,
+    "correct_update_availability": 0.4482758620689655,
+    "mean_translation_m": 0.19574229383596586,
+    "median_translation_m": 0.20801347852700608,
+    "mean_yaw_deg": 1.3896370988089315,
+    "median_yaw_deg": 1.5421302156374157,
+    "first_solution": "correct",
+    "first_solution_delay_s": 15.999984741210938,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 15.999984741210938,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 15.999984741210938,
+    "runtime_s": 1.4281691960059106
+   }
+  },
+  {
+   "episode_id": "E11",
+   "pair": "RR04_RR06",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 13,
+    "availability": 0.4482758620689655,
+    "correct_updates": 13,
+    "correct_update_availability": 0.4482758620689655,
+    "mean_translation_m": 0.19574229383596584,
+    "median_translation_m": 0.20801347852700608,
+    "mean_yaw_deg": 1.3896370988089315,
+    "median_yaw_deg": 1.5421302156374157,
+    "first_solution": "correct",
+    "first_solution_delay_s": 15.999984741210938,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 15.999984741210938,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 15.999984741210938,
+    "runtime_s": 1.4122177639219444
+   }
+  },
+  {
+   "episode_id": "E11",
+   "pair": "RR04_RR06",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 13,
+    "availability": 0.4482758620689655,
+    "correct_updates": 13,
+    "correct_update_availability": 0.4482758620689655,
+    "mean_translation_m": 0.1943535731777599,
+    "median_translation_m": 0.20801347852700608,
+    "mean_yaw_deg": 1.4151211732092763,
+    "median_yaw_deg": 1.6055189382875379,
+    "first_solution": "correct",
+    "first_solution_delay_s": 15.999984741210938,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 15.999984741210938,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 15.999984741210938,
+    "runtime_s": 1.7328095280681737
+   }
+  },
+  {
+   "episode_id": "E11",
+   "pair": "RR04_RR06",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 13,
+    "availability": 0.4482758620689655,
+    "correct_updates": 13,
+    "correct_update_availability": 0.4482758620689655,
+    "mean_translation_m": 0.19450432050511057,
+    "median_translation_m": 0.20801347852700608,
+    "mean_yaw_deg": 1.4146485258773598,
+    "median_yaw_deg": 1.6055189382875379,
+    "first_solution": "correct",
+    "first_solution_delay_s": 15.999984741210938,
+    "correctly_initialized_by_horizon": true,
+    "time_to_correct_s": 15.999984741210938,
+    "right_censored": false,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 15.999984741210938,
+    "runtime_s": 1.4118075660662726
+   }
+  },
+  {
+   "episode_id": "E17",
+   "pair": "RR01_RR08",
+   "repetition": 1,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.7924172439670656
+   }
+  },
+  {
+   "episode_id": "E17",
+   "pair": "RR01_RR08",
+   "repetition": 2,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.7862980751378927
+   }
+  },
+  {
+   "episode_id": "E17",
+   "pair": "RR01_RR08",
+   "repetition": 3,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.7900374831224326
+   }
+  },
+  {
+   "episode_id": "E17",
+   "pair": "RR01_RR08",
+   "repetition": 4,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.808067134959856
+   }
+  },
+  {
+   "episode_id": "E17",
+   "pair": "RR01_RR08",
+   "repetition": 5,
+   "metrics": {
+    "updates": 29,
+    "gt_valid_updates": 29,
+    "accepted_updates": 0,
+    "availability": 0.0,
+    "correct_updates": 0,
+    "correct_update_availability": 0.0,
+    "mean_translation_m": null,
+    "median_translation_m": null,
+    "mean_yaw_deg": null,
+    "median_yaw_deg": null,
+    "first_solution": "none",
+    "first_solution_delay_s": null,
+    "correctly_initialized_by_horizon": false,
+    "time_to_correct_s": null,
+    "right_censored": true,
+    "censor_horizon_s": 27.99997329711914,
+    "capped_time_to_correct_s": 27.99997329711914,
+    "runtime_s": 0.7829395990411285
+   }
+  }
+ ]
+}

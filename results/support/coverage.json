@@ -1,0 +1,683 @@
+{
+ "test": "T0 coverage before first acceptance (configs/support_hypotheses.json)",
+ "captures": 60,
+ "share_pre_steps_with_measurement": 0.3977578475336323,
+ "share_pre_steps_with_correct_measurement": 0.18654708520179372,
+ "pre_steps_with_gt": 2230,
+ "lag_first_correct_measurement_to_acceptance_steps": {
+  "median": 8.0,
+  "q25_q75": [
+   8.0,
+   15.0
+  ],
+  "min_max": [
+   8,
+   47
+  ],
+  "n": 60
+ },
+ "per_pair": {
+  "RR01_RR04": {
+   "first_acceptance_step_median": 27.0,
+   "first_correct_measurement_step_median": 19.0,
+   "share_pre_steps_with_correct_measurement": 0.14814814814814814
+  },
+  "RR01_RR06": {
+   "first_acceptance_step_median": 29.0,
+   "first_correct_measurement_step_median": 14.0,
+   "share_pre_steps_with_correct_measurement": 0.3103448275862069
+  },
+  "RR01_RR08": {
+   "first_acceptance_step_median": 25.0,
+   "first_correct_measurement_step_median": 17.0,
+   "share_pre_steps_with_correct_measurement": 0.28
+  },
+  "RR04_RR01": {
+   "first_acceptance_step_median": 27.0,
+   "first_correct_measurement_step_median": 19.0,
+   "share_pre_steps_with_correct_measurement": 0.18518518518518517
+  },
+  "RR04_RR06": {
+   "first_acceptance_step_median": 29.0,
+   "first_correct_measurement_step_median": 21.0,
+   "share_pre_steps_with_correct_measurement": 0.20689655172413793
+  },
+  "RR04_RR08": {
+   "first_acceptance_step_median": 43.0,
+   "first_correct_measurement_step_median": 35.0,
+   "share_pre_steps_with_correct_measurement": 0.16279069767441862
+  },
+  "RR06_RR01": {
+   "first_acceptance_step_median": 29.0,
+   "first_correct_measurement_step_median": 14.0,
+   "share_pre_steps_with_correct_measurement": 0.3103448275862069
+  },
+  "RR06_RR04": {
+   "first_acceptance_step_median": 29.0,
+   "first_correct_measurement_step_median": 21.0,
+   "share_pre_steps_with_correct_measurement": 0.20689655172413793
+  },
+  "RR06_RR08": {
+   "first_acceptance_step_median": 70.0,
+   "first_correct_measurement_step_median": 23.0,
+   "share_pre_steps_with_correct_measurement": 0.11428571428571428
+  },
+  "RR08_RR01": {
+   "first_acceptance_step_median": 25.0,
+   "first_correct_measurement_step_median": 17.0,
+   "share_pre_steps_with_correct_measurement": 0.288
+  },
+  "RR08_RR04": {
+   "first_acceptance_step_median": 43.0,
+   "first_correct_measurement_step_median": 35.0,
+   "share_pre_steps_with_correct_measurement": 0.16279069767441862
+  },
+  "RR08_RR06": {
+   "first_acceptance_step_median": 70.0,
+   "first_correct_measurement_step_median": 23.0,
+   "share_pre_steps_with_correct_measurement": 0.11428571428571428
+  }
+ },
+ "rows": [
+  {
+   "pair": "RR01_RR04",
+   "repeat": 1,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 4,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR01_RR06",
+   "repeat": 1,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR01_RR08",
+   "repeat": 1,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR01",
+   "repeat": 1,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 5,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR06",
+   "repeat": 1,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR08",
+   "repeat": 1,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR01",
+   "repeat": 1,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR06_RR04",
+   "repeat": 1,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR08",
+   "repeat": 1,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR08_RR01",
+   "repeat": 1,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR04",
+   "repeat": 1,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR06",
+   "repeat": 1,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR01_RR04",
+   "repeat": 2,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 4,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR01_RR06",
+   "repeat": 2,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR01_RR08",
+   "repeat": 2,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR01",
+   "repeat": 2,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 5,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR06",
+   "repeat": 2,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR08",
+   "repeat": 2,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR01",
+   "repeat": 2,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR06_RR04",
+   "repeat": 2,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR08",
+   "repeat": 2,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR08_RR01",
+   "repeat": 2,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR04",
+   "repeat": 2,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR06",
+   "repeat": 2,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR01_RR04",
+   "repeat": 3,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 4,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR01_RR06",
+   "repeat": 3,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR01_RR08",
+   "repeat": 3,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR01",
+   "repeat": 3,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 5,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR06",
+   "repeat": 3,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR08",
+   "repeat": 3,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR01",
+   "repeat": 3,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR06_RR04",
+   "repeat": 3,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR08",
+   "repeat": 3,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR08_RR01",
+   "repeat": 3,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR04",
+   "repeat": 3,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 25,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR06",
+   "repeat": 3,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR01_RR04",
+   "repeat": 4,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 4,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR01_RR06",
+   "repeat": 4,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR01_RR08",
+   "repeat": 4,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR01",
+   "repeat": 4,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 5,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR06",
+   "repeat": 4,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR08",
+   "repeat": 4,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR01",
+   "repeat": 4,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR06_RR04",
+   "repeat": 4,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR08",
+   "repeat": 4,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR08_RR01",
+   "repeat": 4,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR04",
+   "repeat": 4,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR06",
+   "repeat": 4,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR01_RR04",
+   "repeat": 5,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 4,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR01_RR06",
+   "repeat": 5,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR01_RR08",
+   "repeat": 5,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR01",
+   "repeat": 5,
+   "first_acceptance_step": 27,
+   "pre_steps_with_gt": 27,
+   "pre_steps_with_measurement": 12,
+   "pre_steps_with_correct_measurement": 5,
+   "first_correct_measurement_step": 19,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR06",
+   "repeat": 5,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR04_RR08",
+   "repeat": 5,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 25,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR01",
+   "repeat": 5,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 10,
+   "pre_steps_with_correct_measurement": 9,
+   "first_correct_measurement_step": 14,
+   "lag_first_correct_to_acceptance": 15
+  },
+  {
+   "pair": "RR06_RR04",
+   "repeat": 5,
+   "first_acceptance_step": 29,
+   "pre_steps_with_gt": 29,
+   "pre_steps_with_measurement": 9,
+   "pre_steps_with_correct_measurement": 6,
+   "first_correct_measurement_step": 21,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR06_RR08",
+   "repeat": 5,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  },
+  {
+   "pair": "RR08_RR01",
+   "repeat": 5,
+   "first_acceptance_step": 25,
+   "pre_steps_with_gt": 25,
+   "pre_steps_with_measurement": 11,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 17,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR04",
+   "repeat": 5,
+   "first_acceptance_step": 43,
+   "pre_steps_with_gt": 43,
+   "pre_steps_with_measurement": 26,
+   "pre_steps_with_correct_measurement": 7,
+   "first_correct_measurement_step": 35,
+   "lag_first_correct_to_acceptance": 8
+  },
+  {
+   "pair": "RR08_RR06",
+   "repeat": 5,
+   "first_acceptance_step": 70,
+   "pre_steps_with_gt": 70,
+   "pre_steps_with_measurement": 20,
+   "pre_steps_with_correct_measurement": 8,
+   "first_correct_measurement_step": 23,
+   "lag_first_correct_to_acceptance": 47
+  }
+ ]
+}

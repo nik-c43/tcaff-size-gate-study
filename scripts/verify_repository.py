@@ -77,7 +77,7 @@ def main():
     evidence=read(ROOT/'results/evidence.json')
     with (ROOT/'results/evidence.csv').open(newline='') as f:
         exported=list(csv.DictReader(f))
-    assert len(exported)==len(evidence)==57
+    assert len(exported)==len(evidence)==72
     for row in evidence:
         assert all(row.values()),row['experiment_id']
         for file in row['source_file'].split('; '):assert (ROOT/file).is_file(),file

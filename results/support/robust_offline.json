@@ -1,0 +1,38 @@
+{
+ "test": "T3.0 robust re-estimation on B0 captures (configs/support_hypotheses.json)",
+ "measurements": 5386,
+ "in_mode_measurements": 3383,
+ "clusters": 60,
+ "share_within_tolerance_in_mode": {
+  "wls": 0.8439255099024534,
+  "r3": 0.8179130948861957,
+  "oracle": 0.7360331067100206
+ },
+ "paired_difference_r3_minus_wls": {
+  "mean": -0.02601241501625776,
+  "ci95": [
+   -0.030940563857461953,
+   -0.021305911765843347
+  ],
+  "improved": 19,
+  "worsened": 107
+ },
+ "median_error_in_mode": {
+  "wls": {
+   "translation_m": 0.35054840745456955,
+   "yaw_deg": 2.200645280812984
+  },
+  "r3": {
+   "translation_m": 0.3548590732055813,
+   "yaw_deg": 2.3230784269145763
+  },
+  "oracle": {
+   "translation_m": 0.2854186824563868,
+   "yaw_deg": 1.676086285433628
+  }
+ },
+ "r3_reflection_rejected": 0,
+ "residual_auc_oracle_membership": 0.5616255690796054,
+ "oracle_correspondence_share": 0.7172677004409195,
+ "passed": false
+}
