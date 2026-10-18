@@ -1,0 +1,43 @@
+{
+  "title": "Поддержка верного совмещения: мягкий вес размера (H2) и устойчивая переоценка внутри клики (H3)",
+  "version": 1,
+  "fixed_at_utc": "2026-10-18T10:52:53Z",
+  "fixed_before": "Every TCAFF run of variants G2, S2, R3 and every analysis of T0 and T3.0. Only T2.0 (size-similarity AUC on the 798 labels) was computed earlier; its criterion was written to a file at 2026-10-17T17:40:34Z before computing and is recorded below unchanged.",
+  "problem": {
+    "summary": "In B0 the filter never accepts a wrong mode: 1 - Acc = 0.233 = 0.110 (no estimate before first acceptance) + 0.083 (t <= 1 m, |yaw| > 5 deg) + 0.040 (t > 1 m); accepted errors are bounded by 1.40 m / 10.0 deg. Identity evidence enters only through a binary size gate with P(admit|same) = 54/314 = 0.172 and P(admit|different) = 37/341 = 0.109 (LR+ = 1.58); uniform relaxation alpha = 2 trades cold-start no-decision 40/60 -> 25/60 for wrong first decisions 4/60 -> 10/60. Only 66% of B0 CLIPPER correspondences link objects within 0.5 m in the world, and the measurement is a one-shot weighted least squares over the whole clique (breakdown point 0). Removing true support (U3, section 9) produced persistent wrong modes.",
+    "sources": ["results/segment_unit/unit_test/runs/B0", "results/size_gate/cold_start.json", "results/segment_unit/landmarks/B0.json", "report.md sections 6.2, 6.4, 8.3, 9"]
+  },
+  "tcaff_commit": "ff4ceab04b03fecabc4de9c9cbe7dbba4ab50df9",
+  "clipper_commit": "e514dc29c273837ffdfeebbefbdcb2a93d970969",
+  "tcaff_parameters": "vendor/tcaff/demo/params/tcaff_mot_dataset.yaml (release), authors' saved detections; changes only as listed per variant; vendor code unchanged, variants are applied by patching classes at runtime (scripts/support/patches.py)",
+  "variants": {
+    "B0": {"role": "reference", "rule": "Release gate alpha = 1, unchanged TCAFF. Full recording: the 5 existing repeats results/segment_unit/unit_test/runs/B0 (same harness, detections and parameters). Cold start: rerun in this protocol."},
+    "G2": {"role": "control for H2", "rule": "Gate relaxed to alpha = 2 (wh_scale_diff 1.7, h_diff 0.2 m); no weights. Same as the alpha = 2 variant of section 6."},
+    "S2": {"role": "H2 primary", "rule": "Gate alpha = 2 plus size similarity in the CLIPPER affinity: s(a,b) = sqrt(r_w r_h), r_f = min(f_a,f_b)/max(f_a,f_b) from the map widths/heights used by the gate; for every off-diagonal entry M_uv > 0: M'_uv = (M_uv * s(u) * s(v))^(1/3) (geometric mean, ROMAN eq. 3); diagonal stays 1, zero entries and the constraint matrix unchanged; MNO zeroing and the max_opt_fraction score use M'."},
+    "R3": {"role": "H3 primary", "rule": "Gate alpha = 1; each CLIPPER solution is re-estimated by graduated non-convexity with the Geman-McClure loss (Yang et al., RA-L 2020): start from WLS(C) with the release recency weights; residual r = ||p_a - T p_b|| (XY); robust weights g = (mu c^2 / (r^2 + mu c^2))^2 multiply the recency weights; mu starts at 2 max(r^2)/c^2 and is divided by 1.4 per iteration down to 1, where a last weighted fit is made; c = 0.5 m. The association set, the object count and all filters are unchanged."}
+  },
+  "design_change_before_fixing": "A first draft used hard iterative trimming at 0.5 m. A synthetic unit test (12 points, 3 shifted by 1-2 m) showed that the biased WLS start pushes every residual above 0.5 m, so the rule falls back to WLS and cannot act. Replaced by GNC Geman-McClure before this file was committed and before any real data were processed with either rule.",
+  "constants_origin": "alpha = 2 is the value selected in section 6 on development; c = 0.5 m equals the world-distance radius of the identity proxy of section 8.3; the GNC factor 1.4 follows Yang et al. 2020; the geometric-mean fusion and the min/max ratio follow ROMAN. Nothing is tuned on results of this protocol.",
+  "repeats": 5,
+  "repeat_note": "CLIPPER uses std::random_device; repeats are independent runs",
+  "tests": {
+    "T0": {"role": "diagnostic, no verdict", "data": "captures of the 5 B0 repeats", "metric": "for steps before the first acceptance with GT: share of steps with at least one MNO measurement and share with at least one measurement within 1 m and 5 deg of GT, per directed pair"},
+    "T2.0": {"role": "H2 mechanism, computed before this protocol", "criterion_fixed_at_utc": "2026-10-17T17:40:34Z", "metric": "ROC AUC of s on same_object vs different_objects labels, 95% CI by cluster bootstrap over 24 episodes", "pass": "lower CI bound > 0.5 on all labelled pairs and on gate-rejected pairs", "result": {"all": [0.658, 0.586, 0.726], "gate_rejected": [0.661, 0.587, 0.730], "passed": true}},
+    "T2.1": {"role": "H2 outcome", "data": "full recording, harness of section 9 (run with capture and replay verification)", "variants": ["B0 (existing)", "G2", "S2"]},
+    "T3.0": {"role": "H3 mechanism", "data": "captures (maps) of the 5 B0 repeats, every 5th step with an accepted estimate and GT", "procedure": "rerun the release MNO-CLIPPER on the captured maps; for every solution passing the release filters compute z_WLS (unchanged code path) and z_R3 on the same correspondences; in-mode measurements: z_WLS within 2 m and 15 deg of GT", "metric": "paired difference in the share of in-mode measurements within 1 m and 5 deg (R3 minus WLS); 95% CI by cluster bootstrap over directed pair x repeat (2000 resamples)", "reported": ["oracle: WLS on correspondences with residual <= 0.5 m under the GT transform (ceiling, uses GT)", "AUC of the WLS residual for oracle membership", "median |yaw| and translation error of in-mode measurements"]},
+    "T3.1": {"role": "H3 outcome", "data": "full recording, same harness", "variants": ["B0 (existing)", "R3"]},
+    "cold_start": {"role": "H2 and H3 outcome", "data": "the 12 holdout windows of section 6.4 on the frozen author maps (scripts/size_gate_evaluate.py run_episode, unchanged)", "variants": ["B0", "G2", "S2", "R3"], "repeats": 5, "metrics": ["wrong first accepted decision (count of 60)", "no first decision (count of 60)", "correct by horizon (count of 60)", "capped time to correct", "mean manager.update runtime per window"], "consistency_check": "fresh B0 and G2 are compared with the saved section 6.4 results (4/60 and 10/60 wrong first; 40/60 and 25/60 no first decision); comparisons below use the fresh runs"}
+  },
+  "metrics": {
+    "primary": "Acc: share of all pair updates with an estimate within 1 m and 5 deg of GT",
+    "decomposition": ["U_pre: share of updates before the first acceptance", "E_psi: accepted, t <= 1 m, |yaw| > 5 deg", "E_t: accepted, t > 1 m"],
+    "secondary": ["mean of per-pair mean translation and yaw error", "availability", "first acceptance per directed pair", "share of accepted estimates with |yaw| > 10 deg", "per-pair Acc and decomposition"]
+  },
+  "decision_rules": {
+    "range": "range(X) = max - min of the metric over the 5 repeats of variant X; a difference 'exceeds the ranges' when it is larger than max(range(X), range(Y))",
+    "H2": "Supported if all hold: (1) T2.0 passed; (2) mean Acc(S2) - mean Acc(B0) exceeds the ranges and mean Acc(S2) - mean Acc(G2) exceeds the ranges; (3) cold start: wrong first(S2) <= wrong first(B0) and no first(S2) < no first(B0); (4) cold-start runtime(S2) <= 1.25 x runtime(G2). Otherwise not supported.",
+    "H3": "Supported if all hold: (1) T3.0: lower 95% CI bound of the paired difference > 0; (2) mean Acc(R3) - mean Acc(B0) exceeds the ranges; (3) mean (E_psi + E_t)(B0) - mean (E_psi + E_t)(R3) exceeds the ranges; (4) mean U_pre(R3) - mean U_pre(B0) <= 1 percentage point; (5) cold start: wrong first(R3) <= wrong first(B0). Otherwise not supported."
+  },
+  "independence": "One recording; the problem statement was derived from B0, section 6 and section 8-9 results of the same recording. This is a test of fixed rules, not an evaluation on unseen data. The 12 holdout windows were seen in section 6.",
+  "excluded": ["variant without any size information (all-to-all candidates, VISTA-style control): about 10^4 candidate associations per step, not feasible in the available time; reported as a limitation", "robustness of S2 to frontends with wrong modes (R0, U3)", "changes to the temporal filter, epsilon, sigma, MNO budget", "retuning c, alpha or the fusion after seeing results", "MOT/MOTA"]
+}
