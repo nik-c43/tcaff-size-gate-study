@@ -1,4 +1,4 @@
-"""Where do the 798 labelled pairs lie, and do robot/person notes agree with GT? (report §5)
+"""Where do the 798 labelled pairs lie, and do robot/person notes agree with GT? (docs/2_diagnostics.md)
 
 Each side's last observation (frame and detection index in the authors' FastSAM JSON) is placed in
 the mocap world frame with the robot's GT pose. Place classes as in landmarks.py. "Near mover" =

@@ -1,4 +1,4 @@
-"""Figure for report §9 from results/segment_unit/unit_test/aggregate.json (layout only, no new experiment).
+"""Figure for check 4 (docs/3_hypotheses.md) from results/segment_unit/unit_test/aggregate.json (layout only, no new experiment).
 
 Usage: MPLBACKEND=Agg python plot_unit_test.py [OUT_DIR]   (default results/figures/publication)
 """
@@ -53,7 +53,7 @@ ax2.grid(axis="x", color=GRID, lw=1)
 ax2.set_axisbelow(True)
 ax2.legend(loc="lower left", frameon=False, labelcolor=INK)
 
-fig.suptitle("Рабочая гипотеза §9: удаление контейнеров и многослойных масок ухудшает совмещение", fontsize=12, color=INK, x=0.01, ha="left")
+fig.suptitle("Проверка 4 (H₁): удаление контейнеров и многослойных масок ухудшает совмещение", fontsize=12, color=INK, x=0.01, ha="left")
 fig.text(0.01, 0.015, "Одна запись, 337 обновлений × 12 направленных пар; пары зависимы. Неверное совмещение в (b) устойчиво: "
          "разброс доли между повторами не больше 0.05.", fontsize=9, color=INK2)
 fig.tight_layout(rect=(0, 0.04, 1, 0.94))

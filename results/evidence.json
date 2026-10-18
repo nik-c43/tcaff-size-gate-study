@@ -352,17 +352,17 @@
   {
     "experiment_id": "literature-systematic-2025-2026",
     "inputs": "OpenAlex and arXiv queries Q1-Q5; forward citations of 15 seed papers (OpenAlex, Semantic Scholar)",
-    "configuration": "docs/literature_search/search_log.json",
+    "configuration": "results/literature/search_log.json",
     "evaluation_scope": "2025-01-01..2026-10-15; 1028 unique records screened by title, 150 by abstract",
     "metric_and_definition": "records included in synthesis",
     "value": 35,
-    "source_file": "docs/literature_search/screening.csv; docs/systematic_search_2025_2026.md",
-    "reproduce_command": "python3 -I docs/literature_search/search.py OUT_DIR (API results change over time)"
+    "source_file": "results/literature/screening.csv; results/literature/search_log.json",
+    "reproduce_command": "python3 -I scripts/literature_search/search.py OUT_DIR (API results change over time)"
   },
   {
     "experiment_id": "uncertainty-calibration-feasibility",
     "inputs": "saved author detections; TCAFF map tracker (release parameters) with GT poses; GT pedestrians/robots excluded",
-    "configuration": "scripts/uncertainty/README.md",
+    "configuration": "scripts/uncertainty/extract.py, analyze.py (docs/4_reproduction.md)",
     "evaluation_scope": "44794 within-track pairs of 513 box tracks, four robots, one recording",
     "metric_and_definition": "90% quantile of XY centroid discrepancy within a track (metres)",
     "value": 0.6278,
@@ -372,7 +372,7 @@
   {
     "experiment_id": "uncertainty-calibration-feasibility",
     "inputs": "same pairs; GT box positions from objects.txt",
-    "configuration": "scripts/uncertainty/README.md",
+    "configuration": "scripts/uncertainty/extract.py, analyze.py (docs/4_reproduction.md)",
     "evaluation_scope": "591 box tracks",
     "metric_and_definition": "share of box tracks with more than 20% of detections off their modal GT box",
     "value": 0.4653,
@@ -392,7 +392,7 @@
   {
     "experiment_id": "segment-audit-sample",
     "inputs": "masks matched to saved detections; depth back-projection; GT box positions",
-    "configuration": "scripts/segment_unit/README.md",
+    "configuration": "scripts/segment_unit (docs/4_reproduction.md)",
     "evaluation_scope": "2127 box-related masks in the TCAFF input subset; frame bootstrap",
     "metric_and_definition": "share of box-related segments covering two or more GT boxes",
     "value": 0.3235,
@@ -402,7 +402,7 @@
   {
     "experiment_id": "segment-audit-sample",
     "inputs": "masks matched to saved detections; GT box positions",
-    "configuration": "scripts/segment_unit/README.md",
+    "configuration": "scripts/segment_unit (docs/4_reproduction.md)",
     "evaluation_scope": "2119 (frame, GT box) observations",
     "metric_and_definition": "share of box observations present in two or more saved segments",
     "value": 0.3072,
@@ -412,7 +412,7 @@
   {
     "experiment_id": "segment-audit-sample",
     "inputs": "all reproduced masks; GT box positions",
-    "configuration": "scripts/segment_unit/README.md",
+    "configuration": "scripts/segment_unit (docs/4_reproduction.md)",
     "evaluation_scope": "1320 consecutive sampled-frame pairs of the same robot and GT box",
     "metric_and_definition": "share where the dominant segment changes between single-box and multi-box unit",
     "value": 0.2295,
@@ -512,7 +512,7 @@
   {
     "experiment_id": "annotation-places",
     "inputs": "798 labelled pairs; last observation of each side placed in the world with the robot GT pose",
-    "configuration": "geometric place classes (report section 4)",
+    "configuration": "geometric place classes (docs/2_diagnostics.md)",
     "evaluation_scope": "1596 labelled observations",
     "metric_and_definition": "observations within 0.35 m XY of a GT obstacle point and below 0.9 m",
     "value": 1012,
@@ -571,7 +571,7 @@
   },
   {
     "experiment_id": "support-B0-decomposition",
-    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "inputs": "B0 error traces of check 4 (5 repeats)",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "share of updates without an estimate before the first acceptance (U_pre)",
@@ -581,7 +581,7 @@
   },
   {
     "experiment_id": "support-B0-decomposition",
-    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "inputs": "B0 error traces of check 4 (5 repeats)",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "share of accepted updates with t <= 1 m and |yaw| > 5 deg (E_psi)",
@@ -591,7 +591,7 @@
   },
   {
     "experiment_id": "support-B0-decomposition",
-    "inputs": "B0 error traces of section 9 (5 repeats)",
+    "inputs": "B0 error traces of check 4 (5 repeats)",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "share of accepted updates with t > 1 m (E_t)",
@@ -661,7 +661,7 @@
   },
   {
     "experiment_id": "support-full-S2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg, S2",
@@ -671,7 +671,7 @@
   },
   {
     "experiment_id": "support-full-G2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "Acc, G2 (gate alpha = 2 only)",
@@ -681,7 +681,7 @@
   },
   {
     "experiment_id": "support-full-R3",
-    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "Acc, R3 (robust re-estimation)",
@@ -691,17 +691,17 @@
   },
   {
     "experiment_id": "support-full-S2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of section 9",
+    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
-    "metric_and_definition": "share of accepted estimates with |yaw| > 10 deg, S2",
-    "value": 0.027819830004725467,
+    "metric_and_definition": "share of all updates with an accepted estimate beyond 2 m or 15 deg (wrong mode), S2",
+    "value": 0.025272007912957473,
     "source_file": "results/support/aggregate.json",
     "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
   },
   {
     "experiment_id": "support-cold-S2",
-    "inputs": "frozen author maps, 12 holdout windows of section 6.4",
+    "inputs": "frozen author maps, 12 holdout windows of check 2",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "60 cold starts",
     "metric_and_definition": "wrong first accepted decisions, S2",
@@ -711,12 +711,52 @@
   },
   {
     "experiment_id": "support-cold-B0",
-    "inputs": "frozen author maps, 12 holdout windows of section 6.4",
+    "inputs": "frozen author maps, 12 holdout windows of check 2",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "60 cold starts",
     "metric_and_definition": "wrong first accepted decisions, B0 rerun",
     "value": 5,
     "source_file": "results/support/cold_start/B0.json",
     "reproduce_command": "external data: python -I scripts/support/cold_start.py LAB B0 OUT_JSON 5"
+  },
+  {
+    "experiment_id": "exploratory-oracle-dynamic",
+    "inputs": "authors' detections minus detections within 0.3 m of another robot or pedestrian (GT oracle)",
+    "configuration": "scripts/exploratory/oracle_dynamic.py, radius 0.3 m; not pre-registered",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg",
+    "value": 0.7590009891196834,
+    "source_file": "results/exploratory/oracle_dynamic/summary.json",
+    "reproduce_command": "python3 -I scripts/exploratory/oracle_summary.py (needs numpy)"
+  },
+  {
+    "experiment_id": "exploratory-oracle-dynamic",
+    "inputs": "authors' detections minus detections within 0.6 m of another robot or pedestrian (GT oracle)",
+    "configuration": "scripts/exploratory/oracle_dynamic.py, radius 0.6 m; not pre-registered",
+    "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
+    "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg",
+    "value": 0.6992581602373887,
+    "source_file": "results/exploratory/oracle_dynamic/summary.json",
+    "reproduce_command": "python3 -I scripts/exploratory/oracle_summary.py (needs numpy)"
+  },
+  {
+    "experiment_id": "support-B0-error-profile",
+    "inputs": "B0 error traces of check 4 (5 repeats)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "all accepted estimates",
+    "metric_and_definition": "maximum absolute yaw error of an accepted estimate (degrees)",
+    "value": 10.005370939768623,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
+  },
+  {
+    "experiment_id": "support-B0-error-profile",
+    "inputs": "B0 error traces of check 4 (5 repeats)",
+    "configuration": "configs/support_hypotheses.json",
+    "evaluation_scope": "60 first acceptances (12 directed pairs x 5 repeats)",
+    "metric_and_definition": "first accepted estimates outside 1 m / 5 deg",
+    "value": 10,
+    "source_file": "results/support/aggregate.json",
+    "reproduce_command": "python3 -I scripts/support/aggregate.py results/support (needs numpy)"
   }
 ]

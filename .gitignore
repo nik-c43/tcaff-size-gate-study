@@ -12,8 +12,7 @@ __pycache__/
 *.tar
 *.tar.gz
 *.zip
-/data/*
-!/data/README.md
+/data/
 /external/
 /local_runs/
 /vendor/*/build/

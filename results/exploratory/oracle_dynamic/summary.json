@@ -1,0 +1,62 @@
+{
+ "note": "Exploratory, not pre-registered; removes detections within RADIUS of another robot or pedestrian using GT positions (an oracle, not an algorithm).",
+ "B0": {
+  "repeats": 5,
+  "mean": {
+   "acc": 0.7668644906033629,
+   "availability": 0.8897131552917903,
+   "translation_m": 0.43686865281284143,
+   "yaw_deg": 2.4504384796070213,
+   "share_updates_yaw_gt10": 0.00034619188921859544,
+   "share_updates_gross": 0.0
+  },
+  "range": {
+   "acc": 0.004698318496538012,
+   "availability": 0.0,
+   "translation_m": 0.0034137498386965226,
+   "yaw_deg": 0.024260190605239096,
+   "share_updates_yaw_gt10": 0.0004945598417408506,
+   "share_updates_gross": 0.0
+  }
+ },
+ "B0_dyn030": {
+  "repeats": 5,
+  "mean": {
+   "acc": 0.7590009891196834,
+   "availability": 0.8885756676557864,
+   "translation_m": 0.46843987913802676,
+   "yaw_deg": 2.71062674224757,
+   "share_updates_yaw_gt10": 0.002917903066271019,
+   "share_updates_gross": 0.002423343224530168
+  },
+  "range": {
+   "acc": 0.015084075173095957,
+   "availability": 0.004698318496538012,
+   "translation_m": 0.15531533536142578,
+   "yaw_deg": 1.7179006231198302,
+   "share_updates_yaw_gt10": 0.01211671612265084,
+   "share_updates_gross": 0.01211671612265084
+  },
+  "removed_detection_share": 0.09559657626069917
+ },
+ "B0_dyn060": {
+  "repeats": 5,
+  "mean": {
+   "acc": 0.6992581602373887,
+   "availability": 0.8745796241345204,
+   "translation_m": 0.77980163675507,
+   "yaw_deg": 14.501875921921274,
+   "share_updates_yaw_gt10": 0.04940652818991098,
+   "share_updates_gross": 0.04891196834817013
+  },
+  "range": {
+   "acc": 0.02645895153313549,
+   "availability": 0.006923837784371889,
+   "translation_m": 0.4117652825457675,
+   "yaw_deg": 6.730827022976133,
+   "share_updates_yaw_gt10": 0.02744807121661721,
+   "share_updates_gross": 0.02744807121661721
+  },
+  "removed_detection_share": 0.130612091837213
+ }
+}

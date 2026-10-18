@@ -1,4 +1,4 @@
-"""What do TCAFF map objects and CLIPPER inlier correspondences sit on? (report §8.3, §9)
+"""What do TCAFF map objects and CLIPPER inlier correspondences sit on? (docs/2_diagnostics.md; check 4 in docs/3_hypotheses.md)
 
 Replays frame alignment (release TCAFFManager) on the maps captured during a run, for every STEP-th
 step, and keeps the solution closest to the run's accepted estimate. Map objects are placed in the

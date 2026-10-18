@@ -1,5 +1,5 @@
 """Existing diagnostic functions, copied without AST changes from the executed sources.
-See docs/provenance.md and scripts/original for origins. No new method.
+See docs/4_reproduction.md and scripts/original for origins. No new method.
 """
 
 import numpy as np

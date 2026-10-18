@@ -1,0 +1,38 @@
+{
+ "B0_dyn030": {
+  "RR01": {
+   "detections": 28079,
+   "kept": 25860
+  },
+  "RR04": {
+   "detections": 26631,
+   "kept": 24284
+  },
+  "RR06": {
+   "detections": 27148,
+   "kept": 24915
+  },
+  "RR08": {
+   "detections": 24809,
+   "kept": 21411
+  }
+ },
+ "B0_dyn060": {
+  "RR01": {
+   "detections": 28079,
+   "kept": 25230
+  },
+  "RR04": {
+   "detections": 26631,
+   "kept": 23740
+  },
+  "RR06": {
+   "detections": 27148,
+   "kept": 23710
+  },
+  "RR08": {
+   "detections": 24809,
+   "kept": 20055
+  }
+ }
+}

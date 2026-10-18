@@ -151,7 +151,7 @@ def check_results():
     return dict(baseline=baseline,size_gate=result,runs=len(runs),occlusion_cases=len(cases),runtime_ratio=result['2.0']['full_history']['runtime_s']/result['1.0']['full_history']['runtime_s'])
 
 def verify_transfer():
-    files=read(ROOT/'docs/source_inventory.json')
+    files=read(ROOT/'docs/provenance/source_inventory.json')
     for r in files:assert digest(ROOT/r['path'])==r['sha256'],r['path']
     return len(files)
 

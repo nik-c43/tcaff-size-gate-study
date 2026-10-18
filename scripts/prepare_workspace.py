@@ -61,7 +61,7 @@ def main():
         target=work/'results/tcaff_baseline_release';target.mkdir(parents=True)
         (target/'audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
         shutil.copyfile(ROOT/'annotations/originals/labels-final-canonical.json',work/'data/size_gate_study/labels.json')
-    info=dict(pins=pins,mode='exact frozen size study' if args.frozen_project else 'fresh released baseline',archived_code_unchanged=True,relocated_binary_hashes=relocated,warning='No experiment started. Run the commands in docs/reproduction.md inside this external workspace.')
+    info=dict(pins=pins,mode='exact frozen size study' if args.frozen_project else 'fresh released baseline',archived_code_unchanged=True,relocated_binary_hashes=relocated,warning='No experiment started. Run the commands in docs/4_reproduction.md inside this external workspace.')
     (work/'workspace_manifest.json').write_text(json.dumps(info,indent=2)+'\n')
     print(json.dumps(info))
 

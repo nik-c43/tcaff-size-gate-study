@@ -18,7 +18,7 @@ RUN_DIRS = {"B0": REPO / "results/segment_unit/unit_test/runs/B0", **{v: RES / "
 
 
 def decompose(path):
-    n = acc = pre = e_psi = e_t = big_yaw = 0
+    n = acc = pre = e_psi = e_t = big_yaw = gross = 0
     for tr in json.load(gzip.open(path)):
         seen = False
         for _, accepted, t, yaw in tr["frames"]:
@@ -34,9 +34,36 @@ def decompose(path):
             else:
                 e_t += 1
             big_yaw += yaw > 10.0
+            gross += t > 2.0 or yaw > 15.0
     accepted_n = n - pre
     return dict(acc=acc / n, u_pre=pre / n, e_psi=e_psi / n, e_t=e_t / n, e_sum=(e_psi + e_t) / n,
+                u_post=1 - acc / n - pre / n - (e_psi + e_t) / n, gross=gross / n,
                 share_yaw_gt10_of_accepted=big_yaw / max(1, accepted_n))
+
+
+def error_profile(paths):
+    """Accepted-error profile over all repeats: maxima, quantiles of near-threshold errors, wrong first acceptances."""
+    t_all, y_all, y_angle, t_trans, first_wrong, starts = [], [], [], [], 0, 0
+    for path in paths:
+        for tr in json.load(gzip.open(path)):
+            first = True
+            for _, a, t, y in tr["frames"]:
+                if not a:
+                    continue
+                t_all.append(t)
+                y_all.append(y)
+                if t <= 1.0 and y > 5.0:
+                    y_angle.append(y)
+                if t > 1.0:
+                    t_trans.append(t)
+                if first:
+                    starts += 1
+                    first_wrong += not (t <= 1.0 and y <= 5.0)
+                    first = False
+    q = lambda v, p: np.quantile(v, p).round(3).tolist() if v else None
+    return dict(max_translation_m=float(max(t_all)), max_yaw_deg=float(max(y_all)),
+                angle_error_yaw_q50_q90=q(y_angle, [0.5, 0.9]), translation_error_t_q25_q50_q75=q(t_trans, [0.25, 0.5, 0.75]),
+                first_acceptance_wrong=first_wrong, first_acceptances=starts)
 
 
 def per_pair(path):
@@ -87,7 +114,7 @@ for v, d in RUN_DIRS.items():
         row["per_pair_acc"] = per_pair(r / "error_traces.json.gz")
         rows.append(row)
     keys = [k for k in rows[0] if k != "per_pair_acc"]
-    variants[v] = dict(repeats=len(rows),
+    variants[v] = dict(repeats=len(rows), accepted_error_profile=error_profile([r / "error_traces.json.gz" for r in reps]),
                        mean={k: float(np.mean([r[k] for r in rows])) for k in keys},
                        range={k: float(np.ptp([r[k] for r in rows])) for k in keys},
                        per_pair={p: {k: (float(np.mean([r["per_pair_acc"][p][k] for r in rows])) if k != "longest_yaw_gt10_run"
@@ -95,8 +122,19 @@ for v, d in RUN_DIRS.items():
                                  for p in rows[0]["per_pair_acc"]})
 
 cold = {v: json.loads((RES / "cold_start" / f"{v}.json").read_text()) for v in ("B0", "G2", "S2", "R3")}
+def wrong_first_by_window(c):
+    out = {}
+    for r in c["runs"]:
+        m = r["metrics"]
+        if m["first_solution"] == "wrong":
+            out.setdefault(f"{r['episode_id']} {r['pair']}", []).append([m["median_translation_m"], m["median_yaw_deg"]])
+    return {k: dict(starts=len(x), window_median_translation_m=float(np.median([a for a, _ in x])),
+                    window_median_yaw_deg=float(np.median([b for _, b in x]))) for k, x in out.items()}
+
+
 cold_view = {v: {k: c[k] for k in ("starts", "wrong_first", "no_first", "correct_by_horizon", "capped_time_to_correct_s",
-                                   "correct_update_availability", "mean_runtime_per_window_s")} for v, c in cold.items()}
+                                   "correct_update_availability", "mean_runtime_per_window_s")}
+             | {"wrong_first_by_window": wrong_first_by_window(c)} for v, c in cold.items()}
 t20 = json.loads((RES / "size_auc.json").read_text())
 t30 = json.loads((RES / "robust_offline.json").read_text())
 t0 = json.loads((RES / "coverage.json").read_text())

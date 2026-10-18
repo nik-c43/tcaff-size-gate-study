@@ -1,4 +1,4 @@
-"""Cold starts of the H2/H3 protocol on the 12 holdout windows of report section 6.4.
+"""Cold starts of the H2/H3 protocol (checks 6 and 7) on the 12 holdout windows of check 2.
 
 Runs run_episode of scripts/size_gate_evaluate.py unchanged on the frozen author maps, with the
 variant applied by patches.py (G2/S2: gate alpha = 2; B0/R3: alpha = 1). Filter replay is verified
