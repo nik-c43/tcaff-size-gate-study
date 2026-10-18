@@ -17,25 +17,25 @@ def main():
     summary=read(ROOT/'results/size_gate/summary.json')
     fig,axes=plt.subplots(1,5,figsize=(15,4.5))
     colors=['#35629e','#c96729']
-    metrics=[('correct_update_availability','Правильные обновления','%',100),('mean_translation_m','Ошибка переноса','м',1),('mean_yaw_deg','Ошибка угла','°',1),('availability','Доступность','%',100),('runtime_s','Время окна','с',1)]
+    metrics=[('correct_update_availability','Верные обновления','%',100),('mean_translation_m','Ошибка переноса','м',1),('mean_yaw_deg','Ошибка угла','°',1),('availability','Доступность','%',100),('runtime_s','Время окна','с',1)]
     for ax,(key,title,units,factor) in zip(axes,metrics):
         values=[summary[k][key]*factor for k in ['rerun_B0','selected_variant']]
-        ax.bar(['B0','α=2'],values,color=colors,width=.6)
+        ax.bar(['B0','2.1 (α=2)'],values,color=colors,width=.6)
         ax.set_title(title,fontsize=11);ax.set_ylabel(units)
         ax.set_ylim(0,max(values)*1.25)
         for x,value in enumerate(values):ax.text(x,value+max(values)*.04,f'{value:.2f}',ha='center',fontsize=10)
         ax.spines[['top','right']].set_visible(False)
-    fig.suptitle('Поздние окна с полной историей: 12 эпизодов × 29 обновлений × 5 повторов',fontsize=12)
-    fig.text(.5,.02,'Одна запись; среднее повторов внутри эпизода, затем среднее эпизодов. Правильно: ≤1 м и ≤5°.',ha='center',fontsize=10)
+    fig.suptitle('Проверка 2, поздние окна с полной историей: 12 окон × 29 обновлений × 5 повторов',fontsize=12)
+    fig.text(.5,.02,'Одна запись; среднее повторов внутри эпизода, затем среднее эпизодов. Верное обновление: не дальше 1 м и 5°.',ha='center',fontsize=10)
     fig.tight_layout(rect=(0,.06,1,.91))
     for ext in ['png','svg']:fig.savefig(out/f'late_windows.{ext}',dpi=160)
     plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(9,4.5))
-    for ax,key,title in zip(axes,['wrong_first_rate','correct_by_horizon_rate'],['Неверное первое решение','Правильное решение до конца окна']):
+    for ax,key,title in zip(axes,['wrong_first_rate','correct_by_horizon_rate'],['Неверное первое решение','Верная оценка до конца окна']):
         values=[summary['cold_start'][str(a)][key]*100 for a in [1.,2.]]
-        ax.bar(['B0','α=2'],values,color=colors,width=.6);ax.set_title(title,fontsize=11);ax.set_ylabel('% стартов');ax.set_ylim(0,65)
+        ax.bar(['B0','2.1 (α=2)'],values,color=colors,width=.6);ax.set_title(title,fontsize=11);ax.set_ylabel('% стартов');ax.set_ylim(0,65)
         for i,v in enumerate(values):ax.text(i,v+2,f'{v:.2f}%',ha='center')
-    fig.suptitle('Отдельная диагностика холодного старта: 12 окон × 5 повторов',fontsize=12)
+    fig.suptitle('Проверка 2, холодный старт: 12 окон × 5 повторов',fontsize=12)
     fig.text(.5,.015,'Отсутствие первого решения: 40/60 → 25/60. Повторы и окна одной записи зависимы.',ha='center',fontsize=10)
     fig.tight_layout(rect=(0,.05,1,.92));fig.savefig(out/'cold_start.png',dpi=160);plt.close(fig)
     cases=read(ROOT/'results/occlusion/cases.json');masks=np.load(ROOT/'results/occlusion/display_masks.npz')
@@ -55,7 +55,7 @@ def main():
         ax.set_title('Куб 0.4 × 0.4 × 0.4 м' if name=='cube' else 'Коробка 1.2 × 0.4 × 0.8 м',fontsize=11)
         ax.set_xlabel('Скрытая доля ширины силуэта, %');ax.set_ylabel('Сдвиг измеренного центра, м');ax.grid(alpha=.25);ax.legend()
     fig.suptitle('Идеальное перекрытие: камера и предмет неподвижны',fontsize=13)
-    fig.text(.5,.045,'Кружок: проходит B0; квадрат: проходит α=2. Идеальные оставшиеся маски и глубина.',ha='center',fontsize=10)
+    fig.text(.5,.045,'Кружок: пару допускает B0; квадрат: допускает вариант 2.1 (α=2). Идеальные оставшиеся маски и глубина.',ha='center',fontsize=10)
     fig.text(.5,.017,'Сдвиг относительно измерения полной видимой поверхности, а не объёмного центра.',ha='center',fontsize=9)
     fig.subplots_adjust(bottom=.155,top=.89,left=.085,right=.97);fig.savefig(out/'occlusion.png',dpi=160);plt.close(fig)
     inputs=['results/size_gate/summary.json','results/occlusion/cases.json','results/occlusion/display_masks.npz']

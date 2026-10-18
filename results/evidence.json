@@ -112,7 +112,7 @@
   {
     "experiment_id": "late-full-history-alpha1.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "correct updates / all; <=1m AND <=5deg",
     "value": "1212/1740 = 69.65517241%",
@@ -122,7 +122,7 @@
   {
     "experiment_id": "late-full-history-alpha1.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean accepted GT-valid translation, episode/repeat averaging, m",
     "value": 0.5103002362691246,
@@ -132,7 +132,7 @@
   {
     "experiment_id": "late-full-history-alpha1.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean accepted GT-valid yaw, episode/repeat averaging, deg",
     "value": 3.0217415347465857,
@@ -142,7 +142,7 @@
   {
     "experiment_id": "late-full-history-alpha1.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "accepted / all",
     "value": 1.0,
@@ -152,7 +152,7 @@
   {
     "experiment_id": "late-full-history-alpha1.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean window update runtime s (perf_counter manager.update)",
     "value": 0.829081865651339,
@@ -162,7 +162,7 @@
   {
     "experiment_id": "cold-start-alpha1.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "wrong first accepted / all starts",
     "value": "4/60 = 6.66666667%",
@@ -172,7 +172,7 @@
   {
     "experiment_id": "cold-start-alpha1.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "no first / all starts",
     "value": "40/60",
@@ -182,7 +182,7 @@
   {
     "experiment_id": "cold-start-alpha1.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "correct solution by horizon / all starts",
     "value": "20/60",
@@ -192,7 +192,7 @@
   {
     "experiment_id": "cold-start-alpha1.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "B0; configs/manager.json; alpha=1.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "mean capped time-to-correct s; no-success censored at window end",
     "value": 24.166643619537354,
@@ -202,7 +202,7 @@
   {
     "experiment_id": "late-full-history-alpha2.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "correct updates / all; <=1m AND <=5deg",
     "value": "1249/1740 = 71.78160920%",
@@ -212,7 +212,7 @@
   {
     "experiment_id": "late-full-history-alpha2.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean accepted GT-valid translation, episode/repeat averaging, m",
     "value": 0.5305175093281105,
@@ -222,7 +222,7 @@
   {
     "experiment_id": "late-full-history-alpha2.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean accepted GT-valid yaw, episode/repeat averaging, deg",
     "value": 3.131909806705199,
@@ -232,7 +232,7 @@
   {
     "experiment_id": "late-full-history-alpha2.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "accepted / all",
     "value": 1.0,
@@ -242,7 +242,7 @@
   {
     "experiment_id": "late-full-history-alpha2.0",
     "inputs": "unchanged saved maps; filter runs from recording start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x29updates x5repeats; episode means",
     "metric_and_definition": "mean window update runtime s (perf_counter manager.update)",
     "value": 3.924954470232477,
@@ -252,7 +252,7 @@
   {
     "experiment_id": "cold-start-alpha2.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "wrong first accepted / all starts",
     "value": "10/60 = 16.66666667%",
@@ -262,7 +262,7 @@
   {
     "experiment_id": "cold-start-alpha2.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "no first / all starts",
     "value": "25/60",
@@ -272,7 +272,7 @@
   {
     "experiment_id": "cold-start-alpha2.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "correct solution by horizon / all starts",
     "value": "30/60",
@@ -282,7 +282,7 @@
   {
     "experiment_id": "cold-start-alpha2.0",
     "inputs": "same maps, original factory reset at window start",
-    "configuration": "configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
+    "configuration": "variant 2.1; configs/manager.json; alpha=2.0; wh=1+alpha*(1.35-1), difference=alpha*0.1m",
     "evaluation_scope": "12 late windows x5repeats, dependent starts",
     "metric_and_definition": "mean capped time-to-correct s; no-success censored at window end",
     "value": 21.566646099090576,
@@ -294,7 +294,7 @@
     "inputs": "saved measured update times",
     "configuration": "same CPU, thread count1; same aggregation",
     "evaluation_scope": "late full-history windows",
-    "metric_and_definition": "mean alpha2 runtime / mean B0 runtime",
+    "metric_and_definition": "mean runtime of variant 2.1 (alpha 2) / mean B0 runtime",
     "value": 4.7340975998178125,
     "source_file": "results/size_gate/full_history.json",
     "reproduce_command": "python3 scripts/inspect_saved.py"
@@ -304,7 +304,7 @@
     "inputs": "own ideal cuboid mask and depth; fixed camera/object",
     "configuration": "cube .4m;K fx=fy600;distance3m;left silhouette extent masked",
     "evaluation_scope": "single model case, part of80 dependent cases",
-    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / alpha2 admitted",
+    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / variant 2.1 (alpha 2) admitted",
     "value": "[0.39200000000000007, 0.2706666666666667, 0.060666666666666674, false, true]",
     "source_file": "results/occlusion/cases.json",
     "reproduce_command": ".venv/bin/python scripts/reproduce_model.py"
@@ -314,7 +314,7 @@
     "inputs": "own ideal cuboid mask and depth; fixed camera/object",
     "configuration": "cube .4m;K fx=fy600;distance3m;left silhouette extent masked",
     "evaluation_scope": "single model case, part of80 dependent cases",
-    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / alpha2 admitted",
+    "metric_and_definition": "reference width m / masked width m / centroid shift m / B0 admitted / variant 2.1 (alpha 2) admitted",
     "value": "[0.39200000000000007, 0.15400000000000003, 0.11900000000000002, false, false]",
     "source_file": "results/occlusion/cases.json",
     "reproduce_command": ".venv/bin/python scripts/reproduce_model.py"
@@ -334,7 +334,7 @@
     "inputs": "saved historical replay summary",
     "configuration": "historical B0/B3_delta1 rules, not release baseline",
     "evaluation_scope": "12 directed pairs, one prior recording/protocol",
-    "metric_and_definition": "wrong first count B0 and B3",
+    "metric_and_definition": "wrong first count B0 and variant 1.3 (B3)",
     "value": "3/12 and 3/12",
     "source_file": "results/history/decision_rules_summary.txt",
     "reproduce_command": "saved-table reading only; historical scripts remain in original project"
@@ -441,7 +441,7 @@
   },
   {
     "experiment_id": "unit-hypothesis-R0",
-    "inputs": "FastSAM-x on all 13546 frames; R0 rule (TCAFF measurement + border filter)",
+    "inputs": "FastSAM-x on all 13546 frames; variant 4.0 (R0): TCAFF measurement + border filter",
     "configuration": "configs/unit_hypothesis.json; configs/release.yaml unchanged",
     "evaluation_scope": "5 repeats x 337 updates x 12 directed pairs, one recording",
     "metric_and_definition": "share of all pair updates within 1 m and 5 deg of GT, mean over repeats",
@@ -451,7 +451,7 @@
   },
   {
     "experiment_id": "unit-hypothesis-U3",
-    "inputs": "same masks; U3 rule (R0 minus container and multi-layer masks)",
+    "inputs": "same masks; variant 4.3 (U3): 4.0 minus container and multi-layer masks",
     "configuration": "configs/unit_hypothesis.json; configs/release.yaml unchanged",
     "evaluation_scope": "5 repeats x 337 updates x 12 directed pairs, one recording",
     "metric_and_definition": "share of all pair updates within 1 m and 5 deg of GT, mean over repeats",
@@ -461,7 +461,7 @@
   },
   {
     "experiment_id": "unit-hypothesis-R0",
-    "inputs": "FastSAM-x on all 13546 frames; R0 rule",
+    "inputs": "FastSAM-x on all 13546 frames; variant 4.0 (R0)",
     "configuration": "configs/unit_hypothesis.json",
     "evaluation_scope": "5 repeats, 12 directed pairs",
     "metric_and_definition": "mean-of-pair-means translation (SE2 inv(GT) @ EST, metres), mean over repeats",
@@ -471,7 +471,7 @@
   },
   {
     "experiment_id": "unit-hypothesis-U3",
-    "inputs": "same masks; U3 rule",
+    "inputs": "same masks; variant 4.3 (U3)",
     "configuration": "configs/unit_hypothesis.json",
     "evaluation_scope": "5 repeats, 12 directed pairs",
     "metric_and_definition": "mean-of-pair-means translation (SE2 inv(GT) @ EST, metres), mean over repeats",
@@ -481,10 +481,10 @@
   },
   {
     "experiment_id": "unit-hypothesis-U3",
-    "inputs": "same masks; U3 rule",
+    "inputs": "same masks; variant 4.3 (U3)",
     "configuration": "configs/unit_hypothesis.json",
     "evaluation_scope": "5 repeats, 4044 pair updates each",
-    "metric_and_definition": "availability drop versus R0 (percentage points)",
+    "metric_and_definition": "availability drop of 4.3 versus 4.0 (percentage points)",
     "value": 8.259,
     "source_file": "results/segment_unit/unit_test/aggregate.json",
     "reproduce_command": "external data: scripts/segment_unit run_variants.sh, aggregate.py"
@@ -494,14 +494,14 @@
     "inputs": "variant detections with GT box composition of each mask",
     "configuration": "configs/unit_hypothesis.json",
     "evaluation_scope": "13546 frames, box-related detections",
-    "metric_and_definition": "multi-box share of box-related detections, R0 minus U3",
+    "metric_and_definition": "multi-box share of box-related detections, 4.0 minus 4.3",
     "value": 0.0804,
     "source_file": "results/segment_unit/unit_test/aggregate.json; results/segment_unit/unit_test/mechanism.json",
     "reproduce_command": "external data: scripts/segment_unit build_variants.py"
   },
   {
     "experiment_id": "unit-hypothesis-decision",
-    "inputs": "aggregate of R0 and U3 repeats",
+    "inputs": "aggregate of variant 4.0 (R0) and 4.3 (U3) repeats",
     "configuration": "decision_rule in configs/unit_hypothesis.json",
     "evaluation_scope": "pre-registered rule applied mechanically",
     "metric_and_definition": "hypothesis supported by the protocol rule",
@@ -551,7 +551,7 @@
   },
   {
     "experiment_id": "landmarks-R0-failing-pairs",
-    "inputs": "maps captured in R0 rep1; replayed frame alignment",
+    "inputs": "maps captured in variant 4.0 (R0) rep1; replayed frame alignment",
     "configuration": "failing pairs RR04_RR08, RR08_RR04, RR06_RR08, RR08_RR06",
     "evaluation_scope": "inliers of the four failing directed pairs",
     "metric_and_definition": "same-place inlier correspondences",
@@ -561,7 +561,7 @@
   },
   {
     "experiment_id": "landmarks-U3-failing-pairs",
-    "inputs": "maps captured in U3 rep1; replayed frame alignment",
+    "inputs": "maps captured in variant 4.3 (U3) rep1; replayed frame alignment",
     "configuration": "failing pairs RR04_RR08, RR08_RR04, RR06_RR08, RR08_RR06",
     "evaluation_scope": "inliers of the four failing directed pairs",
     "metric_and_definition": "same-place inlier correspondences",
@@ -634,7 +634,7 @@
     "inputs": "captures of the 5 B0 repeats; MNO rerun every 5th accepted step",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "3383 in-mode measurements, 60 clusters",
-    "metric_and_definition": "paired difference R3 minus WLS in the share within 1 m and 5 deg",
+    "metric_and_definition": "paired difference variant 7.1 (R3) minus WLS in the share within 1 m and 5 deg",
     "value": -0.02601241501625776,
     "source_file": "results/support/robust_offline.json",
     "reproduce_command": "external data: python -I scripts/support/robust_offline.py LAB OUT_JSON CAPTURE_DIRS"
@@ -661,40 +661,40 @@
   },
   {
     "experiment_id": "support-full-S2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
+    "inputs": "15 new runs of variants 6.0, 6.1, 7.1 (G2, S2, R3) + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
-    "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg, S2",
+    "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg, variant 6.1 (S2)",
     "value": 0.774431256181998,
     "source_file": "results/support/aggregate.json",
     "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
   },
   {
     "experiment_id": "support-full-G2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
+    "inputs": "15 new runs of variants 6.0, 6.1, 7.1 (G2, S2, R3) + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
-    "metric_and_definition": "Acc, G2 (gate alpha = 2 only)",
+    "metric_and_definition": "Acc, variant 6.0 (G2, gate alpha = 2 only)",
     "value": 0.7594955489614243,
     "source_file": "results/support/aggregate.json",
     "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
   },
   {
     "experiment_id": "support-full-R3",
-    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
+    "inputs": "15 new runs of variants 6.0, 6.1, 7.1 (G2, S2, R3) + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
-    "metric_and_definition": "Acc, R3 (robust re-estimation)",
+    "metric_and_definition": "Acc, variant 7.1 (R3, robust re-estimation)",
     "value": 0.7672106824925816,
     "source_file": "results/support/aggregate.json",
     "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
   },
   {
     "experiment_id": "support-full-S2",
-    "inputs": "15 new runs G2/S2/R3 + B0 of check 4",
+    "inputs": "15 new runs of variants 6.0, 6.1, 7.1 (G2, S2, R3) + B0 of check 4",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
-    "metric_and_definition": "share of all updates with an accepted estimate beyond 2 m or 15 deg (wrong mode), S2",
+    "metric_and_definition": "share of all updates with an accepted estimate beyond 2 m or 15 deg (wrong mode), variant 6.1 (S2)",
     "value": 0.025272007912957473,
     "source_file": "results/support/aggregate.json",
     "reproduce_command": "external data: scripts/support/run_support.sh, then python3 -I scripts/support/aggregate.py results/support (needs numpy)"
@@ -704,7 +704,7 @@
     "inputs": "frozen author maps, 12 holdout windows of check 2",
     "configuration": "configs/support_hypotheses.json",
     "evaluation_scope": "60 cold starts",
-    "metric_and_definition": "wrong first accepted decisions, S2",
+    "metric_and_definition": "wrong first accepted decisions, variant 6.1 (S2)",
     "value": 11,
     "source_file": "results/support/cold_start/S2.json",
     "reproduce_command": "external data: python -I scripts/support/cold_start.py LAB S2 OUT_JSON 5"
@@ -722,7 +722,7 @@
   {
     "experiment_id": "exploratory-oracle-dynamic",
     "inputs": "authors' detections minus detections within 0.3 m of another robot or pedestrian (GT oracle)",
-    "configuration": "scripts/exploratory/oracle_dynamic.py, radius 0.3 m; not pre-registered",
+    "configuration": "variant 5.1; scripts/exploratory/oracle_dynamic.py, radius 0.3 m; not pre-registered",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg",
     "value": 0.7590009891196834,
@@ -732,7 +732,7 @@
   {
     "experiment_id": "exploratory-oracle-dynamic",
     "inputs": "authors' detections minus detections within 0.6 m of another robot or pedestrian (GT oracle)",
-    "configuration": "scripts/exploratory/oracle_dynamic.py, radius 0.6 m; not pre-registered",
+    "configuration": "variant 5.2; scripts/exploratory/oracle_dynamic.py, radius 0.6 m; not pre-registered",
     "evaluation_scope": "authors' detections, release parameters, 5 repeats, 337 updates x 12 directed pairs",
     "metric_and_definition": "Acc: share of all pair updates within 1 m and 5 deg",
     "value": 0.6992581602373887,

@@ -14,8 +14,8 @@ SRC = ROOT / "results/segment_unit/unit_test/aggregate.json"
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "results/figures/publication"
 INK, INK2, GRID, MUTED = "#0b0b0b", "#52514e", "#e6e5e0", "#a3a29b"
 COLOR = {"R0": "#35629e", "U3": "#c96729"}  # same blue/orange roles as the repo's earlier figures; validated
-NAMES = {"B0": "B0, авторские детекции", "R0": "R0, контроль", "U1": "U1, без контейнеров",
-         "U2": "U2, без многослойных", "U3": "U3, основной"}
+NAMES = {"B0": "B0, авторские детекции", "R0": "4.0, контроль", "U1": "4.1, без контейнеров",
+         "U2": "4.2, без многослойных", "U3": "4.3, основной"}
 
 agg = json.loads(SRC.read_text())
 plt.rcParams.update({"font.size": 10, "axes.edgecolor": MUTED, "axes.labelcolor": INK2,
@@ -43,17 +43,17 @@ pairs = sorted(pp["R0"], key=lambda p: pp["U3"][p]["correct_share_mean"] - pp["R
 for y, p in enumerate(pairs):
     r, u = 100 * pp["R0"][p]["correct_share_mean"], 100 * pp["U3"][p]["correct_share_mean"]
     ax2.plot([r, u], [y, y], color=GRID, lw=2, zorder=1)
-    ax2.scatter([r], [y], s=70, color=COLOR["R0"], edgecolor="white", linewidth=2, zorder=3, label="R0, контроль" if y == 0 else None)
-    ax2.scatter([u], [y], s=70, color=COLOR["U3"], edgecolor="white", linewidth=2, zorder=3, label="U3, основной" if y == 0 else None)
+    ax2.scatter([r], [y], s=70, color=COLOR["R0"], edgecolor="white", linewidth=2, zorder=3, label="4.0, контроль" if y == 0 else None)
+    ax2.scatter([u], [y], s=70, color=COLOR["U3"], edgecolor="white", linewidth=2, zorder=3, label="4.3, основной" if y == 0 else None)
 ax2.set_yticks(range(len(pairs)), [p.replace("_", " → ") for p in pairs])
 ax2.set_xlim(-2, 100)
 ax2.set_xlabel("Доля обновлений пары с ошибкой ≤1 м и ≤5°, %")
-ax2.set_title("(b) Направленные пары роботов: R0 против U3", loc="left", fontsize=11, color=INK)
+ax2.set_title("(b) Направленные пары роботов: 4.0 против 4.3", loc="left", fontsize=11, color=INK)
 ax2.grid(axis="x", color=GRID, lw=1)
 ax2.set_axisbelow(True)
 ax2.legend(loc="lower left", frameon=False, labelcolor=INK)
 
-fig.suptitle("Проверка 4 (H₁): удаление контейнеров и многослойных масок ухудшает совмещение", fontsize=12, color=INK, x=0.01, ha="left")
+fig.suptitle("Проверка 4: удаление контейнеров и многослойных масок ухудшает совмещение", fontsize=12, color=INK, x=0.01, ha="left")
 fig.text(0.01, 0.015, "Одна запись, 337 обновлений × 12 направленных пар; пары зависимы. Неверное совмещение в (b) устойчиво: "
          "разброс доли между повторами не больше 0.05.", fontsize=9, color=INK2)
 fig.tight_layout(rect=(0, 0.04, 1, 0.94))
