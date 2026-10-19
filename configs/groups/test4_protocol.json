@@ -1,0 +1,20 @@
+{
+  "test": "Test 4: cluster-pair candidates added to CLIPPER (return support lost by the size gate through clusters of floor obstacles)",
+  "written": "2026-10-19, before test4.py was written or run",
+  "data": "MNO repeated on the saved maps of the frozen B0 release run, all 12 directed pairs, all 337 steps; evaluation uses objects.txt and GT poses only",
+  "configs": {
+    "B0": "release TCAFF frame alignment (alpha = 1)",
+    "G2": "alpha = 2 (wh_scale_diff 1.7, h_diff 0.2): the object-level way to return gate-rejected pairs",
+    "B0+KO": "B0 object candidates plus all pairs of oracle clusters (map objects within 0.5 m of an objects.txt box, 0.08 <= z_world < 0.9 m, grouped by GT group, >= 2 members)",
+    "B0+KB": "B0 object candidates plus all pairs of on-board clusters (test-1 rules: w <= 0.5, 0.08 <= h <= 0.6, |z - z_robot| <= 0.35, single linkage 0.7 m, 2..10 members, radius <= 1.0 m)"
+  },
+  "cluster_nodes": {
+    "point": "mean XY of members in the robot's odometry frame",
+    "affinity": "object-object pairs: release CLIPPER (sigma 0.15, epsilon 0.25); any pair with a cluster node: same kernel with sigma_G = 0.30, epsilon_G = 0.50 (epsilon_G ~ 90th percentile of group-centre distance inconsistency in test 1; epsilon/sigma ratio kept as in the release)",
+    "weight": "Arun weight of a cluster node scaled by (0.15/0.30)^2 = 0.25 relative to an object with the cluster's youngest member age",
+    "count": "cluster nodes count toward num_objs_req = 5"
+  },
+  "metrics": ["share of steps before B0's first acceptance with a correct measurement (<= 1 m, 5 deg)", "number of wrong-mode measurements (> 2 m or > 15 deg)", "share of steps with a correct measurement", "share of in-mode measurements within the precision threshold", "share of measurements whose clique contains cluster nodes; wrong-identity cluster nodes in wrong-mode measurements"],
+  "decision_rule": "Promising if B0+KO reaches at least G2's pre-acceptance coverage AND has at most 75% of G2's wrong-mode measurements. Otherwise cluster candidates are not better than relaxing the gate. B0+KB is reported and does not change the verdict.",
+  "status": "exploratory, measurement level (no temporal filter); one recording; single CLIPPER run per configuration (test 2 showed run-to-run noise of about 0.3%)"
+}

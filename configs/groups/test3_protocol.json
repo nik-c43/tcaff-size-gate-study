@@ -1,0 +1,26 @@
+{
+  "test": "Test 3: can on-board group descriptors find the same group in another robot's map?",
+  "written": "2026-10-19, before test3.py was written or run",
+  "data": "Saved maps of all four robots, all 337 steps of the frozen B0 release run (data/tcaff_baseline_release); evaluation uses objects.txt and GT poses only",
+  "groups": {
+    "oracle": "map objects within 0.5 m XY of an objects.txt box and 0.08 <= z_world < 0.9 m, grouped by the GT group of that box (single-linkage 0.7 m of objects.txt); groups with >= 2 members",
+    "onboard": "test-1 rules without wall lines: w <= 0.5, 0.08 <= h <= 0.6, |z - z_robot| <= 0.35; single linkage 0.7 m; 2..10 members, radius <= 1.0 m; identity = dominant GT group if it holds >= 50% of members, otherwise a false group"
+  },
+  "descriptors": {
+    "size": "symmetric Chamfer distance between member sets in (log w, log h)",
+    "arrangement": "symmetric Chamfer distance between the sets of pairwise XY distances of members",
+    "count": "|n_A - n_B| / max(n_A, n_B)",
+    "radius": "|r_A - r_B|, r = max member distance to the group centre",
+    "combined": "s = -mean of the four distances, each divided by its median over all candidate group pairs (label-free normalisation, equal weights, no tuning)"
+  },
+  "metrics": {
+    "top1": "share of (directed pair, step, group of map a whose GT group is present in map b) where the true group ranks first among map-b groups",
+    "chance_top1": "mean of 1 / number of map-b candidates over the same cases",
+    "top2_recall": "share where the true group is among the two best",
+    "top2_wrong_pruned": "share of wrong group pairs not in the two best of their map-a group",
+    "auc": "same-group vs different-group similarity over all candidate pairs",
+    "units": "steps are strongly dependent; the number of unique (robot pair, GT group) cases is reported"
+  },
+  "decision_rule": "On oracle groups with the combined descriptor: top1 >= 0.80 and top2_recall >= 0.95 -> proceed to an on-board group gate; top1 >= chance_top1 + 0.20 but below the first rule -> size and arrangement are not enough, add colour; otherwise -> descriptors without colour fail. On-board results are reported but do not change this verdict.",
+  "status": "exploratory; one recording; group construction thresholds were chosen with knowledge of the box layout (tests 1-2)"
+}

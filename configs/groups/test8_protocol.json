@@ -1,0 +1,16 @@
+{
+  "test": "Test 8 (diagnostic): why do on-board clusters (Acc ~77.4%) fall short of oracle clusters (81.0%)?",
+  "written": "2026-10-19, before test8.py was run",
+  "method": "As tests 5 and 7 (MNO on saved B0 maps + release temporal filter, 3 repeats, cluster nodes sigma_G 0.30, epsilon_G 0.50, Arun weight x0.25). References from test 5: B0, B0+KO, B0+KB.",
+  "configs": {
+    "B0+KOC": "oracle grouping (GT group of each map object) but only map objects that pass the on-board candidate filter (w <= 0.5, 0.08 <= h <= 0.6, |z - z_robot| <= 0.35); >= 2 members",
+    "B0+KBT": "on-board clusters exactly as B0+KB (single linkage 0.7 m, 2..10 members, radius <= 1.0 m) with false clusters (no GT group holding >= 50% of members) removed by GT"
+  },
+  "reading": {
+    "KO vs KOC": "effect of member selection (candidate filter) with perfect grouping",
+    "KB vs KBT": "effect of false clusters with on-board grouping",
+    "KOC vs KBT": "effect of on-board clustering itself (splits, merges, extra non-box members)"
+  },
+  "decision": "diagnostic only; no improvement claim. The largest of the three differences in mean Acc names the main cause of the gap.",
+  "status": "exploratory; one recording"
+}

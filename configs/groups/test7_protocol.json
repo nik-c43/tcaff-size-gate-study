@@ -1,0 +1,14 @@
+{
+  "test": "Test 7: full TCAFF with filtered on-board clusters (thresholds on member count, cluster radius, member height)",
+  "written": "2026-10-19, before test7.py was run",
+  "method": "As test 5 (MNO on saved B0 maps + release temporal filter at every step, 3 repeats). Cluster nodes as in tests 4-5 (sigma_G 0.30, epsilon_G 0.50, Arun weight x0.25). B0 and B0+KO are taken from test 5.",
+  "onboard_clusters": "test-1 candidates (w <= 0.5, 0.08 <= h <= 0.6, |z - z_robot| <= 0.35), single linkage 0.7 m, radius <= 1.0 m, at most 10 members, plus:",
+  "configs": {
+    "B0+KB4": "members >= 4",
+    "B0+KB3RH": "members >= 3, cluster radius >= 0.30 m, median member height h >= 0.20 m",
+    "B0+KB4RH": "members >= 4, cluster radius >= 0.30 m, median member height h >= 0.20 m"
+  },
+  "threshold_origin": "chosen after inspecting on-board cluster features against GT identity on this recording (share of real clusters 0.82 / 0.84 / 0.92 vs 0.50 unfiltered); exploratory, no held-out data",
+  "decision_rule": "as test 5: improves on B0 if mean Acc exceeds B0's by more than B0's range over repeats AND wrong first decisions do not exceed B0's; accepted wrong modes (> 2 m or > 15 deg) are reported alongside",
+  "status": "exploratory; one recording"
+}

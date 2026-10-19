@@ -1,0 +1,14 @@
+{
+  "test": "Test 9: on-board clusters weighted by a confidence q instead of hard thresholds",
+  "written": "2026-10-19, before test9.py was run; logistic coefficients fixed in test9_logistic.json",
+  "method": "As tests 5, 7, 8 (MNO on saved B0 maps + release temporal filter, 3 repeats, cluster nodes sigma_G 0.30, epsilon_G 0.50). On-board clusters as B0+KB (test-1 rules, no hard filter).",
+  "confidence": {
+    "A_ramps": "q_K = min(1, (n-1)/3) * min(1, r/0.3) * clip((h_med - 0.1)/0.1, 0, 1); n members, r radius (m), h_med median member height (m); no GT; ramp ends taken from the test-7 thresholds",
+    "B_logistic": "q_K = logistic(log n, r, h_med) trained on GT real/false labels of on-board clusters of the three other robots (leave one robot out), coefficients in test9_logistic.json"
+  },
+  "use": "M' = D M D with D = diag(q_u): q_u = 1 for object pairs, q_u = sqrt(q_K q_L) for a cluster pair (K, L); object-object entries unchanged; Arun weight of a cluster node additionally multiplied by about q_u (pseudo-object age divided by sqrt(q_K))",
+  "configs": {"B0+KBWA": "variant A", "B0+KBWB": "variant B"},
+  "bounds": "from tests 5 and 8: q = 1 for all clusters (B0+KB, Acc 77.38%); q = 1 for real, 0 for false (B0+KBT, Acc 79.62%)",
+  "decision_rule": "as test 5 (Acc gain over B0 beyond B0's range AND wrong first decisions not above B0's); also reported: share of the KB -> KBT gap closed, (Acc - 77.38) / (79.62 - 77.38), and accepted wrong modes",
+  "status": "exploratory; one recording; ramp ends and the logistic model are informed by this recording"
+}

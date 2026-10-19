@@ -1,0 +1,157 @@
+{
+ "parameters": {
+  "W_MAX": 0.5,
+  "H_MIN": 0.08,
+  "H_MAX": 0.6,
+  "DZ": 0.35,
+  "DELTA": 0.3,
+  "N_WALL": 8,
+  "SPAN": 3.0,
+  "R": 0.7,
+  "SIZE_MIN": 2,
+  "SIZE_MAX": 10,
+  "RAD_MAX": 1.0
+ },
+ "objects": 110443,
+ "classification": {
+  "by_place": {
+   "gt_obstacle": {
+    "floor_obstacle": 23164,
+    "rest": 2320
+   },
+   "room_edge": {
+    "rest": 19377,
+    "floor_obstacle": 9556
+   },
+   "floor": {
+    "rest": 7150,
+    "floor_obstacle": 1466
+   },
+   "high": {
+    "rest": 17548,
+    "floor_obstacle": 11
+   },
+   "other": {
+    "rest": 15898,
+    "floor_obstacle": 13953
+   }
+  },
+  "obstacle_recall": 0.9089624862658924,
+  "floor_obstacle_precision": 0.48107995846313606,
+  "floor_obstacle_composition": {
+   "gt_obstacle": 0.48107995846313606,
+   "other": 0.28978193146417447,
+   "room_edge": 0.1984631360332295,
+   "floor": 0.030446521287642782,
+   "high": 0.0002284527518172378
+  },
+  "floor_obstacle_dynamic_share": 0.023904465212876428,
+  "room_edge_on_wall": 0.0,
+  "obstacle_on_wall": 0.0
+ },
+ "purity": {
+  "clusters": 9562,
+  "clusters_without_gt_group": 0.5043923865300146,
+  "clusters_spanning_two_gt_groups": 0.0,
+  "member_share_of_dominant_group_q10_q50": [
+   0.568,
+   1.0
+  ],
+  "members_q50_q90": [
+   3.0,
+   8.0
+  ],
+  "gt_group_split_into_several_clusters": 0.00551665605771271,
+  "obstacle_objects_in_accepted_cluster": 0.8824752786061842
+ },
+ "centre_error_m": {
+  "group_q50_q90": [
+   0.208,
+   0.436
+  ],
+  "object_to_nearest_box_q50_q90": [
+   0.139,
+   0.27
+  ]
+ },
+ "pairwise_consistency_of_correct_matches": {
+  "group_centres_dG_q50_q90_q99": [
+   0.165,
+   0.451,
+   0.822
+  ],
+  "group_pairs": 3923,
+  "objects_same_group_d_q50_q90_q99": [
+   0.091,
+   0.272,
+   0.453
+  ],
+  "objects_same_group_pairs": 1883,
+  "objects_same_group_share_d_below_eps025": 0.8767923526287839,
+  "objects_cross_group_d_q50_q90_q99": [
+   0.122,
+   0.316,
+   0.513
+  ],
+  "objects_cross_group_pairs": 5014,
+  "objects_cross_group_share_d_below_eps025": 0.8067411248504188
+ },
+ "shared_groups": {
+  "0-1": {
+   "steps": 336,
+   "share_ge1": 0.9494047619047619,
+   "share_ge2": 0.7440476190476191,
+   "share_ge3": 0.4732142857142857
+  },
+  "0-2": {
+   "steps": 336,
+   "share_ge1": 0.9464285714285714,
+   "share_ge2": 0.7916666666666666,
+   "share_ge3": 0.46130952380952384
+  },
+  "0-3": {
+   "steps": 336,
+   "share_ge1": 0.8660714285714286,
+   "share_ge2": 0.5863095238095238,
+   "share_ge3": 0.3630952380952381
+  },
+  "1-2": {
+   "steps": 336,
+   "share_ge1": 0.9226190476190477,
+   "share_ge2": 0.7440476190476191,
+   "share_ge3": 0.4255952380952381
+  },
+  "1-3": {
+   "steps": 336,
+   "share_ge1": 0.9672619047619048,
+   "share_ge2": 0.6428571428571429,
+   "share_ge3": 0.3273809523809524
+  },
+  "2-3": {
+   "steps": 336,
+   "share_ge1": 0.8571428571428571,
+   "share_ge2": 0.6190476190476191,
+   "share_ge3": 0.28869047619047616
+  },
+  "all": {
+   "share_ge1": 0.9181547619047619,
+   "share_ge2": 0.6879960317460317,
+   "share_ge3": 0.3898809523809524
+  }
+ },
+ "diag": {
+  "fo_other_dbox_q25_q50_q75": [
+   0.77,
+   1.43,
+   1.93
+  ],
+  "fo_other_within_07": 0.231491435533577,
+  "obstacle_on_wall_by_group": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ }
+}

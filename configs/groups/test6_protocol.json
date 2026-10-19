@@ -1,0 +1,25 @@
+{
+  "test": "Test 6: colour as an identity cue for objects, enlarged object neighbourhoods and groups",
+  "written": "2026-10-19, before color_extract.py / test6.py were written or run",
+  "extraction": "One pass over each robot's L515 colour stream; for every saved FastSAM detection (pts_img = mask pixel mean, covs_img = mask pixel covariance) the mean RGB is computed inside the ellipse given by Mahalanobis distance m. No depth-based trimming anywhere.",
+  "weightings": {
+    "core": "uniform over m <= 1 (the object itself)",
+    "full": "uniform over m <= 2 (approximately the whole segment, including neighbours inside merged segments)",
+    "centre": "weights exp(-m^2/2) over m <= 2"
+  },
+  "colour_spaces": ["chromaticity r = R/(R+G+B), g = G/(R+G+B)", "CIE Lab a*, b* (sRGB, D65)"],
+  "object_level": {
+    "data": "798 annotated pairs; 314 same_object vs 341 different_objects; each side's colour = median over its annotated views",
+    "object_colour": "colour of the side's detection",
+    "neighbourhood_colour": "area-weighted mean colour of all detections of the same frame whose camera-frame 3D centroid lies within 0.7 m of the side's detection (the detection itself included)",
+    "metric": "AUC of -distance for same vs different; 95% bootstrap interval over the 24 episodes; also on gate-rejected pairs; size similarity s of hypothesis 6 (AUC 0.658) as the reference",
+    "rule": "colour is a stronger identity cue than size if AUC >= 0.75 and the lower bootstrap bound exceeds 0.66"
+  },
+  "group_level": {
+    "groups": "oracle: for robot r at step k, detections of r in the last 20 s whose world position (GT body pose x T_BC) is within 0.5 m XY of a box of GT group g and 0.08 <= z < 0.9 m; at least 3 detections",
+    "signatures": {"area_mean": "pixel-area-weighted mean colour", "equal_mean": "equal-weight mean colour", "set": "symmetric Chamfer distance between member colour sets"},
+    "metrics": "as test 3: top-1, chance, top-2 recall, AUC; colour alone and colour plus test-3 size/arrangement (equal weights after median normalisation)",
+    "rule": "as test 3: top-1 >= 0.80 and top-2 recall >= 0.95 -> proceed to on-board group matching by colour"
+  },
+  "status": "exploratory; one recording; four robots with independent auto exposure / white balance"
+}

@@ -1,0 +1,16 @@
+{
+  "test": "Test 5: full TCAFF (MNO + release temporal filter) for the cluster-candidate variants",
+  "written": "2026-10-19, before test5.py was written or run",
+  "method": "MNO repeated on the saved maps of the frozen B0 release run (all 12 directed pairs, all 337 steps) and fed step by step to the release temporal filter (TCAFFManager.faf.update with the saved R), as in the baseline audit replay. Mapping is unchanged by every variant, so this equals a full TCAFF run with the variant frame alignment. 3 repeats per configuration (CLIPPER is stochastic).",
+  "configs": {
+    "B0": "release frame alignment",
+    "G2": "alpha = 2",
+    "B0+KO": "test 4: B0 plus all oracle-cluster pairs (sigma_G 0.30, epsilon_G 0.50, Arun weight x0.25)",
+    "B0+KB": "test 4: B0 plus all on-board-cluster pairs",
+    "B0+KO+I": "B0+KO with perfect group matching: cluster pairs only between the same GT group, object candidates between different GT groups removed (ceiling for any group-matching cue, e.g. colour)"
+  },
+  "sanity": "B0 must reproduce the full-run baseline: Acc within 76.69% +/- 1 pp",
+  "metrics": "Acc over 4044 updates, U_pre, E_psi, E_t, share of accepted updates beyond 2 m or 15 deg, wrong first decisions (first acceptance outside 1 m / 5 deg, of 12 per repeat), availability, mean-of-pair-means translation / yaw, median first acceptance step",
+  "decision_rule": "A variant improves on B0 if its mean Acc exceeds B0's by more than B0's range over repeats AND its wrong first decisions do not exceed B0's. B0+KO+I is a ceiling and is not itself a method.",
+  "status": "exploratory; one recording"
+}
