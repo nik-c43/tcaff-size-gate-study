@@ -3,7 +3,7 @@
 Object level: annotated pairs, object colour vs enlarged-neighbourhood colour, AUC with episode bootstrap
 (same code path as the repository's size_auc.py; size AUC is recomputed here as the reference).
 Group level: oracle groups from detections of the last 20 s, test-3 ranking metrics.
-Usage: python -I test6.py COLORS_DIR MAPS_NPZ OUT_JSON
+Usage: LAB_ROOT=... python -I test6.py COLORS_DIR MAPS_NPZ OUT_JSON   (MAPS_NPZ is not used)
 """
 import csv
 import json

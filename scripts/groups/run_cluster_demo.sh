@@ -2,7 +2,8 @@
 # Full demo runs with cluster_patch, REPEATS in parallel, each verified by the repository's evaluate_run.py.
 # Usage: run_cluster_demo.sh LAB_ROOT OUT_DIR REPEATS [PARAMS_YAML]
 set -euo pipefail
-LAB="$1"; OUT="$2"; REPEATS="$3"; PARAMS="${4:-vendor/tcaff/demo/params/tcaff_mot_dataset.yaml}"
+LAB="$1"; REPEATS="$3"; PARAMS="${4:-vendor/tcaff/demo/params/tcaff_mot_dataset.yaml}"
+OUT="$(mkdir -p "$2" && cd "$2" && pwd)"   # absolute: run_one changes into LAB
 HERE="$(cd "$(dirname "$0")" && pwd)"
 DET="$LAB/data/tcaff_mot_data/fastsam_data"
 EVAL="$HERE/../segment_unit/evaluate_run.py"
@@ -20,4 +21,6 @@ run_one() {
 }
 export -f run_one; export LAB OUT HERE DET EVAL PARAMS
 seq 1 "$REPEATS" | xargs -P "$REPEATS" -I{} bash -c 'run_one {}'
+done_runs=$(ls "$OUT"/KBWA/rep*/run_summary.json 2>/dev/null | wc -l)
+if [[ "$done_runs" -lt "$REPEATS" ]]; then echo "only $done_runs of $REPEATS runs finished" >&2; exit 1; fi
 echo "ALL RUNS DONE"

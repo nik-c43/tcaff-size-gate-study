@@ -1,4 +1,4 @@
-"""Summarise test 7 together with test-5 references. Usage: python summarize7.py OUT_JSON RUNS_DIR [RUNS_DIR ...]"""
+"""Summarise tests 7-9 together with test-5 references (cumulative: pass the run directories of all earlier tests). Usage: python summarize7.py OUT_JSON RUNS_DIR [RUNS_DIR ...]"""
 import json
 import sys
 from collections import defaultdict

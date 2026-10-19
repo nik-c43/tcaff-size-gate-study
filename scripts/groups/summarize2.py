@@ -1,4 +1,4 @@
-"""Summarise test 2 (test2.py output). Usage: python summarize2.py RUNS_DIR OUT_JSON"""
+"""Summarise test 2 (test2.py output). Usage: LAB_ROOT=... python summarize2.py RUNS_DIR OUT_JSON"""
 import json
 import os
 import sys

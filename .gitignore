@@ -18,3 +18,8 @@ __pycache__/
 /vendor/*/build/
 /.env
 /.env.*
+# derived data of the dataset from variant runs (kept in the external workspace)
+**/capture/
+**/alignment_*.pkl
+maps*.npz
+*_colors.npz

@@ -10,7 +10,7 @@ maps equal B0's. Configurations:
       candidate (a,b) removed when a and b lie in different GT groups
 GT group of a map object (evaluation/oracle only): nearest objects.txt box within 0.5 m XY and
 0.08 <= z < 0.9 m in the mocap frame; its single-linkage (0.7 m) cluster of boxes.
-Usage: python -I test2.py OUT_DIR [STEP] [WORKERS]
+Usage: LAB_ROOT=... python -I test2.py OUT_DIR [STEP] [WORKERS]   (default STEP is 2; the saved results use STEP 1)
 """
 import json
 import os

@@ -1,4 +1,4 @@
-"""Summarise test 4 and apply the decision rule of test4_protocol.json. Usage: python summarize4.py RUNS_DIR OUT_JSON"""
+"""Summarise test 4 and apply the decision rule of test4_protocol.json. Usage: LAB_ROOT=... python summarize4.py RUNS_DIR OUT_JSON"""
 import json
 import os
 import sys

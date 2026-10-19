@@ -4,7 +4,7 @@ Cluster pseudo-objects are appended to each map (centre = mean of members, age =
 age, so the Arun weight 1/(0.01 + a_K a_L) is about 0.25 of the members'). The size gate runs on the real
 objects only; all cluster pairs are appended to its output. The affinity is built here with the release
 formula (|l1 - l2| < eps -> exp(-c^2 / 2 sigma^2)); object-object entries are asserted equal to clipperpy's.
-Usage: python -I test4.py OUT_DIR [STEP] [WORKERS]
+Usage: LAB_ROOT=... python -I test4.py OUT_DIR [STEP] [WORKERS]   (the saved results use STEP 1)
 """
 import json
 import os

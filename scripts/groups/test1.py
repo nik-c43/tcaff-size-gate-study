@@ -8,7 +8,7 @@ On-board rules (odometry frame only):
   groups: single-linkage clusters of floor obstacles (not on walls) with radius R;
           accepted if SIZE_MIN <= size <= SIZE_MAX and max distance to centre <= RAD_MAX
 Evaluation only (GT): world positions, place classes, GT box / GT group of each object.
-Usage: LAB_ROOT=... python -I test1.py MAPS_NPZ OUT_JSON [R]
+Usage: [NOWALL=1] python -I test1.py MAPS_NPZ OUT_JSON [R]   (NOWALL=1 skips the wall-line search)
 """
 import json
 import sys

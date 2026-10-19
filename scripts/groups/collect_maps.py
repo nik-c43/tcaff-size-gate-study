@@ -1,6 +1,7 @@
 """Collect every robot's TCAFF map (odom frame) at every step of the frozen B0 release run,
 with on-board context (robot odom pose) and GT-only evaluation fields (world position, place class,
-GT box and group). Output: one npz per robot-step table."""
+GT box and group). Output: one npz with a table of all robot-step map objects.
+Usage: LAB_ROOT=... python -I collect_maps.py MAPS_NPZ"""
 import json, os, sys
 from pathlib import Path
 import numpy as np, yaml
